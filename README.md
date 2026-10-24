@@ -60,6 +60,36 @@ in `climate/`:
 ```bash
 npm run build:data
 ```
+The generated `src/data/landfill_opportunities.json` is **committed**, so a clean
+deploy build does not need to run `build:data`.
+
+## Deploy to Vercel
+The app deploys as a static Vite SPA plus one serverless function.
+
+Settings (from `vercel.json`, no dashboard changes needed):
+- **Framework:** Vite · **Build:** `npm run build` · **Output:** `dist`
+- **Function:** `api/plan.js` exposes `POST /api/plan`, calling the shared
+  `server/planHandler.js` (`handlePlanRequest`). Max duration **150s** (the
+  planner's model budget is 1 + 1 retry × 60s = ~120s, inside that limit).
+- **Rewrites:** everything except `/api/*` falls through to `index.html`
+  (SPA routing); `/api/plan` is preserved and served by the function.
+
+Required environment variables (set in the Vercel project, **server-side**;
+never prefixed `VITE_`, never exposed to the browser):
+- `GEMMA_API_KEY` — Google AI Studio (Gemini API) key. **Required for live
+  plans.** Without it, `/api/plan` returns the labeled deterministic template.
+- `GEMMA_MODEL` — optional; defaults to `gemma-4-26b-a4b-it`. Must be a model
+  your key can call with `generateContent` (verify via ListModels).
+
+Notes:
+- `.env` and `.vercel` are git-ignored; set secrets in the Vercel dashboard, not
+  in the repo.
+- `climate/` snapshots and `climate.zip` are source-only (not under `public/`,
+  not imported), so they are **not** published as static assets; the built
+  `dist/` contains only `index.html` + `assets/`.
+- Request-size cap (256 KB → 413), POST-only (→ 405), `no-store` responses,
+  evidence-ID validation, and the labeled fallback are all preserved by the
+  function adapter.
 
 ## Tests
 ```bash

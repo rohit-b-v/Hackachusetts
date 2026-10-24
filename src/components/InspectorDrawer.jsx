@@ -213,15 +213,11 @@ export default function InspectorDrawer({ site, onClose }) {
           <div className="flex gap-2 text-sm text-amber-900">
             <Info className="mt-0.5 h-4 w-4 shrink-0 text-amber-600" />
             <p>
-              Starter CSVs in <code className="rounded bg-amber-100 px-1">./climate/landfills</code>{" "}
-              and <code className="rounded bg-amber-100 px-1">./climate/ej</code> have{" "}
-              <code className="rounded bg-amber-100 px-1">returnGeometry=false</code> (no street
-              addresses). Matching solely on town name can mask whether a landfill actually sits
-              near an Environmental Justice neighborhood. This view fetches live ArcGIS geometry (
-              <code className="rounded bg-amber-100 px-1">returnGeometry=true&amp;outSR=4326</code>)
-              and searches EJ block groups within a bounded radius around the landfill —{" "}
-              <strong>including neighboring towns</strong> — so proximity is measured to the
-              nearest block-group boundary rather than assumed from a shared town name.
+              A shared town name doesn&apos;t mean a landfill actually sits near an
+              Environmental Justice neighborhood. This view measures the real distance
+              from the landfill to the nearest EJ block group using live map data —{" "}
+              <strong>including neighboring towns</strong> — instead of assuming proximity
+              from the town name alone.
             </p>
           </div>
         </div>
