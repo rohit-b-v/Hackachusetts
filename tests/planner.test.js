@@ -164,9 +164,64 @@ async function fakeGemmaError() {
   return { ok: false, status: 500, text: async () => "boom" };
 }
 
+// A fake Gemma fetch whose text is garbage prose (not JSON) → extractJson null.
+function fakeGemmaGarbage() {
+  return async () => ({
+    ok: true,
+    status: 200,
+    json: async () => ({
+      candidates: [{ content: { parts: [{ text: "I cannot help with that. Sorry!" }] } }],
+    }),
+  });
+}
+
 beforeEach(() => {
   __testing.cache.clear();
   delete process.env.GEMMA_MODEL;
+});
+
+describe("extractJson (model-output tolerance)", () => {
+  const { extractJson } = __testing;
+  const PLAN = {
+    selected_facts: [{ id: "F_STATUS", relevance: "x" }],
+    actions: [],
+    questions: [],
+  };
+
+  it("parses clean minified JSON", () => {
+    expect(extractJson(JSON.stringify(PLAN))).toEqual(PLAN);
+  });
+
+  it("strips ```json fences", () => {
+    expect(extractJson("```json\n" + JSON.stringify(PLAN) + "\n```")).toEqual(PLAN);
+  });
+
+  it("recovers JSON after a prose/thinking preamble (balanced-brace scan)", () => {
+    const text =
+      "Okay, let me think. Here is the plan you asked for:\n\n" +
+      JSON.stringify(PLAN) +
+      "\n\nI hope that helps!";
+    expect(extractJson(text)).toEqual(PLAN);
+  });
+
+  it("unwraps a single-element array wrapper ([{...}])", () => {
+    expect(extractJson(JSON.stringify([PLAN]))).toEqual(PLAN);
+  });
+
+  it("does not choke on braces inside strings", () => {
+    const withBraces = {
+      ...PLAN,
+      actions: [{ title: "use {curly} braces", why_it_matters: "a}b{c" }],
+    };
+    expect(extractJson(JSON.stringify(withBraces))).toEqual(withBraces);
+  });
+
+  it("returns null for malformed / non-JSON output", () => {
+    expect(extractJson("not json at all")).toBeNull();
+    expect(extractJson("{ oops: unquoted, trailing,")).toBeNull();
+    expect(extractJson("")).toBeNull();
+    expect(extractJson(null)).toBeNull();
+  });
 });
 
 describe("evidence packet", () => {
@@ -297,6 +352,16 @@ describe("handlePlanRequest", () => {
     );
     expect(second.body.source).toBe("cache");
     expect(second.body.label).toBe("Template-generated");
+  });
+
+  it("falls back to labeled template when Gemma returns unparseable prose", async () => {
+    const { body } = await handlePlanRequest(
+      { record: SPRINGFIELD, spatial: VERIFIED_SPATIAL },
+      { hasCredentials: withCreds, fetchImpl: fakeGemmaGarbage() }
+    );
+    expect(body.source).toBe("template");
+    expect(body.reason).toBe("validation_failed");
+    expect(body.label).toBe("Template-generated");
   });
 
   it("falls back to labeled template when Gemma output has a bad ID", async () => {
