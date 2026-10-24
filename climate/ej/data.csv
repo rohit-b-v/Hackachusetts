@@ -1,0 +1,2605 @@
+municipality,population,minority_pct,limited_english_hh_pct,block_group_income,ej,criteria
+Harwich,565,9.7345,0,54375,Yes,Income
+Dennis,1630,28.2209,2.9246,46015,Yes,Minority and income
+Dennis,689,18.2874,0,52826,Yes,Income
+Yarmouth,1224,26.7974,7.6768,55880,Yes,Minority
+Yarmouth,1116,30.914,0,98664,Yes,Minority
+Yarmouth,605,19.3388,0,47963,Yes,Income
+Yarmouth,1155,33.6797,0,62438,Yes,Minority
+Barnstable,947,39.7043,1.5873,35023,Yes,Minority and income
+Provincetown,664,17.9217,12.2093,54688,Yes,Income
+Truro,892,7.9596,0,47554,Yes,Income
+Eastham,889,14.8481,0,46806,Yes,Income
+Orleans,872,11.9266,0,40833,Yes,Income
+Chatham,596,8.0537,0,43558,Yes,Income
+Brewster,503,6.9583,0,47083,Yes,Income
+Barnstable,915,47.541,10.4265,70170,Yes,Minority
+Barnstable,2164,33.78,15.4944,60919,Yes,Minority
+Barnstable,1134,35.3616,2.5397,82344,Yes,Minority
+Barnstable,1480,46.5541,0,38125,Yes,Minority and income
+Barnstable,1765,58.5269,35.1759,51214,Yes,"Minority, income and English isolation"
+Falmouth,1237,13.9854,0,55057,Yes,Income
+Falmouth,861,13.4727,0,29583,Yes,Income
+Falmouth,1128,12.8546,1.0363,27396,Yes,Income
+Mashpee,1312,25.6098,0,70129,Yes,Minority
+Barnstable,1113,53.549,14.9682,54000,Yes,Minority and income
+Barnstable,1350,42.1481,11.5337,26339,Yes,Minority and income
+Barnstable,1494,53.1459,17.8571,43750,Yes,Minority and income
+Pittsfield,982,33.0957,2.7426,28929,Yes,Minority and income
+Pittsfield,842,41.8052,3.3399,28094,Yes,Minority and income
+Barnstable,1284,50.0779,4.6296,58631,Yes,Minority
+Barnstable,1139,49.4293,8.8496,52757,Yes,Minority and income
+Bourne,596,4.698,0,42569,Yes,Income
+Bourne,797,32.4969,0,53108,Yes,Minority and income
+Falmouth,1336,11.976,0,49643,Yes,Income
+Falmouth,1299,18.3988,0,53571,Yes,Income
+Barnstable,1040,34.3269,25.5411,64286,Yes,Minority and English isolation
+Pittsfield,1117,27.6634,0,50208,Yes,Minority and income
+Pittsfield,664,44.2771,1.9337,29137,Yes,Minority and income
+Pittsfield,1116,47.4014,0,21033,Yes,Minority and income
+Taunton,1284,37.0717,10.1839,19327,Yes,Minority and income
+Taunton,742,39.3531,3.8567,74057,Yes,Minority
+Taunton,1279,35.4965,13.036,36908,Yes,Minority and income
+North Attleborough,1962,30.632,0,80625,Yes,Minority
+Attleboro,1492,22.118,2.656,30203,Yes,Income
+Attleboro,1157,18.4097,4.5317,52409,Yes,Income
+Attleboro,1086,26.0589,20.915,55769,Yes,Minority
+Attleboro,1603,54.7099,9.0416,45574,Yes,Minority and income
+Attleboro,958,45.4071,2.6163,59667,Yes,Minority
+Eastham,630,7.4603,0,37168,Yes,Income
+Dennis,834,10.9113,9.8191,49598,Yes,Income
+Dennis,768,16.7969,0,50714,Yes,Income
+Pittsfield,1462,13.7483,2.2754,49856,Yes,Income
+Lenox,473,8.0338,0,36875,Yes,Income
+North Adams,1439,22.3072,0,29922,Yes,Income
+Adams,717,9.3445,0,35000,Yes,Income
+Adams,1259,13.3439,2.7523,38409,Yes,Income
+Adams,1768,10.0679,0.7463,44457,Yes,Income
+Stockbridge,842,8.7886,0,31875,Yes,Income
+Savoy,645,8.2171,0,47200,Yes,Income
+Becket,1199,7.9233,0.3497,50270,Yes,Income
+Hinsdale,574,4.1812,0,54241,Yes,Income
+Mansfield,2023,24.8146,0,73080,Yes,Minority
+Taunton,1791,25.7398,0,55284,Yes,Minority
+Taunton,1839,34.6928,4.8301,54531,Yes,Minority and income
+Taunton,1569,35.5003,19.8263,34078,Yes,Minority and income
+Bourne,713,4.4881,0,31266,Yes,Income
+Pittsfield,1582,28.6979,2.0154,20833,Yes,Minority and income
+Pittsfield,660,27.1212,0,32054,Yes,Minority and income
+Pittsfield,642,38.4735,0,49773,Yes,Minority and income
+Pittsfield,892,38.2287,1.9737,24948,Yes,Minority and income
+Pittsfield,790,35.8228,0,53125,Yes,Minority and income
+Pittsfield,619,41.0339,0,36250,Yes,Minority and income
+Pittsfield,657,40.7915,0,70375,Yes,Minority
+Adams,995,9.1457,0,44487,Yes,Income
+Great Barrington,647,14.5286,0,53654,Yes,Income
+Pittsfield,2050,15.0244,0.8867,33083,Yes,Income
+North Adams,764,14.1361,3.1325,46349,Yes,Income
+Adams,1039,8.2772,3.8855,53060,Yes,Income
+Dalton,853,8.9097,0,48564,Yes,Income
+Dalton,819,6.7155,0,50667,Yes,Income
+Dalton,582,9.9656,9.3023,49167,Yes,Income
+Lee,956,15.795,0,55144,Yes,Income
+Adams,983,12.0041,0,54680,Yes,Income
+Lenox,1045,4.689,0,48182,Yes,Income
+Williamstown,1815,32.9477,0,101833,Yes,Minority
+North Adams,698,11.8911,0,34000,Yes,Income
+Sheffield,508,8.2677,0,49071,Yes,Income
+North Adams,2145,14.6853,4.0816,42461,Yes,Income
+North Adams,915,10.8197,0,51746,Yes,Income
+Pittsfield,792,34.8485,0,59129,Yes,Minority
+Great Barrington,738,25.0678,0,60625,Yes,Minority
+Great Barrington,728,18.4066,0,38333,Yes,Income
+Pittsfield,647,26.2751,0,70774,Yes,Minority
+Pittsfield,603,32.67,3.3816,20451,Yes,Minority and income
+Pittsfield,1160,40.1724,3.2727,23990,Yes,Minority and income
+Pittsfield,601,13.9767,0,41250,Yes,Income
+Pittsfield,1083,30.2862,0,41400,Yes,Minority and income
+Pittsfield,962,24.948,0,47596,Yes,Minority and income
+North Adams,2020,13.2178,0,45347,Yes,Income
+North Adams,1008,14.2857,0,55139,Yes,Income
+Yarmouth,799,23.9049,2.719,39141,Yes,Income
+Yarmouth,820,32.1951,0,56101,Yes,Minority
+Pittsfield,1452,17.3554,4.6624,54254,Yes,Income
+North Adams,1739,13.6285,0,38656,Yes,Income
+North Attleborough,993,28.2981,8.8847,80618,Yes,Minority
+Mansfield,2015,34.7891,0,73859,Yes,Minority
+Taunton,2022,26.5084,5.8712,75833,Yes,Minority
+Taunton,2151,54.6722,16.0648,27472,Yes,Minority and income
+Taunton,1182,37.0558,0,58843,Yes,Minority
+Taunton,1817,27.4078,2.4578,56304,Yes,Minority
+Taunton,2299,40.5829,2.9793,36455,Yes,Minority and income
+North Attleborough,1259,21.0485,2.9762,53625,Yes,Income
+North Attleborough,2263,21.3875,2.7439,53056,Yes,Income
+North Attleborough,1001,15.6843,0,50903,Yes,Income
+Attleboro,1629,24.0025,2.2305,39435,Yes,Income
+Attleboro,1743,32.7022,5.2279,57885,Yes,Minority
+Attleboro,1286,28.3048,0,37066,Yes,Minority and income
+Taunton,1584,31.1869,6.3943,63734,Yes,Minority
+Taunton,2113,34.548,11.7925,49038,Yes,Minority and income
+Taunton,770,39.0909,0,78750,Yes,Minority
+Taunton,1277,46.9851,0,56618,Yes,Minority
+Taunton,1590,43.522,8.5627,26529,Yes,Minority and income
+Taunton,1310,35.8779,4.7714,93005,Yes,Minority
+Taunton,1615,34.7988,10.8183,33105,Yes,Minority and income
+Taunton,2089,29.9665,10.6326,57639,Yes,Minority
+Fall River,732,25.4098,17.551,81893,Yes,Minority
+Fall River,1487,25.6221,7.5419,64056,Yes,Minority
+Fall River,1616,13.3045,13.5354,47125,Yes,Income
+Fall River,1155,25.0216,4.1985,37154,Yes,Minority and income
+Fall River,1476,40.7859,7.8721,48512,Yes,Minority and income
+Fall River,736,33.5598,16.568,27540,Yes,Minority and income
+Fall River,1156,30.3633,12,21970,Yes,Minority and income
+Fall River,1952,27.3053,11.41,29035,Yes,Minority and income
+Fall River,1631,34.4574,7.7652,36000,Yes,Minority and income
+Fall River,1328,50.5271,18.1287,47278,Yes,Minority and income
+Fall River,781,28.169,5.4878,18475,Yes,Minority and income
+Fall River,767,30.1173,39.0323,40402,Yes,"Minority, income and English isolation"
+Fall River,859,32.014,28.1465,29174,Yes,"Minority, income and English isolation"
+Fall River,1222,43.7807,18.2724,20990,Yes,Minority and income
+Fall River,681,38.6197,17.0984,14583,Yes,Minority and income
+Fall River,1162,30.7229,16.9772,32150,Yes,Minority and income
+Fall River,959,50.1564,20.5202,42784,Yes,Minority and income
+Fall River,940,43.617,10.1523,27805,Yes,Minority and income
+Fall River,612,6.8627,15.8076,45424,Yes,Income
+Fall River,2093,21.1658,5.8433,32054,Yes,Income
+Fall River,610,29.1803,0,64306,Yes,Minority
+Fall River,1290,29.2248,5.4156,51513,Yes,Minority and income
+Fall River,935,24.0642,21.8905,26951,Yes,Income
+Fall River,920,33.6957,0,23594,Yes,Minority and income
+Fall River,723,24.6196,23.3918,35909,Yes,Minority and income
+Fall River,973,29.2909,8.7071,50667,Yes,Minority and income
+Fall River,1690,26.4497,16.2031,50703,Yes,Minority and income
+Fall River,1039,43.7921,21.5084,21250,Yes,Minority and income
+Fall River,1134,32.2751,7.4856,44306,Yes,Minority and income
+Fall River,1688,33.6493,21.978,62536,Yes,Minority
+Fall River,1030,27.767,2.71,43799,Yes,Minority and income
+Fall River,541,36.2292,0,44096,Yes,Minority and income
+Attleboro,1878,29.819,1.1287,71429,Yes,Minority
+Attleboro,1563,49.0723,11.8971,44133,Yes,Minority and income
+Attleboro,1374,26.2009,0,81711,Yes,Minority
+Fall River,882,44.898,9.7297,33281,Yes,Minority and income
+Attleboro,1523,34.6684,0,46071,Yes,Minority and income
+Fall River,824,67.3544,52.1327,25649,Yes,"Minority, income and English isolation"
+Fall River,1171,32.1093,2.2822,58750,Yes,Minority
+Fall River,715,26.5734,31.6547,41442,Yes,"Minority, income and English isolation"
+Fall River,1661,26.8513,20.8383,16964,Yes,Minority and income
+Fall River,1311,23.7223,26.4348,52868,Yes,Income and English isolation
+Fall River,1090,17.8899,1.3889,49891,Yes,Income
+Fall River,991,35.8224,7.3585,26985,Yes,Minority and income
+Fall River,1566,22.0307,11.5587,54402,Yes,Income
+Fall River,956,28.4519,2.148,52986,Yes,Minority and income
+Fall River,506,28.8538,4.5139,47879,Yes,Minority and income
+Fall River,2673,26.1878,0,58151,Yes,Minority
+Fall River,1040,17.0192,0,54095,Yes,Income
+Fall River,1008,46.4286,3.956,48848,Yes,Minority and income
+New Bedford,1422,41.6315,4.4487,48446,Yes,Minority and income
+New Bedford,893,29.7872,0,57539,Yes,Minority
+Fall River,1318,35.4325,26.7797,74226,Yes,Minority and English isolation
+Fall River,1475,29.7627,10.8514,47663,Yes,Minority and income
+Fall River,1700,54.4118,13.2,24811,Yes,Minority and income
+Fall River,1060,17.4528,1.5982,51071,Yes,Income
+Fall River,654,36.5443,0,34261,Yes,Minority and income
+Fall River,1816,36.9493,14.5343,33036,Yes,Minority and income
+Fall River,1208,51.7384,10.9155,59821,Yes,Minority
+Fall River,1255,34.1036,20,45586,Yes,Minority and income
+Fall River,1356,30.9735,11.3602,51750,Yes,Minority and income
+Fall River,1152,25.0868,0,47115,Yes,Minority and income
+Fall River,1246,19.3419,8.489,43063,Yes,Income
+Fall River,1414,43.918,9.0047,68183,Yes,Minority
+Fall River,730,58.4932,34.3511,47738,Yes,"Minority, income and English isolation"
+New Bedford,836,49.2823,9.6774,16809,Yes,Minority and income
+New Bedford,1046,68.26,36.4706,33571,Yes,"Minority, income and English isolation"
+New Bedford,998,59.519,26.6667,35304,Yes,"Minority, income and English isolation"
+New Bedford,855,74.9708,23.9748,48404,Yes,Minority and income
+New Bedford,1430,48.042,16.3366,48158,Yes,Minority and income
+New Bedford,855,76.9591,16.263,24554,Yes,Minority and income
+New Bedford,902,35.3659,6.1069,95962,Yes,Minority
+New Bedford,2122,25.7304,1.3597,59219,Yes,Minority
+New Bedford,1007,77.9543,7.1906,22482,Yes,Minority and income
+New Bedford,1194,50.7538,0,48854,Yes,Minority and income
+New Bedford,1321,41.7865,14.2026,12981,Yes,Minority and income
+New Bedford,744,56.0484,3.7634,11911,Yes,Minority and income
+New Bedford,743,68.3715,20.8481,16563,Yes,Minority and income
+New Bedford,1424,82.514,31.1377,37250,Yes,"Minority, income and English isolation"
+New Bedford,950,47.5789,20.4473,44340,Yes,Minority and income
+New Bedford,1180,47.8814,9.2279,48750,Yes,Minority and income
+New Bedford,800,31,13.3858,80500,Yes,Minority
+New Bedford,1037,31.1475,42.3221,31796,Yes,"Minority, income and English isolation"
+Fall River,1111,24.4824,25.6684,44444,Yes,Income and English isolation
+Fall River,1763,45.8877,7.3857,38537,Yes,Minority and income
+New Bedford,1903,57.3305,11.1929,70417,Yes,Minority
+New Bedford,1199,70.4754,29.5455,26444,Yes,"Minority, income and English isolation"
+New Bedford,916,37.8821,4.2959,27404,Yes,Minority and income
+New Bedford,1034,40.8124,0.8734,33587,Yes,Minority and income
+New Bedford,1153,43.0182,28.4091,48871,Yes,"Minority, income and English isolation"
+New Bedford,712,53.5112,9.3645,41131,Yes,Minority and income
+New Bedford,703,57.8947,6.6465,0,Yes,Minority
+New Bedford,1018,46.6601,1.8373,52292,Yes,Minority and income
+New Bedford,1077,72.7019,4.2289,82292,Yes,Minority
+New Bedford,1185,58.3122,0.3929,52321,Yes,Minority and income
+New Bedford,1153,45.2732,7.5188,45592,Yes,Minority and income
+New Bedford,1137,35.0044,3.9724,72014,Yes,Minority
+New Bedford,665,27.0677,5.3435,53964,Yes,Minority and income
+New Bedford,1265,31.2253,16.9782,30789,Yes,Minority and income
+New Bedford,1475,36.2034,10.7345,47112,Yes,Minority and income
+New Bedford,1600,45.0625,11.3608,36513,Yes,Minority and income
+New Bedford,931,41.1386,19.9413,69243,Yes,Minority
+Fall River,1678,24.9106,8.1213,43784,Yes,Minority and income
+Fall River,1048,20.8969,11.1546,36971,Yes,Income
+Fall River,762,25.9843,7.1207,65335,Yes,Minority
+New Bedford,1398,64.1631,10.5572,39979,Yes,Minority and income
+New Bedford,1009,43.8057,0,80000,Yes,Minority
+New Bedford,849,73.9694,35.5556,27214,Yes,"Minority, income and English isolation"
+New Bedford,1610,53.1056,21.6216,42778,Yes,Minority and income
+New Bedford,1152,54.3403,16.2325,23625,Yes,Minority and income
+New Bedford,799,53.567,4.3478,107742,Yes,Minority
+New Bedford,796,67.8392,0,52708,Yes,Minority and income
+New Bedford,986,43.6105,0,62344,Yes,Minority
+New Bedford,1001,34.3656,2.2346,62083,Yes,Minority
+New Bedford,738,45.5285,3.2609,48889,Yes,Minority and income
+New Bedford,711,34.3179,0,98796,Yes,Minority
+New Bedford,1253,32.5619,14.8681,64875,Yes,Minority
+New Bedford,1079,51.6219,16.5714,27941,Yes,Minority and income
+New Bedford,1357,29.2557,25.5572,44107,Yes,"Minority, income and English isolation"
+New Bedford,1511,54.7981,13.0332,62167,Yes,Minority
+Fall River,1030,21.165,10.4651,39853,Yes,Income
+Westport,1320,4.3939,1.8545,50434,Yes,Income
+New Bedford,1643,33.3536,10.5882,74653,Yes,Minority
+New Bedford,1167,24.85,1.8868,102933,Yes,Minority
+New Bedford,886,30.474,9.0141,102904,Yes,Minority
+New Bedford,1124,27.0463,12.6543,41905,Yes,Minority and income
+New Bedford,1419,38.1254,6.5817,48750,Yes,Minority and income
+New Bedford,1028,48.7354,4.4177,40987,Yes,Minority and income
+New Bedford,697,30.99,10.6796,58517,Yes,Minority
+New Bedford,800,48.625,28.0423,14057,Yes,"Minority, income and English isolation"
+New Bedford,773,40.1035,10.4167,50769,Yes,Minority and income
+New Bedford,1250,71.76,13.7755,24150,Yes,Minority and income
+New Bedford,1784,80.0448,38.2284,25625,Yes,"Minority, income and English isolation"
+Dartmouth,1621,50.401,0,102794,Yes,Minority
+Aquinnah,439,37.3576,0,98182,Yes,Minority
+Salem,1323,25.2457,0,69688,Yes,Minority
+Salem,1033,16.9409,0,54219,Yes,Income
+Salem,1408,19.1051,0,44095,Yes,Income
+Salem,1475,76.7458,19.9741,18693,Yes,Minority and income
+Lynn,692,43.0636,0,93964,Yes,Minority
+Lynn,1603,71.4286,18.6475,79907,Yes,Minority
+Lynn,1054,42.0304,11.5108,93854,Yes,Minority
+Lynn,2391,65.2028,4.4393,65388,Yes,Minority
+Lynn,1237,66.9361,10.5096,26571,Yes,Minority and income
+Lynn,1090,57.8899,23.4615,59286,Yes,Minority
+Lynn,1400,51.3571,5.0781,71875,Yes,Minority
+Salem,1290,24.8837,1.8657,94205,Yes,Minority
+Salem,1332,20.1952,1.1445,45655,Yes,Income
+Salem,1014,25.3452,3.0952,150577,Yes,Minority
+Salem,1775,52.507,44.9629,76852,Yes,Minority and English isolation
+Salem,1082,34.658,0,54602,Yes,Minority and income
+Lynn,1275,57.6471,8.8578,75653,Yes,Minority
+New Bedford,1500,56.5333,19.2029,37123,Yes,Minority and income
+New Bedford,1406,53.9829,21.0682,45982,Yes,Minority and income
+New Bedford,1182,38.7479,4.2339,49453,Yes,Minority and income
+Dartmouth,1146,11.7801,0,44306,Yes,Income
+Acushnet,1166,8.319,0.9539,55189,Yes,Income
+Dartmouth,2854,27.8907,2.9183,100625,Yes,Minority
+Lynn,1060,47.8302,0,88224,Yes,Minority
+Lynn,1124,77.3132,15.5405,62656,Yes,Minority
+Lynn,1381,75.1629,27.8107,58989,Yes,Minority and English isolation
+Lynn,1952,72.2336,6.2315,80660,Yes,Minority
+Lynn,1323,60.6954,31.9739,25265,Yes,"Minority, income and English isolation"
+Lynn,1982,85.1665,39.8649,62500,Yes,Minority and English isolation
+Lynn,2443,69.1363,33.3676,23704,Yes,"Minority, income and English isolation"
+Lynn,1006,51.4911,61.3815,12615,Yes,"Minority, income and English isolation"
+Saugus,1892,36.2051,0,68906,Yes,Minority
+Saugus,1394,25.6815,0,112976,Yes,Minority
+Saugus,900,34.4444,0,82063,Yes,Minority
+Peabody,2054,34.1285,1.9846,47452,Yes,Minority and income
+Peabody,1181,34.3776,0,68243,Yes,Minority
+Peabody,1271,38.7884,16.4241,46587,Yes,Minority and income
+Peabody,1338,45.0673,7.7758,58997,Yes,Minority
+New Bedford,1388,41.3545,26.3291,27471,Yes,"Minority, income and English isolation"
+Lynn,1398,76.0372,0,82837,Yes,Minority
+Lynn,1630,81.7791,32.2368,34216,Yes,"Minority, income and English isolation"
+Lynn,2074,85.6316,28.9557,61250,Yes,Minority and English isolation
+Lynn,1998,82.7327,40.2963,16715,Yes,"Minority, income and English isolation"
+Lynn,2201,88.4144,44.8408,58397,Yes,Minority and English isolation
+Lynn,1352,86.6864,26.07,91705,Yes,Minority and English isolation
+Lynn,2020,87.4257,13.5652,68750,Yes,Minority
+Lynn,1220,88.3607,10.0932,98438,Yes,Minority
+Lynn,1137,77.9244,3.876,75542,Yes,Minority
+Lynn,1275,67.9216,17.8571,72000,Yes,Minority
+Lynn,1183,86.8132,9.6059,38045,Yes,Minority and income
+Lynn,869,41.0817,2.0115,47100,Yes,Minority and income
+Lynn,1879,74.1352,19.5072,59563,Yes,Minority
+Lynn,1547,80.0259,17.402,60060,Yes,Minority
+Lynn,836,53.7081,24.026,74583,Yes,Minority
+Dartmouth,1358,9.2047,10.3713,34306,Yes,Income
+Fairhaven,706,13.0312,0,29917,Yes,Income
+Fairhaven,756,8.5979,0,40256,Yes,Income
+Tisbury,944,21.2924,0,45607,Yes,Income
+Tisbury,1651,28.8916,0,55993,Yes,Minority
+Tisbury,1117,29.4539,15.3846,48382,Yes,Minority and income
+Oak Bluffs,483,26.7081,0,83304,Yes,Minority
+Oak Bluffs,907,31.4223,17.7936,38083,Yes,Minority and income
+Swampscott,535,16.0748,24.6291,49088,Yes,Income and English isolation
+Danvers,981,24.9745,1.6043,49531,Yes,Minority and income
+Salem,2251,29.187,2.9081,64375,Yes,Minority
+Marblehead,578,16.436,0,48750,Yes,Income
+Salem,1675,45.4328,9.1429,62589,Yes,Minority
+Salem,1244,25.9646,0,78828,Yes,Minority
+Peabody,787,33.1639,1.0791,79643,Yes,Minority
+Salem,1246,38.2825,1.8045,25587,Yes,Minority and income
+Salem,1193,79.6312,41.2664,40750,Yes,"Minority, income and English isolation"
+Lynn,1979,53.5119,4.0486,98807,Yes,Minority
+Oak Bluffs,1130,30.2655,0,105703,Yes,Minority
+Swampscott,1794,17.893,31.75,71875,Yes,English isolation
+Lynn,839,73.7783,0,71937,Yes,Minority
+Danvers,951,14.511,1.087,47000,Yes,Income
+Marblehead,780,12.1795,0,51694,Yes,Income
+Lynn,800,80.25,34.5382,76076,Yes,Minority and English isolation
+New Bedford,1803,73.1559,20.2346,29939,Yes,Minority and income
+New Bedford,881,65.6073,8.4011,36615,Yes,Minority and income
+New Bedford,1049,53.0029,38.1988,17000,Yes,"Minority, income and English isolation"
+New Bedford,815,56.8098,12.6935,20625,Yes,Minority and income
+Dartmouth,1406,33.0014,9.2683,57159,Yes,Minority
+Salem,812,53.3251,8.4034,0,Yes,Minority
+Lynn,1220,84.1803,34.5865,46417,Yes,"Minority, income and English isolation"
+Peabody,1326,47.1342,12.9518,58295,Yes,Minority
+Salem,822,27.7372,0,59324,Yes,Minority
+Salem,915,29.8361,0,96250,Yes,Minority
+Salem,3086,34.5755,7.2464,76279,Yes,Minority
+Lynn,1434,42.2594,0,58616,Yes,Minority
+Lynn,1074,58.2868,34.3465,98170,Yes,Minority and English isolation
+Salem,1125,37.8667,13.1579,62162,Yes,Minority
+Lynn,1653,32.9704,0,117625,Yes,Minority
+Lynn,869,41.7722,3.8194,57500,Yes,Minority
+Lynn,805,42.7329,3.8961,83646,Yes,Minority
+Lynn,1607,73.9266,21.8415,87827,Yes,Minority
+Hamilton,488,49.1803,21.9123,129063,Yes,Minority
+Salem,910,14.9451,36.7257,98214,Yes,English isolation
+Salem,1335,25.4682,0,101655,Yes,Minority
+Peabody,1809,30.5694,7.1338,55540,Yes,Minority
+Salem,1116,24.6416,3.8071,106090,Yes,Minority
+Lynn,1176,90.2211,28.5714,65156,Yes,Minority and English isolation
+Salem,1352,62.8698,5.5901,71389,Yes,Minority
+Lynn,1114,35.009,0,75208,Yes,Minority
+Lynn,1552,25.2577,0,130357,Yes,Minority
+Lynn,3109,82.0199,19.5946,60333,Yes,Minority
+Lynn,695,37.1223,0,85341,Yes,Minority
+Lynn,804,38.3085,7.1146,114688,Yes,Minority
+Lynn,1171,61.1443,0,53043,Yes,Minority and income
+Lynn,903,59.247,6.0403,81354,Yes,Minority
+Lynn,1367,57.8639,17.8138,63929,Yes,Minority
+Lynn,858,31.1189,13.1707,58980,Yes,Minority
+Lynn,1380,63.5507,11.5468,40363,Yes,Minority and income
+Lynn,1809,65.8928,25.8621,18333,Yes,"Minority, income and English isolation"
+Lynn,966,58.3851,26.6154,14855,Yes,"Minority, income and English isolation"
+Lynn,1581,88.6148,35.4023,47781,Yes,"Minority, income and English isolation"
+Lynn,1050,87.7143,11.5764,114018,Yes,Minority
+Lynn,1560,78.6538,27.3842,14588,Yes,"Minority, income and English isolation"
+Lynn,1323,86.0922,26.3441,33000,Yes,"Minority, income and English isolation"
+Lynn,1443,81.4969,11.7424,44500,Yes,Minority and income
+Saugus,1176,28.4014,0,102411,Yes,Minority
+Lynn,1134,58.2011,20.6434,110045,Yes,Minority
+Lynn,1448,62.5,16.273,76328,Yes,Minority
+Lynn,2507,85.0818,14.5161,63737,Yes,Minority
+Lynn,1018,83.89,16.1812,64938,Yes,Minority
+Lynn,1228,84.2834,32.3718,46591,Yes,"Minority, income and English isolation"
+Lynn,1578,65.1458,9.4907,67171,Yes,Minority
+Lynn,1473,84.5214,39.966,44063,Yes,"Minority, income and English isolation"
+Lynn,1001,46.4535,4.8035,83500,Yes,Minority
+Lynn,1091,71.1274,0,46118,Yes,Minority and income
+Lynn,1041,50.5283,33.0189,70179,Yes,Minority and English isolation
+Lynn,1674,32.0191,3.8664,119519,Yes,Minority
+Saugus,811,33.5388,0,77188,Yes,Minority
+Saugus,963,29.8027,0.9901,140219,Yes,Minority
+Peabody,1062,54.6139,11.1392,34028,Yes,Minority and income
+Peabody,1327,49.7362,3.7736,50761,Yes,Minority and income
+Peabody,1026,42.4951,25.78,85404,Yes,Minority and English isolation
+Peabody,1260,43.0952,16.9463,31833,Yes,Minority and income
+Peabody,1270,29.5276,9.7879,96232,Yes,Minority
+Danvers,921,18.5668,4.25,54125,Yes,Income
+Hamilton,663,9.8039,0,41579,Yes,Income
+Beverly,1473,27.6307,7.231,63313,Yes,Minority
+Beverly,965,34.715,13.5688,80595,Yes,Minority
+Beverly,857,18.9032,14.1509,33289,Yes,Income
+Beverly,1455,16.3574,1.1396,45676,Yes,Income
+Saugus,868,24.5392,4.3103,96750,Yes,Minority
+Saugus,2019,20.7528,8.4416,29567,Yes,Income
+Saugus,1891,22.8979,4.0305,46250,Yes,Income
+Saugus,1201,21.0658,27.2727,78984,Yes,English isolation
+Saugus,1320,25.2273,0,130682,Yes,Minority
+Peabody,1848,33.4957,0,84100,Yes,Minority
+Saugus,2193,30.643,7.9279,92056,Yes,Minority
+Peabody,2208,9.375,1.8692,53450,Yes,Income
+Peabody,1066,26.9231,0,117931,Yes,Minority
+Gloucester,1785,15.1821,5.4688,54808,Yes,Income
+Gloucester,1042,14.6833,0,44427,Yes,Income
+Lawrence,959,88.7383,40.1361,12156,Yes,"Minority, income and English isolation"
+Lawrence,2794,82.2477,40.4878,35327,Yes,"Minority, income and English isolation"
+Lawrence,1587,92.5646,13.5542,41765,Yes,Minority and income
+Lawrence,2415,84.7205,8.8853,67813,Yes,Minority
+Lawrence,1931,95.9089,37.2208,41172,Yes,"Minority, income and English isolation"
+Lawrence,1068,96.8165,20.6226,37468,Yes,Minority and income
+Lawrence,801,91.2609,23.5669,53125,Yes,Minority and income
+Lawrence,2304,95.5729,42.1374,37682,Yes,"Minority, income and English isolation"
+Lawrence,911,88.6937,19.2982,62955,Yes,Minority
+Lawrence,1019,92.6398,30.7018,50431,Yes,"Minority, income and English isolation"
+Lawrence,1286,81.804,0,59063,Yes,Minority
+Lawrence,1782,88.8889,15.748,44005,Yes,Minority and income
+Lawrence,1614,60.5328,3.3898,100147,Yes,Minority
+Lawrence,1442,96.1859,40.3292,97941,Yes,Minority and English isolation
+Lawrence,1756,94.1913,48.6111,52188,Yes,"Minority, income and English isolation"
+Lawrence,997,88.0642,26.7016,53021,Yes,"Minority, income and English isolation"
+Lawrence,2065,55.5932,2.3609,107708,Yes,Minority
+Lawrence,1210,89.5041,34.5324,70547,Yes,Minority and English isolation
+Lawrence,974,96.0986,28.7234,87895,Yes,Minority and English isolation
+Lawrence,1392,94.3247,22.8302,47478,Yes,Minority and income
+Lawrence,1878,93.1842,40.3084,43750,Yes,"Minority, income and English isolation"
+Lawrence,800,96.125,52.2013,33500,Yes,"Minority, income and English isolation"
+Lawrence,908,98.7885,47.6038,41750,Yes,"Minority, income and English isolation"
+Lawrence,1425,92.9123,23.8189,46216,Yes,Minority and income
+Lawrence,1105,97.1041,46.1333,14810,Yes,"Minority, income and English isolation"
+Lawrence,1061,95.1932,26.2963,28587,Yes,"Minority, income and English isolation"
+Lawrence,576,98.2639,61.4583,76402,Yes,Minority and English isolation
+Lawrence,1474,92.7408,55.1242,20643,Yes,"Minority, income and English isolation"
+Lawrence,2024,95.504,44.7109,37946,Yes,"Minority, income and English isolation"
+Rockport,828,6.5217,0,47644,Yes,Income
+Gloucester,1014,19.7239,0,55000,Yes,Income
+Lowell,1621,55.4596,8.209,75106,Yes,Minority
+Lowell,1750,69.0286,9.3686,46146,Yes,Minority and income
+Lowell,1257,60.4614,13.6247,41563,Yes,Minority and income
+Lowell,755,50.1987,38.3041,93929,Yes,Minority and English isolation
+Springfield,1133,86.0547,36.1446,34219,Yes,"Minority, income and English isolation"
+Springfield,1175,85.7021,17.3913,28700,Yes,Minority and income
+Springfield,763,82.0446,12.6154,36120,Yes,Minority and income
+Springfield,1806,84.4961,7.9755,75129,Yes,Minority
+Springfield,2409,90.0374,30.9293,21089,Yes,"Minority, income and English isolation"
+Chicopee,1159,28.1277,0,44135,Yes,Minority and income
+Chicopee,1380,64.7101,0,24821,Yes,Minority and income
+Chicopee,2219,29.0221,1.3774,44529,Yes,Minority and income
+West Springfield,450,55.5556,0,31397,Yes,Minority and income
+Holyoke,1140,91.3158,27.1341,16111,Yes,"Minority, income and English isolation"
+Lowell,1308,54.3578,2.8169,62386,Yes,Minority
+Lowell,1228,52.9316,0.5714,63446,Yes,Minority
+Lowell,1895,43.0607,5.0909,85208,Yes,Minority
+Springfield,873,88.7743,17.9747,31188,Yes,Minority and income
+Springfield,1182,87.0558,0,31509,Yes,Minority and income
+Springfield,794,38.4131,0,128750,Yes,Minority
+Springfield,1010,46.4356,3.9216,53174,Yes,Minority and income
+Springfield,1092,42.2161,0,105152,Yes,Minority
+Springfield,1431,56.3941,0.3643,70268,Yes,Minority
+Chicopee,1423,31.4125,3.7773,54560,Yes,Minority and income
+Chicopee,770,42.4675,0,45729,Yes,Minority and income
+Chicopee,1118,42.3971,5.5468,58579,Yes,Minority
+Chicopee,1040,27.5962,0,76111,Yes,Minority
+Holyoke,1577,81.4204,41.4343,32548,Yes,"Minority, income and English isolation"
+Holyoke,727,78.8171,4.6753,38103,Yes,Minority and income
+Holyoke,887,61.1048,30.8707,45343,Yes,"Minority, income and English isolation"
+Holyoke,1083,78.4857,50.1266,14229,Yes,"Minority, income and English isolation"
+Holyoke,689,78.955,31.8386,19063,Yes,"Minority, income and English isolation"
+Lowell,1526,71.6907,4.2994,39458,Yes,Minority and income
+Lowell,1899,65.6661,16.1501,57048,Yes,Minority
+Lowell,899,82.9811,6.4067,107790,Yes,Minority
+Lowell,1474,79.9864,3.3626,25729,Yes,Minority and income
+Springfield,1387,72.6027,2.3511,81923,Yes,Minority
+Springfield,2022,35.3116,3.4325,58947,Yes,Minority
+Ludlow,1287,20.979,4.2662,53750,Yes,Income
+Chicopee,920,25.5435,11.2128,65871,Yes,Minority
+Chicopee,1352,26.2574,11.6564,85101,Yes,Minority
+Holyoke,775,35.871,4.2208,86932,Yes,Minority
+Holyoke,1039,61.9827,3.8877,43850,Yes,Minority and income
+Holyoke,700,37.8571,5,74844,Yes,Minority
+Holyoke,811,69.6671,27.1222,22670,Yes,"Minority, income and English isolation"
+Lowell,1307,78.1178,12,60536,Yes,Minority
+Lowell,1779,82.3496,18.0505,56200,Yes,Minority
+Lowell,1451,61.8194,10.0962,43224,Yes,Minority and income
+Lowell,1224,70.7516,16.8142,87188,Yes,Minority
+Dracut,3019,28.685,2.0777,86729,Yes,Minority
+Dracut,1614,27.6952,0,72402,Yes,Minority
+Ludlow,1592,23.8693,27.6018,49707,Yes,Income and English isolation
+Ludlow,1154,22.7036,20.2822,50637,Yes,Income
+Ludlow,2281,35.2039,0,91558,Yes,Minority
+Chicopee,2343,31.1566,13.76,44833,Yes,Minority and income
+Chicopee,1475,19.661,3.9076,47232,Yes,Income
+Chicopee,1021,40.7444,3.0837,47734,Yes,Minority and income
+Holyoke,1220,93.1967,39.7463,15536,Yes,"Minority, income and English isolation"
+Holyoke,2129,63.6449,9.0807,51806,Yes,Minority and income
+Holyoke,833,36.0144,2.4615,70795,Yes,Minority
+Easthampton,1127,14.1083,0,40000,Yes,Income
+Lowell,944,68.75,0,89881,Yes,Minority
+Billerica,1514,27.2127,0,109191,Yes,Minority
+Lowell,1856,70.2586,17,68750,Yes,Minority
+Billerica,506,53.5573,0,0,Yes,Minority
+Chicopee,985,30.6599,0,62172,Yes,Minority
+Chicopee,902,27.6053,0,82549,Yes,Minority
+Chicopee,1770,42.7119,4.0892,35000,Yes,Minority and income
+Holyoke,1062,95.6685,15.4799,23594,Yes,Minority and income
+Holyoke,829,94.0893,34.7432,16000,Yes,"Minority, income and English isolation"
+Holyoke,904,88.1637,42.6035,31284,Yes,"Minority, income and English isolation"
+Holyoke,629,88.3943,27.8689,68382,Yes,Minority and English isolation
+Holyoke,1139,93.7665,46.4968,18594,Yes,"Minority, income and English isolation"
+Holyoke,1313,60.7768,10.2178,31208,Yes,Minority and income
+Holyoke,1288,59.6273,2.9891,58000,Yes,Minority
+West Springfield,2144,28.2649,12.5948,52369,Yes,Minority and income
+Lowell,1105,77.8281,0,24531,Yes,Minority and income
+Lowell,1743,84.1079,21.28,60313,Yes,Minority
+Lowell,2044,76.1252,15.0641,77667,Yes,Minority
+Lowell,812,58.2512,12.6984,137875,Yes,Minority
+Chicopee,771,26.8482,0,58690,Yes,Minority
+Chicopee,1143,23.4471,3.5088,44500,Yes,Income
+Springfield,953,66.212,13.7767,51250,Yes,Minority and income
+Springfield,1239,64.5682,0,44020,Yes,Minority and income
+Holyoke,473,87.315,63.5204,14385,Yes,"Minority, income and English isolation"
+Holyoke,648,54.6296,0,104375,Yes,Minority
+Holyoke,781,58.1306,0,27153,Yes,Minority and income
+Holyoke,754,29.9735,0,77125,Yes,Minority
+Holyoke,722,61.6343,10.3774,45921,Yes,Minority and income
+West Springfield,1190,46.7227,1.9118,39085,Yes,Minority and income
+West Springfield,1456,30.1511,3.1877,26858,Yes,Minority and income
+West Springfield,1233,51.5004,0,31656,Yes,Minority and income
+West Springfield,1585,41.6404,10.401,36818,Yes,Minority and income
+Lowell,1057,42.2895,0,61488,Yes,Minority
+Lowell,1029,61.0301,0,0,Yes,Minority
+Lowell,1032,46.8023,0,93125,Yes,Minority
+Lowell,1004,66.4343,32.3529,50718,Yes,"Minority, income and English isolation"
+Springfield,1286,87.6361,13.082,39750,Yes,Minority and income
+Springfield,699,30.9013,0,63882,Yes,Minority
+Springfield,1435,40.5575,0,89076,Yes,Minority
+Holyoke,922,67.0282,0,52154,Yes,Minority and income
+Holyoke,2657,54.1588,15.8348,48864,Yes,Minority and income
+West Springfield,654,37.0031,10.3933,59609,Yes,Minority
+West Springfield,804,37.4378,5.8166,47883,Yes,Minority and income
+Westfield,2340,34.4872,13.8249,61083,Yes,Minority
+West Springfield,1346,49.8514,9.0909,39211,Yes,Minority and income
+Lowell,1279,77.717,5.0459,30125,Yes,Minority and income
+Lowell,1146,59.2496,4.298,53015,Yes,Minority and income
+Lowell,1645,69.9088,12.2511,68295,Yes,Minority
+Lowell,2406,56.1513,8.1381,41975,Yes,Minority and income
+Lowell,2975,40.7731,12.0332,66047,Yes,Minority
+Springfield,701,48.5021,0,41250,Yes,Minority and income
+Springfield,861,34.3786,0,63194,Yes,Minority
+Springfield,1154,42.5477,0,73594,Yes,Minority
+Springfield,1425,48.2105,0,51840,Yes,Minority and income
+Springfield,694,53.8905,0,53578,Yes,Minority and income
+West Springfield,1123,22.9742,6.0606,36364,Yes,Income
+West Springfield,1481,33.2883,0,44115,Yes,Minority and income
+West Springfield,1165,42.7468,0,47800,Yes,Minority and income
+Westfield,1401,17.773,3.1332,52305,Yes,Income
+Westfield,895,17.2067,4.5455,47074,Yes,Income
+Westfield,1346,15.6018,0,46757,Yes,Income
+West Springfield,947,26.8215,0,76094,Yes,Minority
+West Springfield,1869,25.8427,7.084,82946,Yes,Minority
+West Springfield,1061,28.0867,8.2474,40356,Yes,Minority and income
+Westfield,2091,29.2683,10.0575,63491,Yes,Minority
+Westfield,1169,37.8101,13.9963,36652,Yes,Minority and income
+Lowell,2420,74.6281,8.1081,58977,Yes,Minority
+Lowell,2183,75.6757,9.4002,80104,Yes,Minority
+Lowell,1005,56.4179,10.6667,61680,Yes,Minority
+Springfield,1397,77.0222,0,54018,Yes,Minority and income
+Springfield,1368,83.2602,13.8587,34017,Yes,Minority and income
+Springfield,1270,71.2598,0,47083,Yes,Minority and income
+Westfield,1474,30.4613,8.4362,55357,Yes,Minority
+Westfield,1146,24.6073,4.8062,49575,Yes,Minority and income
+Westfield,954,20.5451,21.5103,43350,Yes,Income
+Westfield,744,32.9301,8.2418,60000,Yes,Minority
+Agawam,1430,16.7832,4.0897,52054,Yes,Income
+Agawam,1054,22.6755,4.9419,54118,Yes,Income
+Dracut,609,19.7044,0,38864,Yes,Income
+Billerica,1059,25.5902,0,189044,Yes,Minority
+Springfield,1235,57.5709,2.4862,66806,Yes,Minority
+Palmer,880,17.2727,0,39736,Yes,Income
+Palmer,1067,10.2156,2.2901,47163,Yes,Income
+Westfield,1028,34.0467,3.2828,60246,Yes,Minority
+Westfield,526,15.019,8.5409,53183,Yes,Income
+Monson,1136,8.9789,0,49000,Yes,Income
+Ware,1066,19.137,0,29250,Yes,Income
+Ware,1023,13.8807,0,41731,Yes,Income
+Amherst,1257,51.3922,5.6537,37500,Yes,Minority and income
+Amherst,1121,30.6869,1.209,74018,Yes,Minority
+Lowell,813,44.1574,5.988,79464,Yes,Minority
+Lowell,750,52.9333,0,70742,Yes,Minority
+Lowell,1841,50.7876,2.3006,78333,Yes,Minority
+Chicopee,1684,26.3658,0,49843,Yes,Minority and income
+Chicopee,1377,46.0421,0,49956,Yes,Minority and income
+Chicopee,1358,37.187,2.1523,60078,Yes,Minority
+Ware,1954,24.5138,2.5641,33889,Yes,Minority and income
+Amherst,1947,28.5054,1.6,118250,Yes,Minority
+Amherst,1261,58.4457,3.876,67778,Yes,Minority
+Amherst,1641,52.4071,0,0,Yes,Minority
+Amherst,1698,44.4641,2.7481,36168,Yes,Minority and income
+Amherst,1419,40.0282,9.0909,62321,Yes,Minority
+Lowell,1682,66.9441,25.6711,19002,Yes,"Minority, income and English isolation"
+Lowell,816,47.6716,21.2339,18616,Yes,Minority and income
+Lowell,974,38.2957,5.6701,86103,Yes,Minority
+Chicopee,1230,56.3415,9.8274,33474,Yes,Minority and income
+Chicopee,1080,25.2778,2.2026,61118,Yes,Minority
+Chicopee,926,24.73,0,55117,Yes,Minority and income
+Amherst,1083,33.4257,3.8278,75882,Yes,Minority
+Amherst,1609,45.059,4.9145,61429,Yes,Minority
+Amherst,13131,39.5172,0,2500,Yes,Minority and income
+Amherst,1050,28.8571,0,54609,Yes,Minority and income
+Amherst,579,32.8152,0,0,Yes,Minority
+Amherst,1919,60.3439,5.6417,47435,Yes,Minority and income
+Amherst,1072,40.4851,14.6919,89712,Yes,Minority
+Chelmsford,2584,32.3142,2.8971,75313,Yes,Minority
+Chelmsford,2165,30.9931,1.7751,119271,Yes,Minority
+Northampton,1784,35.5381,4.577,48348,Yes,Minority and income
+Northampton,1445,32.526,14.9394,33438,Yes,Minority and income
+Chicopee,1140,56.9298,11.368,29612,Yes,Minority and income
+Chicopee,1602,27.1536,10.609,70170,Yes,Minority
+Chicopee,649,33.8983,0,66875,Yes,Minority
+Chicopee,849,66.6667,7.4405,29628,Yes,Minority and income
+Amherst,1014,24.7535,4.9645,106190,Yes,Minority
+Amherst,1068,36.8914,0,22936,Yes,Minority and income
+Amherst,911,25.9056,0,16226,Yes,Minority and income
+South Hadley,2185,46.6362,0,142031,Yes,Minority
+Northampton,1683,28.0452,7.5472,52000,Yes,Minority and income
+Northampton,124,56.4516,0,0,Yes,Minority
+Lowell,869,75.0288,3.8348,67813,Yes,Minority
+Lowell,1872,43.4295,0,75208,Yes,Minority
+Chicopee,1500,41.8667,0,46111,Yes,Minority and income
+Chicopee,850,64.4706,0,42500,Yes,Minority and income
+Chicopee,900,25.7778,12.0915,41042,Yes,Minority and income
+Amherst,549,41.8944,2.2901,40956,Yes,Minority and income
+Amherst,1341,27.7405,3.6364,140000,Yes,Minority
+South Hadley,1611,22.5326,0,54870,Yes,Income
+Northampton,1832,24.7271,5.1078,63125,Yes,Minority
+Easthampton,1368,15.7164,2.7211,47578,Yes,Income
+Easthampton,699,18.3119,0,40526,Yes,Income
+Easthampton,956,18.8285,0,42534,Yes,Income
+Townsend,990,11.8182,0,54261,Yes,Income
+Lowell,1162,67.1256,12.3177,41319,Yes,Minority and income
+Lowell,1447,58.1894,17.9567,44559,Yes,Minority and income
+Lowell,1160,43.4483,0,103875,Yes,Minority
+Chicopee,910,14.7253,5.6848,52330,Yes,Income
+Chicopee,1577,52.7584,1.7107,25268,Yes,Minority and income
+Holyoke,1070,88.0374,40.0517,21761,Yes,"Minority, income and English isolation"
+Holyoke,1052,41.5399,7.8125,59688,Yes,Minority
+Lowell,1737,70.5815,15.035,76707,Yes,Minority
+Lowell,1258,59.539,10.2837,32228,Yes,Minority and income
+Lowell,1325,47.4717,4.6683,48199,Yes,Minority and income
+Northampton,1056,24.8106,4.6,56500,Yes,Minority
+Northampton,2152,41.9145,0,70500,Yes,Minority
+Chicopee,1428,60.4342,8.6864,36316,Yes,Minority and income
+Chicopee,1938,58.7203,24.6328,36424,Yes,"Minority, income and English isolation"
+Beverly,904,12.8319,4.9231,44554,Yes,Income
+Gloucester,616,12.5,4.023,48750,Yes,Income
+Gloucester,832,18.2692,0,40179,Yes,Income
+Beverly,1097,41.2944,9.322,70278,Yes,Minority
+Beverly,645,27.5969,0,40476,Yes,Minority and income
+Lawrence,1814,81.5325,17.6685,43438,Yes,Minority and income
+Beverly,2078,8.9509,5.9974,39107,Yes,Income
+Springfield,2005,73.6658,4.4586,66250,Yes,Minority
+Springfield,1167,71.8937,14.6912,49148,Yes,Minority and income
+Springfield,1409,82.3279,9.1816,14594,Yes,Minority and income
+Springfield,1252,64.9361,0,40234,Yes,Minority and income
+Gloucester,1509,22.7303,0,41314,Yes,Income
+Gloucester,839,28.3671,3.4375,59853,Yes,Minority
+Lawrence,2762,87.4366,13.8298,65227,Yes,Minority
+Lawrence,1627,96.8039,17.0918,41550,Yes,Minority and income
+Lawrence,1822,97.3655,29.397,51447,Yes,"Minority, income and English isolation"
+Lawrence,2559,78.5072,13.8211,44302,Yes,Minority and income
+Merrimac,1278,7.8247,0,49583,Yes,Income
+Rowe,1147,11.9442,0.641,52727,Yes,Income
+Orange,1344,12.7232,0,28000,Yes,Income
+Sunderland,770,23.1169,5.7292,47614,Yes,Income
+Sunderland,1472,29.212,6.5708,95230,Yes,Minority
+Sunderland,1421,24.8417,2.3129,41845,Yes,Minority and income
+Methuen,1151,61.7724,5.0633,69833,Yes,Minority
+Methuen,1117,48.9705,0,83929,Yes,Minority
+Methuen,1330,37.2932,0.838,75893,Yes,Minority
+Springfield,1677,61.2999,2.2164,37516,Yes,Minority and income
+Springfield,1600,54.625,0,68180,Yes,Minority
+Springfield,1378,68.9405,28.361,37583,Yes,"Minority, income and English isolation"
+Springfield,1351,81.1251,33.5052,31023,Yes,"Minority, income and English isolation"
+Lawrence,1593,91.5254,33.1384,52257,Yes,"Minority, income and English isolation"
+Lawrence,1524,93.6352,54.1667,40243,Yes,"Minority, income and English isolation"
+Lawrence,1708,89.2857,36.0111,66625,Yes,Minority and English isolation
+Lawrence,2498,93.0344,23.4249,48936,Yes,Minority and income
+Greenfield,805,8.6957,2.3923,52315,Yes,Income
+Greenfield,855,21.4035,3.8529,40204,Yes,Income
+Greenfield,915,20.4372,4.1485,44091,Yes,Income
+Methuen,1009,40.2379,15.8924,44449,Yes,Minority and income
+North Andover,2855,33.31,5.5195,82421,Yes,Minority
+Springfield,1061,55.9849,0,85550,Yes,Minority
+Springfield,788,92.6396,38.6029,16667,Yes,"Minority, income and English isolation"
+Springfield,1008,96.7262,25.641,16818,Yes,"Minority, income and English isolation"
+Springfield,1117,76.5443,8.4746,50730,Yes,Minority and income
+Lawrence,1283,92.8293,26.4706,65510,Yes,Minority and English isolation
+Lawrence,1793,94.2554,50.4132,77946,Yes,Minority and English isolation
+Lawrence,2020,87.9208,14.1026,59259,Yes,Minority
+Greenfield,817,17.5031,0,43472,Yes,Income
+Greenfield,963,14.5379,0,21792,Yes,Income
+Greenfield,1053,15.7645,2.4857,41146,Yes,Income
+Methuen,2118,32.1058,10.9073,67013,Yes,Minority
+Methuen,1399,28.4489,0,99826,Yes,Minority
+Springfield,768,96.0938,28.2609,14634,Yes,"Minority, income and English isolation"
+Springfield,1488,64.6505,0,82989,Yes,Minority
+Springfield,1377,88.8889,40.5978,16634,Yes,"Minority, income and English isolation"
+Lawrence,1983,84.9723,6.6832,46625,Yes,Minority and income
+Lawrence,1237,87.2272,6.3776,46700,Yes,Minority and income
+Lawrence,1270,74.7244,45.9695,52386,Yes,"Minority, income and English isolation"
+Lawrence,1150,97.913,47.5578,34375,Yes,"Minority, income and English isolation"
+Greenfield,1513,39.8546,2.9197,24688,Yes,Minority and income
+Greenfield,1429,24.8425,8.9955,47404,Yes,Minority and income
+Springfield,1467,55.6237,1.7134,53238,Yes,Minority and income
+Methuen,1486,29.7443,1.259,90000,Yes,Minority
+Methuen,2397,40.7593,4.7354,95200,Yes,Minority
+Methuen,787,31.385,0,111506,Yes,Minority
+Springfield,1195,93.5565,15.5882,20595,Yes,Minority and income
+Springfield,2010,96.5174,11.9497,20542,Yes,Minority and income
+Springfield,1066,84.9906,2.5974,48385,Yes,Minority and income
+Lawrence,1895,93.2982,32.1293,52353,Yes,"Minority, income and English isolation"
+Lawrence,1381,73.2078,42.5684,13363,Yes,"Minority, income and English isolation"
+Lawrence,1280,84.4531,0,72083,Yes,Minority
+Lawrence,1629,91.3444,34.4828,47045,Yes,"Minority, income and English isolation"
+Springfield,984,77.439,23.6559,36944,Yes,Minority and income
+Springfield,1435,57.8397,6.7616,50000,Yes,Minority and income
+Springfield,1646,75.3949,14.3149,81908,Yes,Minority
+Springfield,1143,75.1531,8.6022,85469,Yes,Minority
+North Andover,1907,25.5375,2.2107,93942,Yes,Minority
+North Andover,1013,30.7996,0,120197,Yes,Minority
+North Andover,2264,26.3693,7.8686,64144,Yes,Minority
+Springfield,731,95.212,26.8908,23533,Yes,"Minority, income and English isolation"
+Springfield,1291,86.8319,30.8571,17019,Yes,"Minority, income and English isolation"
+Springfield,714,90.6162,25.3731,19627,Yes,"Minority, income and English isolation"
+Lawrence,1508,74.4032,11.8644,68594,Yes,Minority
+Lawrence,2301,94.133,27.7851,71513,Yes,Minority and English isolation
+Lawrence,2108,91.9355,48.4589,30500,Yes,"Minority, income and English isolation"
+Lawrence,1247,93.1034,43.1487,41390,Yes,"Minority, income and English isolation"
+Springfield,965,60.5181,12.1711,40833,Yes,Minority and income
+Springfield,707,82.4611,35.3659,33707,Yes,"Minority, income and English isolation"
+Springfield,1622,65.6597,0,81563,Yes,Minority
+Springfield,1808,85.896,26.2295,39402,Yes,"Minority, income and English isolation"
+Andover,2013,49.2797,20.9273,181458,Yes,Minority
+Haverhill,1425,50.807,12.562,17601,Yes,Minority and income
+Haverhill,1261,58.6043,25.0996,45625,Yes,"Minority, income and English isolation"
+Springfield,804,73.2587,0,48750,Yes,Minority and income
+Springfield,1358,84.0943,24.581,25377,Yes,"Minority, income and English isolation"
+Springfield,1224,73.1209,1.7588,42258,Yes,Minority and income
+Lawrence,1598,70.8385,1.8487,63735,Yes,Minority
+Lawrence,2621,63.6398,14.6809,69423,Yes,Minority
+Methuen,1531,48.661,3.6398,72708,Yes,Minority
+Springfield,1129,95.0399,18.662,61214,Yes,Minority
+Springfield,479,95.6159,46.0938,14189,Yes,"Minority, income and English isolation"
+Springfield,1611,96.5239,35.8209,12044,Yes,"Minority, income and English isolation"
+Springfield,2291,96.9009,38.699,32550,Yes,"Minority, income and English isolation"
+Haverhill,1873,41.0037,6.5714,47254,Yes,Minority and income
+Haverhill,1750,37.4286,6.0123,28594,Yes,Minority and income
+Haverhill,1333,30.9827,0,116818,Yes,Minority
+Springfield,602,53.1561,3.8298,72773,Yes,Minority
+Springfield,2715,65.488,6.0136,31369,Yes,Minority and income
+Springfield,895,47.1508,2.3324,86406,Yes,Minority
+Methuen,876,61.0731,0,63788,Yes,Minority
+Methuen,1707,34.5636,3.0945,58542,Yes,Minority
+Springfield,1214,90.4448,35.2574,14391,Yes,"Minority, income and English isolation"
+Springfield,1526,91.7431,36.0058,12161,Yes,"Minority, income and English isolation"
+Springfield,1322,96.2179,5.291,41364,Yes,Minority and income
+Haverhill,1124,29.8043,0,91964,Yes,Minority
+Haverhill,2420,47.8099,4.1247,58843,Yes,Minority
+Springfield,1614,82.9616,15.5689,50638,Yes,Minority and income
+Springfield,788,59.8985,6.2731,,Yes,Minority
+Springfield,758,66.095,4.8951,,Yes,Minority
+Springfield,824,41.6262,9.8824,90200,Yes,Minority
+Methuen,2198,34.5769,0,59335,Yes,Minority
+Methuen,1214,59.9671,4.878,51547,Yes,Minority and income
+Springfield,1440,83.3333,18.618,36875,Yes,Minority and income
+Springfield,935,81.2834,8.365,72865,Yes,Minority
+Springfield,2259,89.5086,35.873,39559,Yes,"Minority, income and English isolation"
+Haverhill,1173,47.1441,1.7199,81406,Yes,Minority
+Haverhill,2462,34.9716,5.9974,106369,Yes,Minority
+Haverhill,3054,65.3242,1.0076,56417,Yes,Minority
+Springfield,787,69.6315,14.2857,29659,Yes,Minority and income
+Springfield,1993,84.4957,38.7907,13877,Yes,"Minority, income and English isolation"
+Methuen,1356,60.472,3.1891,94375,Yes,Minority
+Methuen,787,51.4612,0,131392,Yes,Minority
+Methuen,1315,69.8859,11.3801,58631,Yes,Minority
+Methuen,1900,90.7895,18.7764,53452,Yes,Minority and income
+Springfield,2102,66.6508,16.3892,44506,Yes,Minority and income
+Springfield,899,73.7486,0,65811,Yes,Minority
+Haverhill,2063,38.827,4.1247,45230,Yes,Minority and income
+Haverhill,1096,25.5474,9.7065,43750,Yes,Minority and income
+Haverhill,2070,35.1208,2.4615,75682,Yes,Minority
+Springfield,1414,37.6238,0,69250,Yes,Minority
+Springfield,2634,38.079,2.0369,56354,Yes,Minority
+Springfield,1027,45.1801,4.023,93063,Yes,Minority
+Methuen,1639,84.0757,25,33875,Yes,"Minority, income and English isolation"
+Methuen,925,31.2432,1.3333,133795,Yes,Minority
+Methuen,1957,35.3602,2.011,115451,Yes,Minority
+Methuen,2354,31.181,4.1721,106964,Yes,Minority
+Springfield,2316,31.2608,0,68750,Yes,Minority
+Springfield,1091,58.8451,0,33843,Yes,Minority and income
+Amesbury,1766,10.6455,8.4599,45250,Yes,Income
+Amesbury,935,8.4492,0,40326,Yes,Income
+Newburyport,1353,12.7125,0,48269,Yes,Income
+Newburyport,860,4.4186,0,54000,Yes,Income
+Hawley,933,9.6463,0,53229,Yes,Income
+Buckland,892,8.9686,0,44063,Yes,Income
+Springfield,1079,77.8499,20.9719,36607,Yes,Minority and income
+Springfield,1394,84.2898,1.897,33958,Yes,Minority and income
+Springfield,2208,71.5127,1.5267,32088,Yes,Minority and income
+North Andover,780,31.7949,0,102729,Yes,Minority
+North Andover,1332,30.03,0.7732,112222,Yes,Minority
+Springfield,950,62.5263,0,45379,Yes,Minority and income
+Springfield,1031,31.2318,0,59886,Yes,Minority
+Springfield,2904,67.4931,6.8545,39702,Yes,Minority and income
+Springfield,960,95.9375,9.8246,25956,Yes,Minority and income
+Springfield,1294,91.3447,18.3721,35833,Yes,Minority and income
+Shelburne,828,9.4203,4.7761,49063,Yes,Income
+Orange,1359,12.8035,0,53929,Yes,Income
+Montague,998,18.4369,0,40491,Yes,Income
+Springfield,2791,92.0817,13.2265,26827,Yes,Minority and income
+Springfield,783,65.645,13.8504,44205,Yes,Minority and income
+Springfield,372,73.9247,59.2157,13250,Yes,"Minority, income and English isolation"
+North Andover,992,33.4677,0,150217,Yes,Minority
+Haverhill,2284,65.0175,14.248,38224,Yes,Minority and income
+Haverhill,1179,41.5606,0,70347,Yes,Minority
+Springfield,947,93.3474,24.055,39483,Yes,Minority and income
+Springfield,1912,25.1046,0,44028,Yes,Minority and income
+Springfield,1338,75.1121,6.383,40114,Yes,Minority and income
+Springfield,1135,97.0044,5.3435,33812,Yes,Minority and income
+Springfield,725,95.4483,35.3414,14484,Yes,"Minority, income and English isolation"
+Montague,1282,23.0889,1.4599,25339,Yes,Income
+Montague,871,15.729,0,54696,Yes,Income
+Montague,885,6.8927,1.8519,40000,Yes,Income
+Springfield,2692,36.2927,0,76845,Yes,Minority
+Springfield,635,42.0472,0,116875,Yes,Minority
+Springfield,828,94.0821,14.17,11948,Yes,Minority and income
+Springfield,876,93.4932,0,30195,Yes,Minority and income
+Springfield,1759,84.025,43.7355,21304,Yes,"Minority, income and English isolation"
+Springfield,1130,82.7434,19.6162,24037,Yes,Minority and income
+Haverhill,831,56.5584,0,77647,Yes,Minority
+Haverhill,1297,27.448,0,62885,Yes,Minority
+Haverhill,1405,67.1174,6.3356,57474,Yes,Minority
+Springfield,1163,89.3379,3.1646,20652,Yes,Minority and income
+Springfield,667,91.1544,31.0127,21331,Yes,"Minority, income and English isolation"
+Methuen,1324,27.1148,13.7529,81771,Yes,Minority
+Methuen,1436,24.8607,0.8606,90766,Yes,Minority
+Methuen,1564,54.156,0,75000,Yes,Minority
+Greenfield,1270,12.9921,0,54432,Yes,Income
+Greenfield,959,12.0959,5.3364,51435,Yes,Income
+Springfield,1308,57.5688,5.5462,44149,Yes,Minority and income
+Springfield,843,67.7343,0,62492,Yes,Minority
+Springfield,1310,81.6794,3.7931,55833,Yes,Minority
+Springfield,1162,76.1618,7.8431,58201,Yes,Minority
+Springfield,1241,72.8445,3.5417,33167,Yes,Minority and income
+Haverhill,3078,64.3925,11.0276,45000,Yes,Minority and income
+Haverhill,1341,53.6167,0,35257,Yes,Minority and income
+Haverhill,1116,57.1685,0,34493,Yes,Minority and income
+Haverhill,2832,29.5904,5.7312,83162,Yes,Minority
+Methuen,1586,48.2976,26.2422,27692,Yes,"Minority, income and English isolation"
+Methuen,1782,32.0426,1.7978,69740,Yes,Minority
+Methuen,989,42.7705,9.901,76607,Yes,Minority
+Methuen,2051,57.2891,3.6295,70234,Yes,Minority
+Springfield,1314,80.6697,10.4167,35385,Yes,Minority and income
+Springfield,1449,67.0807,18.9406,34622,Yes,Minority and income
+Springfield,639,70.266,8.4592,58693,Yes,Minority
+Springfield,772,96.2435,27.037,11731,Yes,"Minority, income and English isolation"
+Springfield,1335,75.6554,23.2236,20465,Yes,Minority and income
+Springfield,619,76.252,4.5977,30149,Yes,Minority and income
+Springfield,1289,92.8627,37.0504,12356,Yes,"Minority, income and English isolation"
+Lawrence,1374,87.7729,26.6409,34681,Yes,"Minority, income and English isolation"
+Beverly,2166,21.422,0,50993,Yes,Income
+Beverly,745,22.953,7.8947,53913,Yes,Income
+Natick,1097,30.3555,25.6075,105972,Yes,Minority and English isolation
+Framingham,2268,77.4691,29.755,56412,Yes,Minority and English isolation
+Framingham,1597,71.5717,22.3665,52682,Yes,Minority and income
+Somerville,1151,24.6742,11.5385,,Yes,Minority
+Everett,1413,60.5096,14.2132,93850,Yes,Minority
+Somerville,900,29.5556,6.7055,106607,Yes,Minority
+Somerville,1305,25.4406,0,111791,Yes,Minority
+Somerville,1942,27.034,0,134500,Yes,Minority
+Somerville,1170,25.7265,13.7421,124650,Yes,Minority
+Somerville,1032,38.9535,4.5455,140385,Yes,Minority
+Somerville,1351,33.6047,3.7975,100135,Yes,Minority
+Lexington,2361,54.0449,0.9357,168882,Yes,Minority
+Bedford,103,62.1359,0,216346,Yes,Minority
+Cambridge,1345,50.2602,1.8182,104583,Yes,Minority
+Framingham,902,44.4568,0,81932,Yes,Minority
+Framingham,1893,60.9614,14.1593,73400,Yes,Minority
+Framingham,1906,66.6842,51.269,81346,Yes,Minority and English isolation
+Somerville,1118,32.2004,5.3156,112625,Yes,Minority
+Somerville,966,38.8199,16.5289,98542,Yes,Minority
+Somerville,984,29.878,3.3708,113125,Yes,Minority
+Somerville,866,54.157,26.1981,,Yes,Minority and English isolation
+Somerville,1045,27.8469,0,156667,Yes,Minority
+Somerville,1031,25.3152,1.269,159167,Yes,Minority
+Somerville,1890,30.3175,7.2386,101667,Yes,Minority
+Somerville,1484,35.9838,13.4058,57339,Yes,Minority
+Somerville,597,48.4087,14.7059,57875,Yes,Minority
+Somerville,1295,58.5328,4.2478,41782,Yes,Minority and income
+Cambridge,1655,56.4955,6.7757,103026,Yes,Minority
+Cambridge,1597,49.092,0,90938,Yes,Minority
+Cambridge,1099,38.4895,0,67708,Yes,Minority
+Cambridge,1058,38.3743,0,79667,Yes,Minority
+Acton,2291,55.478,16.4557,100417,Yes,Minority
+Acton,1922,56.3996,9.8529,91970,Yes,Minority
+Acton,1408,47.5142,0,106458,Yes,Minority
+Framingham,1114,55.386,4.1475,115500,Yes,Minority
+Framingham,2142,36.7414,15.1332,100417,Yes,Minority
+Framingham,576,32.9861,0,194286,Yes,Minority
+Somerville,836,37.3206,0,,Yes,Minority
+Somerville,1035,25.1208,12.7586,73707,Yes,Minority
+Somerville,1508,28.8462,16.1554,126637,Yes,Minority
+Somerville,800,29.25,0,121250,Yes,Minority
+Somerville,1089,26.079,0,150723,Yes,Minority
+Somerville,1279,37.0602,0,144236,Yes,Minority
+Somerville,314,36.9427,0,0,Yes,Minority
+Somerville,810,39.6296,1.4634,116250,Yes,Minority
+Somerville,1056,57.9545,21.1364,75389,Yes,Minority
+Cambridge,1075,36.2791,4.5767,44802,Yes,Minority and income
+Maynard,1347,15.4417,0,55063,Yes,Income
+Waltham,2001,53.1734,0,101786,Yes,Minority
+Waltham,741,26.4507,0,162689,Yes,Minority
+Framingham,1090,28.3486,6.0606,117639,Yes,Minority
+Framingham,1984,33.4677,0,184792,Yes,Minority
+Framingham,1106,34.6293,8.6634,102500,Yes,Minority
+Framingham,2653,25.5183,0.5118,161302,Yes,Minority
+Framingham,2143,26.2716,13.9267,68005,Yes,Minority
+Ashland,2869,24.7473,3.8095,151667,Yes,Minority
+Somerville,1340,35.7463,9.1603,84028,Yes,Minority
+Somerville,1604,30.8603,0,116106,Yes,Minority
+Somerville,674,48.368,31.5271,66964,Yes,Minority and English isolation
+Somerville,928,48.3836,17.2249,79167,Yes,Minority
+Somerville,1121,51.7395,9.5137,86633,Yes,Minority
+Somerville,623,52.6485,29.9674,87440,Yes,Minority and English isolation
+Cambridge,1810,50.5525,1.3245,86133,Yes,Minority
+Cambridge,757,49.8018,9.1324,63458,Yes,Minority
+Cambridge,2140,65.0935,0,90833,Yes,Minority
+Cambridge,1225,37.2245,2.1851,149444,Yes,Minority
+Cambridge,1757,40.239,1.4628,107500,Yes,Minority
+Waltham,1254,61.4833,4.3344,94350,Yes,Minority
+Waltham,1464,43.5109,7.2356,98779,Yes,Minority
+Waltham,669,34.3797,0,111875,Yes,Minority
+Waltham,2333,41.2773,0,104667,Yes,Minority
+Waltham,1429,47.5857,4.3084,87574,Yes,Minority
+Waltham,1049,48.8084,2.7473,73500,Yes,Minority
+Lexington,1982,45.106,2.3022,245284,Yes,Minority
+Lexington,1167,51.4996,0,193214,Yes,Minority
+Lexington,812,44.8276,9.3117,141328,Yes,Minority
+Somerville,982,45.112,12.6904,78636,Yes,Minority
+Somerville,939,47.2843,21.0692,78088,Yes,Minority
+Somerville,780,61.9231,2.5,106563,Yes,Minority
+Somerville,284,58.8028,26.3889,11123,Yes,"Minority, income and English isolation"
+Cambridge,1081,53.3765,1.4252,109861,Yes,Minority
+Cambridge,1380,53.3333,15.2276,63980,Yes,Minority
+Cambridge,1052,45.5323,0,157946,Yes,Minority
+Cambridge,1999,42.2711,9.165,61875,Yes,Minority
+Cambridge,1888,45.4979,4.9844,126071,Yes,Minority
+Cambridge,1578,53.2319,1.6129,110682,Yes,Minority
+Cambridge,1764,42.9705,4.6012,88389,Yes,Minority
+Waltham,819,34.4322,0,105039,Yes,Minority
+Waltham,698,41.1175,0,84083,Yes,Minority
+Waltham,1106,54.5208,21.1712,43594,Yes,Minority and income
+Waltham,1914,43.5737,18.546,88333,Yes,Minority
+Waltham,1037,48.6982,0,64138,Yes,Minority
+Waltham,1221,37.674,17.4442,76047,Yes,Minority
+Waltham,1253,57.1429,12.3123,44289,Yes,Minority and income
+Waltham,899,54.6162,0.5051,45000,Yes,Minority and income
+Waltham,1343,62.0253,16.2272,70750,Yes,Minority
+Cambridge,1438,35.605,5.141,89663,Yes,Minority
+Cambridge,1504,50.7979,12.1739,134643,Yes,Minority
+Cambridge,1879,78.7121,13.3779,65446,Yes,Minority
+Cambridge,1053,42.6401,2.1148,148304,Yes,Minority
+Cambridge,1100,50,27.2222,55395,Yes,Minority and English isolation
+Cambridge,1123,32.3241,0,129318,Yes,Minority
+Cambridge,909,41.4741,3.2634,60511,Yes,Minority
+Cambridge,1746,28.4078,1.1827,161964,Yes,Minority
+Cambridge,1892,42.4419,6.0945,110714,Yes,Minority
+Cambridge,937,25.6137,1.5779,129531,Yes,Minority
+Cambridge,1278,35.6025,9.9424,75357,Yes,Minority
+Cambridge,992,36.4919,1.6355,181944,Yes,Minority
+Waltham,1319,45.3374,0,114926,Yes,Minority
+Waltham,1321,57.6079,3.2819,96042,Yes,Minority
+Waltham,1363,62.6559,18.2927,53900,Yes,Minority and income
+Lincoln,1449,41.5459,0,107656,Yes,Minority
+Framingham,2207,28.7721,6.2857,58281,Yes,Minority
+Cambridge,2211,40.9317,1.9592,118772,Yes,Minority
+Cambridge,1178,61.8846,0,107692,Yes,Minority
+Cambridge,2463,53.2684,12.1708,84779,Yes,Minority
+Cambridge,1646,57.9587,3.719,79167,Yes,Minority
+Cambridge,1070,28.4112,1.4778,141933,Yes,Minority
+Cambridge,1825,52.6027,0,55270,Yes,Minority and income
+Cambridge,1578,35.4246,4.2322,104875,Yes,Minority
+Cambridge,2149,50.0233,5.1327,58250,Yes,Minority
+Waltham,1452,51.1708,1.5474,78438,Yes,Minority
+Waltham,1179,59.6268,10.5495,90360,Yes,Minority
+Waltham,1985,43.9295,1.0484,115172,Yes,Minority
+Waltham,1060,28.3019,1.4894,78000,Yes,Minority
+Framingham,1940,30.2577,0,182500,Yes,Minority
+Concord,620,70.9677,0,159661,Yes,Minority
+Framingham,1761,67.2345,36.9048,71386,Yes,Minority and English isolation
+Cambridge,2452,68.1485,50,0,Yes,Minority and English isolation
+Cambridge,1059,47.4976,0,96071,Yes,Minority
+Cambridge,1913,68.6879,5.8366,131563,Yes,Minority
+Cambridge,1075,34.5116,1.5385,122031,Yes,Minority
+Cambridge,1344,54.6875,6.9565,101228,Yes,Minority
+Cambridge,1033,27.2023,0,119472,Yes,Minority
+Cambridge,1311,31.045,1.5974,166474,Yes,Minority
+Cambridge,1428,32.9832,15.3082,158625,Yes,Minority
+Cambridge,1431,27.1838,0,129444,Yes,Minority
+Waltham,751,51.3981,28.0172,54000,Yes,"Minority, income and English isolation"
+Waltham,869,24.5109,3.125,94583,Yes,Minority
+Watertown,1672,33.134,5.7111,94155,Yes,Minority
+Watertown,1750,39.6571,8.5297,75096,Yes,Minority
+Waltham,1200,25.3333,9.0559,86250,Yes,Minority
+Waltham,995,39.6985,2.0134,96660,Yes,Minority
+Waltham,2093,69.4697,10.3581,65455,Yes,Minority
+Cambridge,1816,27.4229,0,150463,Yes,Minority
+Cambridge,1505,33.3555,0,145983,Yes,Minority
+Cambridge,1198,31.6361,7.5175,94808,Yes,Minority
+Cambridge,1373,56.4457,0,0,Yes,Minority
+Cambridge,876,61.758,48.6842,48833,Yes,"Minority, income and English isolation"
+Cambridge,1082,27.634,0,144688,Yes,Minority
+Cambridge,2070,97.1981,35.1685,39213,Yes,"Minority, income and English isolation"
+Cambridge,1309,38.6555,5.6013,102824,Yes,Minority
+Arlington,860,29.186,0,138611,Yes,Minority
+Watertown,1031,31.3288,2.5918,83482,Yes,Minority
+Watertown,763,26.8676,0,102371,Yes,Minority
+Watertown,1851,28.4171,5.1823,106600,Yes,Minority
+Ashland,1522,32.1945,0,131707,Yes,Minority
+Ashland,1387,27.1089,9.8291,54500,Yes,Minority and income
+Ashland,1326,33.1071,3.0132,72721,Yes,Minority
+Cambridge,941,48.7779,13.0584,52240,Yes,Minority and income
+Cambridge,1440,40.5556,6.5183,130625,Yes,Minority
+Cambridge,847,31.2869,5.0998,101131,Yes,Minority
+Cambridge,815,38.5276,19.6875,92426,Yes,Minority
+Cambridge,1661,59.8435,7.1429,75268,Yes,Minority
+Cambridge,2329,52.9841,0,0,Yes,Minority
+Arlington,1614,26.3941,0,145764,Yes,Minority
+Arlington,1214,27.9242,0,149519,Yes,Minority
+Arlington,1002,26.8463,7.5377,147188,Yes,Minority
+Watertown,1883,29.4211,0,103646,Yes,Minority
+Watertown,641,41.0296,0,117778,Yes,Minority
+Watertown,1058,36.1059,8.64,95974,Yes,Minority
+Waltham,2860,35.5245,5.2247,127829,Yes,Minority
+Waltham,1397,25.6979,0,141875,Yes,Minority
+Cambridge,1636,26.1614,6.2885,86103,Yes,Minority
+Cambridge,2107,41.6706,2.2346,111042,Yes,Minority
+Cambridge,1175,34.8085,8.982,61797,Yes,Minority
+Cambridge,1145,33.2751,5.4545,115167,Yes,Minority
+Arlington,944,35.3814,5.5416,67917,Yes,Minority
+Arlington,1158,43.696,15.6371,83875,Yes,Minority
+Arlington,1435,29.4077,11.5321,82679,Yes,Minority
+Arlington,686,30.0292,6.6456,70183,Yes,Minority
+Watertown,852,32.0423,0,68516,Yes,Minority
+Watertown,720,26.6667,0,54188,Yes,Minority and income
+Watertown,306,19.6078,26.0563,18148,Yes,Income and English isolation
+Lexington,2214,47.1996,4.2373,227955,Yes,Minority
+Lexington,1289,41.2723,0,159422,Yes,Minority
+Lexington,1323,41.1187,0,227614,Yes,Minority
+Cambridge,1744,28.6697,1.8253,135114,Yes,Minority
+Cambridge,823,27.825,3.1153,129946,Yes,Minority
+Cambridge,894,27.7405,3.2258,161250,Yes,Minority
+Arlington,1577,25.6183,10.5882,58269,Yes,Minority
+Arlington,816,39.2157,8.9372,63897,Yes,Minority
+Watertown,2060,34.6602,18.3588,150362,Yes,Minority
+Watertown,744,35.2151,8.2418,60481,Yes,Minority
+Watertown,1326,27.3002,7.1429,112731,Yes,Minority
+Arlington,1688,25.2962,0,78385,Yes,Minority
+Belmont,1080,42.1296,1.2891,112321,Yes,Minority
+Waltham,1471,50.8498,9.8535,79013,Yes,Minority
+Cambridge,1000,29.4,0,150395,Yes,Minority
+Cambridge,1641,41.9257,8.3004,102417,Yes,Minority
+Cambridge,1742,64.9254,6.8351,92232,Yes,Minority
+Cambridge,1410,46.8085,0,131424,Yes,Minority
+Cambridge,1241,28.8477,2.4927,130938,Yes,Minority
+Lexington,2593,47.8982,2.4415,135481,Yes,Minority
+Lexington,810,50.3704,0,208958,Yes,Minority
+Newton,1218,37.7668,16.4251,52450,Yes,Income
+Newton,931,42.5349,2.4499,106250,Yes,Minority
+Natick,1658,34.0772,12.8289,111129,Yes,Minority
+Waltham,1116,38.0824,0,103446,Yes,Minority
+Waltham,1727,36.3636,8.642,94375,Yes,Minority
+Waltham,1297,48.882,7.3209,70942,Yes,Minority
+Waltham,954,49.8952,6.6667,65934,Yes,Minority
+Cambridge,435,52.4138,0,230685,Yes,Minority
+Cambridge,964,65.6639,13.5762,125536,Yes,Minority
+Cambridge,1477,55.2471,16.2281,137874,Yes,Minority
+Cambridge,1318,36.5706,23.5644,137841,Yes,Minority
+Cambridge,917,77.8626,28.1513,29973,Yes,"Minority, income and English isolation"
+Lexington,995,57.9899,5.1205,94375,Yes,Minority
+Lexington,1788,43.2327,9.1057,151168,Yes,Minority
+Lexington,2554,43.1088,2.7473,191131,Yes,Minority
+Lexington,679,40.9426,7.7295,204083,Yes,Minority
+Natick,1704,36.561,17.6344,123125,Yes,Minority
+Natick,691,38.7844,2.9032,84000,Yes,Minority
+Natick,1388,59.8703,9.4247,98724,Yes,Minority
+Lexington,1542,42.153,0,250000,Yes,Minority
+Framingham,1307,24.5601,4.8077,120338,Yes,Minority
+Cambridge,883,33.5221,2.2541,166413,Yes,Minority
+Cambridge,937,35.2188,1.8767,103750,Yes,Minority
+Arlington,1011,26.1128,2.7778,157228,Yes,Minority
+Arlington,1321,44.5874,6.8132,71066,Yes,Minority
+Lexington,1161,43.4109,3.8741,244766,Yes,Minority
+Lexington,983,46.6938,12.6638,157212,Yes,Minority
+Lexington,884,53.8462,0,129388,Yes,Minority
+Natick,1632,18.076,5.9146,31528,Yes,Income
+Natick,1116,27.957,5.5556,87000,Yes,Minority
+Belmont,2447,46.5059,6.5274,100978,Yes,Minority
+Belmont,943,41.3574,5.6856,70114,Yes,Minority
+Lexington,1261,45.3608,5.4124,150167,Yes,Minority
+Arlington,1051,37.6784,21.4929,69805,Yes,Minority
+Arlington,800,30,0,155871,Yes,Minority
+Arlington,744,30.3763,11.9741,140486,Yes,Minority
+Arlington,1902,25.2892,3.0083,73789,Yes,Minority
+Lowell,1589,41.4726,10.4247,117885,Yes,Minority
+Lowell,1362,63.4361,0,78288,Yes,Minority
+Lowell,879,44.0273,3.3473,60924,Yes,Minority
+Lowell,926,61.879,6.9401,96250,Yes,Minority
+Lowell,885,66.1017,17.3575,66250,Yes,Minority
+Lowell,1215,78.6831,6.9252,76964,Yes,Minority
+Lowell,1216,79.523,13.9442,76941,Yes,Minority
+Malden,805,44.7205,21.4464,0,Yes,Minority
+Malden,893,57.8947,12.3188,0,Yes,Minority
+Malden,1170,47.5214,15.5629,61111,Yes,Minority
+Malden,730,46.1644,23.6277,35833,Yes,Minority and income
+Malden,1142,54.7285,13.4454,64932,Yes,Minority
+Lowell,1824,85.9649,5.2402,45565,Yes,Minority and income
+Lowell,1874,84.2049,19.3784,85250,Yes,Minority
+Lowell,1559,64.1437,45.3184,67982,Yes,Minority and English isolation
+Lowell,1503,61.477,23.9038,13750,Yes,Minority and income
+Medford,1214,32.9489,4.1145,43425,Yes,Minority and income
+Medford,677,29.2467,10.1942,80455,Yes,Minority
+Medford,789,28.7706,0,104625,Yes,Minority
+Medford,844,29.3839,0,125063,Yes,Minority
+Medford,892,26.7937,2.214,69830,Yes,Minority
+Woburn,1838,58.5419,0,79337,Yes,Minority
+Reading,1015,15.9606,0,52738,Yes,Income
+Malden,903,71.0963,18.315,93125,Yes,Minority
+Malden,1220,51.5574,8.9655,91891,Yes,Minority
+Malden,1212,66.6667,0,148036,Yes,Minority
+Malden,1750,58.8,11.3173,75774,Yes,Minority
+Lowell,1596,67.3559,21.2302,65167,Yes,Minority
+Lowell,1185,65.4008,12.6679,46094,Yes,Minority and income
+Lowell,1116,64.6953,14.8052,73341,Yes,Minority
+Medford,1000,31.4,0,101220,Yes,Minority
+Medford,978,39.1616,0,106154,Yes,Minority
+Medford,753,30.0133,0,58450,Yes,Minority
+Medford,761,35.0854,0,135469,Yes,Minority
+Medford,535,46.3551,0,143109,Yes,Minority
+Medford,1577,35.8909,6.647,91435,Yes,Minority
+Medford,943,38.176,6.5359,90417,Yes,Minority
+Medford,654,33.6391,9.8101,77097,Yes,Minority
+Medford,1622,49.6917,9.7889,68169,Yes,Minority
+Melrose,998,25.7515,0,92981,Yes,Minority
+Melrose,1235,21.8623,0,38150,Yes,Income
+Malden,1346,53.4918,7.4844,56343,Yes,Minority
+Malden,1105,32.7602,13.8767,101143,Yes,Minority
+Malden,1219,46.2674,0,152115,Yes,Minority
+Malden,1067,50.8903,28.125,72500,Yes,Minority and English isolation
+Lowell,1974,60.1824,11.793,56647,Yes,Minority
+Lowell,962,66.9439,27.1429,83750,Yes,Minority and English isolation
+Lowell,993,66.8681,15.3392,68375,Yes,Minority
+Medford,1108,45.5776,7.243,57285,Yes,Minority
+Chelmsford,704,36.5057,0,84896,Yes,Minority
+Woburn,1470,45.9864,6.9095,97000,Yes,Minority
+Westford,2307,41.4391,1.8258,168750,Yes,Minority
+Stoneham,725,28.1379,10.9756,131034,Yes,Minority
+Melrose,850,36.9412,0,129931,Yes,Minority
+Melrose,1029,33.139,0,59048,Yes,Minority
+Melrose,2404,40.5574,8.311,59097,Yes,Minority
+Malden,1428,60.6443,13.089,30481,Yes,Minority and income
+Malden,859,63.4459,18.1303,71767,Yes,Minority
+Malden,992,65.5242,55.1724,50658,Yes,"Minority, income and English isolation"
+Malden,1565,72.7796,31.6703,41419,Yes,"Minority, income and English isolation"
+Malden,1164,71.4777,27.1429,17345,Yes,"Minority, income and English isolation"
+Lowell,991,57.8204,1.6077,74219,Yes,Minority
+Lowell,1470,51.9048,10.6498,100417,Yes,Minority
+Lowell,1266,41.1532,7.4138,92933,Yes,Minority
+Burlington,818,24.6944,0,139111,Yes,Minority
+Marlborough,1168,51.2842,2.1696,64055,Yes,Minority
+Hopkinton,2723,65.4425,2.0779,151042,Yes,Minority
+Melrose,1549,27.0497,0,135909,Yes,Minority
+Stoneham,860,29.4186,4.2373,98790,Yes,Minority
+Medford,680,36.1765,0,179079,Yes,Minority
+Everett,1375,72.1455,3.7221,72031,Yes,Minority
+Everett,1460,61.2329,14.3333,89250,Yes,Minority
+Everett,1782,66.4422,13.467,58289,Yes,Minority
+Everett,805,63.2298,19.5,78013,Yes,Minority
+Everett,2148,64.7114,0.9202,71250,Yes,Minority
+Everett,1058,69.7543,1.2238,89387,Yes,Minority
+Lowell,2541,42.1881,4.9822,72368,Yes,Minority
+Lowell,703,65.4339,5.2632,21655,Yes,Minority and income
+Lowell,1802,64.8169,16.5869,56658,Yes,Minority
+Ayer,654,18.6544,5.0847,52120,Yes,Income
+Marlborough,2400,41.625,14.5289,45757,Yes,Minority and income
+Marlborough,1835,50.2452,18.6869,96210,Yes,Minority
+Marlborough,2010,36.1194,7.1072,95746,Yes,Minority
+Marlborough,1073,26.0019,0,108802,Yes,Minority
+Medford,812,45.6897,0,81094,Yes,Minority
+Medford,1286,28.0715,9.3484,70156,Yes,Minority
+Medford,897,34.8941,3.9683,103098,Yes,Minority
+Medford,705,36.5957,17.0347,33875,Yes,Minority and income
+Medford,942,42.8875,0,95750,Yes,Minority
+Everett,1706,70.0469,22.4101,49299,Yes,Minority and income
+Everett,1043,53.6913,31.25,45625,Yes,"Minority, income and English isolation"
+Everett,1061,64.5617,23.0769,93125,Yes,Minority
+Everett,1648,69.5388,27.1635,70370,Yes,Minority and English isolation
+Everett,1593,66.7922,20.4082,95197,Yes,Minority
+Lowell,1916,47.1294,6.1538,91300,Yes,Minority
+Lowell,2075,35.1325,1.3064,83095,Yes,Minority
+Tyngsborough,2527,30.5501,5.9013,85174,Yes,Minority
+Dracut,1377,32.7524,3.4749,88295,Yes,Minority
+Marlborough,1306,53.6753,12.7349,63606,Yes,Minority
+Marlborough,1852,52.9158,11.0032,107361,Yes,Minority
+Marlborough,1954,27.8915,0,112213,Yes,Minority
+Medford,1098,30.2368,11.7647,66534,Yes,Minority
+Medford,1349,44.6256,1.3043,67308,Yes,Minority
+Medford,887,34.7238,24.4949,58708,Yes,Minority
+Somerville,1660,43.7349,8.8534,109234,Yes,Minority
+Somerville,1355,51.1439,1.2295,107315,Yes,Minority
+Somerville,2655,66.5913,19.2269,53135,Yes,Minority and income
+Somerville,1519,37.7222,12.3859,98583,Yes,Minority
+Dracut,1683,25.6684,0,65906,Yes,Minority
+Dracut,1720,27.0349,8.0087,58952,Yes,Minority
+Dracut,2343,36.8331,4.3779,95536,Yes,Minority
+Billerica,1057,26.1116,0,113542,Yes,Minority
+Marlborough,1853,47.3287,1.8226,124205,Yes,Minority
+Marlborough,1641,33.2724,2.5765,59028,Yes,Minority
+Marlborough,1740,35,0,119167,Yes,Minority
+Marlborough,1698,52.768,18.5741,110114,Yes,Minority
+Wakefield,1116,25.0896,6.1381,94267,Yes,Minority
+Medford,1490,46.1074,6.1728,156400,Yes,Minority
+Medford,2554,58.888,7.1287,76656,Yes,Minority
+Medford,695,45.8993,23.8372,,Yes,Minority
+Somerville,2176,53.7684,20.9555,72241,Yes,Minority
+Somerville,602,47.3422,0,105769,Yes,Minority
+Somerville,1328,43.9006,2.322,112105,Yes,Minority
+Somerville,769,44.4733,17.5573,79167,Yes,Minority
+Somerville,1361,26.0103,5.4737,116146,Yes,Minority
+Billerica,3003,43.0236,9.4139,90170,Yes,Minority
+Billerica,1929,27.3199,0,122927,Yes,Minority
+Billerica,1478,26.9283,4.9505,96563,Yes,Minority
+Hudson,1513,32.5843,2.0782,55938,Yes,Minority
+Ayer,1384,27.1676,0,82857,Yes,Minority
+Medford,1043,59.348,9.5082,96250,Yes,Minority
+Medford,2340,45.4274,13.6719,90885,Yes,Minority
+Medford,1030,43.7864,23.1771,91923,Yes,Minority
+Medford,1073,38.7698,4.2184,95893,Yes,Minority
+Everett,1389,64.0749,18.7156,67639,Yes,Minority
+Everett,1740,68.6782,20.0737,59542,Yes,Minority
+Everett,2449,68.9669,3.9897,55182,Yes,Minority and income
+Everett,1398,71.9599,30.6889,33806,Yes,"Minority, income and English isolation"
+Billerica,1371,29.3217,0,118846,Yes,Minority
+Chelmsford,1454,27.9917,0,113026,Yes,Minority
+Ayer,950,29.3684,0,81500,Yes,Minority
+Ayer,818,39.6088,0,68462,Yes,Minority
+Medford,666,29.8799,0,127212,Yes,Minority
+Medford,922,31.3449,28.4091,148784,Yes,Minority and English isolation
+Medford,778,31.3625,12.2388,106652,Yes,Minority
+Medford,704,32.9545,6.1093,129476,Yes,Minority
+Medford,740,24.4595,27.5986,71723,Yes,English isolation
+Malden,722,54.9861,2.9762,86500,Yes,Minority
+Malden,1803,57.4043,2.3214,99167,Yes,Minority
+Malden,2937,52.4685,10.687,106102,Yes,Minority
+Malden,1213,53.8335,4.8295,101250,Yes,Minority
+Chelmsford,1455,36.4261,7.2254,132500,Yes,Minority
+Chelmsford,858,33.7995,14.9584,109688,Yes,Minority
+Marlborough,2536,44.4795,5.0479,59306,Yes,Minority
+Burlington,1268,34.7003,0,126750,Yes,Minority
+Woburn,1596,28.1955,2.459,113409,Yes,Minority
+Medford,1535,34.9186,1.3018,104568,Yes,Minority
+Malden,1625,57.0462,10.745,123784,Yes,Minority
+Malden,838,62.7685,19.3548,60536,Yes,Minority
+Somerville,1379,37.5635,10.2564,130478,Yes,Minority
+Somerville,1120,29.5536,9.3117,87014,Yes,Minority
+Somerville,1779,48.679,0,0,Yes,Minority
+Somerville,743,34.3203,2.3148,67361,Yes,Minority
+Somerville,1298,55.0847,9.8113,20713,Yes,Minority and income
+Marlborough,2005,51.6708,12.2016,73200,Yes,Minority
+Marlborough,1877,52.1577,2.8515,47906,Yes,Minority and income
+Woburn,2419,29.7644,6.6212,93345,Yes,Minority
+Medford,1109,32.2813,6.6667,23462,Yes,Minority and income
+Malden,1387,37.491,12.9268,127917,Yes,Minority
+Malden,1490,63.4899,33.4282,57917,Yes,Minority and English isolation
+Malden,2785,51.6338,14.0586,81139,Yes,Minority
+Malden,905,38.895,0,121830,Yes,Minority
+Everett,1387,58.3273,1.8657,135500,Yes,Minority
+Everett,842,57.601,37.6,65852,Yes,Minority and English isolation
+Everett,2291,68.8782,27.6623,95515,Yes,Minority and English isolation
+Everett,1607,65.028,27.7523,94500,Yes,Minority and English isolation
+Marlborough,1702,56.463,13.099,109757,Yes,Minority
+Marlborough,2227,56.6233,27.7856,52746,Yes,"Minority, income and English isolation"
+Burlington,2111,28.2804,0,86913,Yes,Minority
+Burlington,1325,29.8868,3.5971,136435,Yes,Minority
+Burlington,2585,29.5938,9.4851,118528,Yes,Minority
+Malden,2216,64.8466,16.5563,67050,Yes,Minority
+Malden,1022,60.4697,42.4623,58419,Yes,Minority and English isolation
+Malden,937,53.0416,19.4139,128319,Yes,Minority
+Malden,1163,80.9974,35.0211,53295,Yes,"Minority, income and English isolation"
+Malden,1840,68.913,28.3293,75708,Yes,Minority and English isolation
+Malden,1366,64.5681,19.598,35774,Yes,Minority and income
+Everett,1227,62.2657,2.4324,135781,Yes,Minority
+Everett,1052,60.6464,24.7166,99181,Yes,Minority and English isolation
+Everett,1112,55.9353,10.8025,106250,Yes,Minority
+Marlborough,2183,54.2373,1.105,54979,Yes,Minority and income
+Hudson,1872,29.1132,11.0209,111667,Yes,Minority
+Hudson,1436,35.0975,16.6667,68793,Yes,Minority
+Pepperell,767,15.1239,5.4167,26406,Yes,Income
+Burlington,2461,56.0341,8.3418,94725,Yes,Minority
+Burlington,776,26.2887,0,103788,Yes,Minority
+Woburn,1730,36.6474,9.8684,79597,Yes,Minority
+Malden,791,67.2566,19.1336,53375,Yes,Minority and income
+Malden,771,62.2568,26.25,,Yes,Minority and English isolation
+Malden,1372,66.4723,14.2165,124583,Yes,Minority
+Malden,901,61.3762,27.8409,70034,Yes,Minority and English isolation
+Malden,1087,63.1095,4.8023,98065,Yes,Minority
+Malden,793,58.8903,8.0645,105455,Yes,Minority
+Malden,2148,73.4171,2.4915,92906,Yes,Minority
+Everett,2003,61.4578,10.4,66174,Yes,Minority
+Malden,658,53.6474,0,43165,Yes,Minority and income
+Burlington,2251,56.5082,4.0201,96638,Yes,Minority
+Burlington,874,35.9268,0,56996,Yes,Minority
+Woburn,1654,32.4667,11.2125,70417,Yes,Minority
+Woburn,1352,31.1391,20.8763,91071,Yes,Minority
+Malden,1241,73.2474,22.1477,76500,Yes,Minority
+Malden,1737,55.1526,20.8633,72277,Yes,Minority
+Malden,1076,63.5688,12.8609,110163,Yes,Minority
+Malden,1062,72.5989,33.5463,64539,Yes,Minority and English isolation
+Malden,1045,71.0048,34.2105,59783,Yes,Minority and English isolation
+Everett,1473,74.406,0,65362,Yes,Minority
+Everett,1368,74.4883,6.135,80603,Yes,Minority
+Everett,1076,74.3494,32.7496,51108,Yes,"Minority, income and English isolation"
+Everett,2525,68.1188,13.121,58849,Yes,Minority
+Somerville,1181,30.906,16.7954,104750,Yes,Minority
+Woburn,1043,25.3116,5.9574,59231,Yes,Minority
+Woburn,1238,39.4992,10.3297,51004,Yes,Minority and income
+Medford,943,27.6776,0,49167,Yes,Minority and income
+Medford,2982,38.9001,1.7822,105347,Yes,Minority
+Woburn,1775,26.5915,6.5719,90208,Yes,Minority
+Woburn,1550,41.7419,0,121924,Yes,Minority
+Winchester,2469,44.7145,4.4931,143958,Yes,Minority
+Malden,2032,61.3189,22.0374,77126,Yes,Minority
+Malden,1827,63.8752,9.949,72000,Yes,Minority
+Malden,831,72.0818,40.0709,105857,Yes,Minority and English isolation
+Malden,781,60.0512,20.7436,0,Yes,Minority
+Malden,1291,73.1216,29.6399,62614,Yes,Minority and English isolation
+Everett,1143,54.9431,15.587,69219,Yes,Minority
+Everett,1402,69.6862,17.2749,58264,Yes,Minority
+Everett,1682,69.7384,3.7783,45885,Yes,Minority and income
+Everett,1351,65.0629,50,77202,Yes,Minority and English isolation
+Everett,1444,60.3878,5.2516,48438,Yes,Minority and income
+Lowell,1135,50.9251,9.2784,79018,Yes,Minority
+Lowell,1275,66.5882,7.8049,81111,Yes,Minority
+Brockton,1117,73.2319,18.2058,98750,Yes,Minority
+Brockton,1517,88.2663,12.931,57700,Yes,Minority
+Brockton,1647,83.303,4.5593,48363,Yes,Minority and income
+Brockton,1033,87.2217,15,66429,Yes,Minority
+Quincy,1358,26.7305,0,95938,Yes,Minority
+Quincy,1884,59.2887,14.6978,96264,Yes,Minority
+Stoughton,1112,45.3237,1.8135,85500,Yes,Minority
+Stoughton,1774,28.6359,5.3903,111250,Yes,Minority
+Stoughton,930,27.0968,0,131906,Yes,Minority
+Stoughton,2383,28.5355,0.5208,134250,Yes,Minority
+Avon,1055,37.5355,0,100909,Yes,Minority
+Avon,1267,33.386,4.955,128782,Yes,Minority
+Stoughton,1816,37.2797,0,115556,Yes,Minority
+Stoughton,1837,44.9102,23.536,68365,Yes,Minority
+Stoughton,2226,39.8922,0.984,95058,Yes,Minority
+Brockton,820,87.1951,42.2374,13592,Yes,"Minority, income and English isolation"
+Brockton,886,89.1648,0,81103,Yes,Minority
+Brockton,1767,85.9083,7.9336,84595,Yes,Minority
+Brockton,1580,82.7215,28.3146,24375,Yes,"Minority, income and English isolation"
+Quincy,698,56.8768,19.5719,66676,Yes,Minority
+Braintree,784,31.1224,0,134732,Yes,Minority
+Quincy,1239,49.1525,5.2917,108045,Yes,Minority
+Braintree,1305,40.1533,5.6159,47976,Yes,Minority and income
+Avon,1258,39.8251,0,95511,Yes,Minority
+Avon,1197,35.1713,0,95042,Yes,Minority
+Stoughton,847,32.5856,6.9832,111875,Yes,Minority
+Stoughton,1654,53.023,2.7663,95281,Yes,Minority
+Stoughton,2097,33.4764,5.7351,70119,Yes,Minority
+Stoughton,1382,28.2923,0,110673,Yes,Minority
+Rockland,1886,22.8526,6.5666,51763,Yes,Income
+Brockton,1482,66.0594,0,105694,Yes,Minority
+Brockton,1451,75.5341,0,80343,Yes,Minority
+Brockton,1390,79.1367,20.1413,31563,Yes,Minority and income
+Quincy,832,45.9135,0,71563,Yes,Minority
+Quincy,1025,37.1707,8.5399,43199,Yes,Minority and income
+Quincy,2334,30.7198,9.1787,110403,Yes,Minority
+Braintree,705,27.8014,3.9216,85786,Yes,Minority
+Braintree,2237,38.0867,2.5316,108036,Yes,Minority
+Brockton,1513,44.4812,5.9341,67120,Yes,Minority
+Brockton,1167,43.5304,0,98487,Yes,Minority
+Brockton,1301,54.9577,0,75938,Yes,Minority
+Brockton,1044,85.0575,22.6054,44097,Yes,Minority and income
+Brockton,1113,84.097,0,73893,Yes,Minority
+Brockton,777,87.6448,0,,Yes,Minority
+Brockton,880,68.2955,0,113164,Yes,Minority
+Brockton,2434,75.2671,4.7965,67315,Yes,Minority
+Brockton,953,78.1742,0,40200,Yes,Minority and income
+Brockton,2024,59.6838,6.5253,62327,Yes,Minority
+Braintree,1210,27.9339,3.1325,123884,Yes,Minority
+Braintree,799,32.5407,25.0965,96858,Yes,Minority and English isolation
+Braintree,1348,31.1573,7.6789,76641,Yes,Minority
+Braintree,2025,36.8395,4.6828,116500,Yes,Minority
+Brockton,711,81.5752,0,116196,Yes,Minority
+Brockton,2801,74.4377,7.7816,86083,Yes,Minority
+Brockton,766,87.9896,11.9241,47250,Yes,Minority and income
+Brockton,2151,87.5872,6.6578,41488,Yes,Minority and income
+Hingham,1314,5.3272,0,31768,Yes,Income
+Brockton,1335,65.9925,32.5664,,Yes,Minority and English isolation
+Wareham,1361,16.385,4.3478,30963,Yes,Income
+Bridgewater,2315,27.3434,0,70746,Yes,Minority
+Bridgewater,1575,47.5556,0,120270,Yes,Minority
+Bridgewater,2820,27.695,0,20500,Yes,Minority and income
+Braintree,1180,41.1017,0,84375,Yes,Minority
+Braintree,2301,28.1617,3.2698,135472,Yes,Minority
+Randolph,1139,65.8472,0,94949,Yes,Minority
+Randolph,2517,70.3218,12.527,73427,Yes,Minority
+Brockton,1029,62.3907,21.9444,49324,Yes,Minority and income
+Brockton,1462,86.0465,33.6134,32559,Yes,"Minority, income and English isolation"
+Brockton,1737,80.6563,10.7509,66129,Yes,Minority
+Brockton,1609,85.6433,23.133,40179,Yes,Minority and income
+Rockland,1450,26.6897,0,116979,Yes,Minority
+Brockton,956,85.6695,10.5943,67670,Yes,Minority
+Rockland,1617,27.4583,6.42,58725,Yes,Minority
+Boston,1478,31.2585,23.5677,55577,Yes,Minority
+Boston,1417,30.5575,6.2682,99038,Yes,Minority
+Boston,685,41.4599,16.2698,133750,Yes,Minority
+Boston,1211,34.104,3.9014,89276,Yes,Minority
+Randolph,863,69.9884,7.2243,140542,Yes,Minority
+Randolph,1852,76.8359,15.619,105089,Yes,Minority
+Randolph,2565,79.961,0,61040,Yes,Minority
+Randolph,1202,68.8852,11.3695,87404,Yes,Minority
+Brockton,2452,56.9739,4.2045,74812,Yes,Minority
+Brockton,2481,59.2503,25.8333,53167,Yes,"Minority, income and English isolation"
+Brockton,773,57.8266,0,98162,Yes,Minority
+Brockton,1063,81.2794,8.8235,90079,Yes,Minority
+Rockland,1575,13.2698,10.192,53327,Yes,Income
+Brockton,827,67.7146,30.0353,39020,Yes,"Minority, income and English isolation"
+Hanover,1142,12.4343,7.1895,51678,Yes,Income
+Boston,1471,32.019,0,105230,Yes,Minority
+Boston,1601,36.1649,10.0621,99181,Yes,Minority
+Boston,1521,32.7416,0,74679,Yes,Minority
+Boston,1204,35.8804,8.8421,82232,Yes,Minority
+Randolph,2791,71.7306,4.7081,64659,Yes,Minority
+Randolph,1852,69.2225,0,109412,Yes,Minority
+Brockton,1011,90.999,25.8667,55153,Yes,"Minority, income and English isolation"
+Brockton,1820,88.4066,13.9908,81000,Yes,Minority
+Brockton,1211,87.2007,9.3842,43301,Yes,Minority and income
+Brockton,788,60.4061,0,106654,Yes,Minority
+Brockton,1451,69.6761,6.846,95353,Yes,Minority
+Brockton,992,92.0363,15.2074,63208,Yes,Minority
+Brockton,1491,89.9396,17.1975,51250,Yes,Minority and income
+Brockton,1696,53.5377,7.7626,60833,Yes,Minority
+Boston,1056,32.2917,6.0086,90536,Yes,Minority
+Boston,2072,41.7471,64.5054,11799,Yes,"Minority, income and English isolation"
+Boston,1469,31.3819,1.0909,74565,Yes,Minority
+Boston,967,34.4364,0,113015,Yes,Minority
+Randolph,1116,73.9247,0,50906,Yes,Minority and income
+Randolph,1655,81.994,14.2477,48036,Yes,Minority and income
+Randolph,2713,73.6454,8.4577,69239,Yes,Minority
+Randolph,1785,76.5266,0,112375,Yes,Minority
+Randolph,928,68.5345,0,66419,Yes,Minority
+Brockton,2873,76.6794,4.6711,44781,Yes,Minority and income
+Brockton,2149,82.3639,7.9365,54907,Yes,Minority and income
+Brockton,1298,72.188,0,114875,Yes,Minority
+Boston,846,33.9243,10.0437,112031,Yes,Minority
+Boston,1016,43.4055,5.7789,106607,Yes,Minority
+Boston,616,34.0909,9.5563,89044,Yes,Minority
+Boston,869,37.7445,19.0736,66518,Yes,Minority
+Boston,1521,39.908,2.2919,88625,Yes,Minority
+Boston,1397,44.5956,7.2034,52738,Yes,Minority and income
+Holbrook,1096,34.3978,0,43229,Yes,Minority and income
+Holbrook,1200,26.6667,0,109896,Yes,Minority
+Randolph,1724,75.8121,14.8649,91639,Yes,Minority
+Randolph,1637,74.832,10.5178,137639,Yes,Minority
+Brockton,1637,52.9627,1.3369,92250,Yes,Minority
+Marshfield,633,6.951,0,42222,Yes,Income
+Brockton,974,85.2156,19.1327,56136,Yes,Minority
+Brockton,1097,92.9809,30.9353,96979,Yes,Minority and English isolation
+Brockton,1561,85.9705,4.8319,71471,Yes,Minority
+Brockton,1767,52.292,0,105030,Yes,Minority
+Holbrook,1495,35.1839,0,89963,Yes,Minority
+Weymouth,1028,25.8755,5.042,81629,Yes,Minority
+Stoughton,1504,54.4548,0,88167,Yes,Minority
+Randolph,1082,70.1479,0,66157,Yes,Minority
+Brockton,841,58.5018,0,111151,Yes,Minority
+Brockton,1404,64.886,0,75600,Yes,Minority
+Brockton,2186,54.5746,0,97157,Yes,Minority
+Brockton,1738,85.443,27.3001,70016,Yes,Minority and English isolation
+Boston,1208,26.8212,0.5495,139071,Yes,Minority
+Boston,1043,29.3384,4.3233,87941,Yes,Minority
+Boston,1710,25.3801,0.8571,73889,Yes,Minority
+Weymouth,1293,38.5151,35.7143,117283,Yes,Minority and English isolation
+Weymouth,1978,38.5743,9.2114,64158,Yes,Minority
+Weymouth,1319,30.0986,7.8675,75029,Yes,Minority
+Randolph,2399,73.0304,3.0769,104851,Yes,Minority
+Holbrook,1720,42.8488,8.3565,63824,Yes,Minority
+Brockton,2752,83.5029,28.9474,46776,Yes,"Minority, income and English isolation"
+Brockton,1579,91.197,24.7222,41500,Yes,"Minority, income and English isolation"
+Brockton,943,88.5472,22.3108,47679,Yes,Minority and income
+Brockton,766,71.0183,8.2569,54464,Yes,Minority and income
+Boston,824,31.068,0,128750,Yes,Minority
+Boston,966,32.7122,18.599,86719,Yes,Minority
+Boston,863,27.6941,10.9223,121095,Yes,Minority
+Boston,1303,33.6147,19.4107,91696,Yes,Minority
+Boston,828,29.4686,7.6389,97105,Yes,Minority
+Weymouth,1926,55.6075,11.7431,86692,Yes,Minority
+Weymouth,1762,29.4552,0,59740,Yes,Minority
+Holbrook,746,40.3485,0,68354,Yes,Minority
+Holbrook,1159,30.4573,0,78605,Yes,Minority
+Holbrook,1785,39.2157,3.4525,77173,Yes,Minority
+Brockton,1852,59.8812,8.4034,87554,Yes,Minority
+Brockton,1391,50.1078,8.3544,81250,Yes,Minority
+Brockton,1563,69.4178,29.1809,25244,Yes,"Minority, income and English isolation"
+Brockton,2818,46.2385,7.177,87012,Yes,Minority
+Plymouth,1575,18.9206,6.4882,49223,Yes,Income
+Weymouth,627,27.2727,14.7826,87885,Yes,Minority
+Weymouth,976,30.0205,5.9675,31774,Yes,Minority and income
+Weymouth,1970,31.6751,2.2346,106021,Yes,Minority
+Holbrook,1340,29.7015,0,93269,Yes,Minority
+Weymouth,1251,28.5372,0,69821,Yes,Minority
+Brockton,1996,75.2505,19.9773,52674,Yes,Minority and income
+Brockton,1005,64.9751,0,56490,Yes,Minority
+Boston,1577,33.3545,15.8537,46818,Yes,Minority and income
+Boston,787,33.5451,5.9432,107639,Yes,Minority
+Boston,1631,32.6793,10.4031,74869,Yes,Minority
+Boston,809,37.2064,0,100451,Yes,Minority
+Weymouth,979,14.3003,0,47969,Yes,Income
+Weymouth,1146,34.3805,11.5632,64112,Yes,Minority
+Bellingham,1043,26.1745,0,142750,Yes,Minority
+Bellingham,1959,16.1817,0,51167,Yes,Income
+Weymouth,2061,33.3333,3.154,57368,Yes,Minority
+Weymouth,1879,28.1533,2.4062,77247,Yes,Minority
+Brockton,1509,55.4009,5.3488,96336,Yes,Minority
+Brockton,1064,65.4135,0,54000,Yes,Minority and income
+Brockton,2251,75.4776,23.0583,31250,Yes,Minority and income
+Boston,804,29.8507,7.9692,101450,Yes,Minority
+Boston,2516,50.4769,14.1475,74375,Yes,Minority
+Boston,715,33.5664,2.9412,111875,Yes,Minority
+Boston,934,33.94,6.9686,106359,Yes,Minority
+Stoughton,2299,41.7573,2.7419,112365,Yes,Minority
+Stoughton,1081,40.0555,17.1598,68333,Yes,Minority
+Stoughton,2386,36.8399,0.6865,115439,Yes,Minority
+Weymouth,1212,34.4059,0,60917,Yes,Minority
+Weymouth,1353,27.1249,6.0449,79236,Yes,Minority
+Weymouth,638,26.0188,0,87061,Yes,Minority
+Brockton,842,48.2185,0,149205,Yes,Minority
+Brockton,1224,39.3791,0,115298,Yes,Minority
+Brockton,877,92.9304,31.7829,0,Yes,Minority and English isolation
+Brockton,1177,49.3628,0,124391,Yes,Minority
+Plymouth,1373,14.7123,4.4983,46053,Yes,Income
+Plymouth,1710,38.4795,0,138929,Yes,Minority
+Middleborough,1751,16.9617,0,50634,Yes,Income
+Carver,1844,9.0564,0,47109,Yes,Income
+Carver,1293,8.662,7.6355,44000,Yes,Income
+Wareham,831,21.2996,0,45588,Yes,Income
+Stoughton,1219,62.4282,20.7349,58466,Yes,Minority
+Stoughton,798,45.8647,3.643,74208,Yes,Minority
+Stoughton,1196,36.5385,16.4671,75208,Yes,Minority
+Ashland,2837,31.2654,4.1841,97875,Yes,Minority
+Watertown,1266,31.0427,12.2987,67373,Yes,Minority
+Watertown,904,30.8628,0,126008,Yes,Minority
+Watertown,616,25.8117,0,109206,Yes,Minority
+Quincy,1541,30.6944,13.1915,52827,Yes,Minority and income
+Quincy,730,40.411,15.7277,24706,Yes,Minority and income
+Braintree,731,53.3516,9.0226,27500,Yes,Minority and income
+Framingham,937,32.3372,0,190368,Yes,Minority
+Natick,925,30.5946,7.9618,171111,Yes,Minority
+Brookline,1071,38.8422,4.8227,92050,Yes,Minority
+Brookline,1774,55.5242,44.3447,31074,Yes,"Minority, income and English isolation"
+Brookline,1055,29.3839,0,153438,Yes,Minority
+Brookline,836,30.622,0,149132,Yes,Minority
+Randolph,1605,67.4143,7.6453,88048,Yes,Minority
+Nantucket,2045,28.5086,0,126932,Yes,Minority
+Nantucket,1526,45.4128,1.3378,188518,Yes,Minority
+Brookline,1248,32.2917,7.8571,64545,Yes,Minority
+Boston,777,35.1351,0,147353,Yes,Minority
+Quincy,830,47.4699,6.051,98750,Yes,Minority
+Quincy,1727,50.608,13.8225,53571,Yes,Minority and income
+Randolph,2586,76.0247,11.4224,95926,Yes,Minority
+Quincy,1490,67.7852,28.972,22444,Yes,"Minority, income and English isolation"
+Walpole,2067,37.5907,7.7519,135694,Yes,Minority
+Quincy,1247,50.9222,4.3724,102313,Yes,Minority
+Newton,2146,42.4511,8.5207,120859,Yes,Minority
+Newton,1132,41.6078,10.1604,145491,Yes,Minority
+Brookline,1588,31.9899,1.5873,98603,Yes,Minority
+Brookline,811,33.9088,4.8673,250000,Yes,Minority
+Brookline,1477,28.1652,0,132941,Yes,Minority
+Brookline,1504,32.9122,4.1199,153529,Yes,Minority
+Brookline,649,44.6841,0,123359,Yes,Minority
+Brookline,1803,33.2779,0,123359,Yes,Minority
+Brookline,3047,32.9504,19.7917,80909,Yes,Minority
+Brookline,1851,40.6267,6.2344,144167,Yes,Minority
+Quincy,891,74.7475,12.2363,105688,Yes,Minority
+Milton,1132,73.8516,0,126184,Yes,Minority
+Quincy,957,54.232,0,72485,Yes,Minority
+Newton,1687,41.0788,3.373,118750,Yes,Minority
+Newton,1353,40.0591,6.8404,116250,Yes,Minority
+Brookline,1039,29.4514,0,130729,Yes,Minority
+Brookline,1163,39.8108,3.2738,110385,Yes,Minority
+Brookline,1846,39.3824,7.4789,85625,Yes,Minority
+Brookline,1799,56.9761,10.0503,89375,Yes,Minority
+Dedham,2306,37.7277,0.8939,83225,Yes,Minority
+Millis,1413,11.1819,26.1993,157500,Yes,English isolation
+Quincy,944,65.4661,6.6667,64119,Yes,Minority
+Quincy,1931,40.6525,8.5262,86058,Yes,Minority
+Brookline,1571,33.6092,5.9105,113929,Yes,Minority
+Canton,2486,28.2784,9.7179,113750,Yes,Minority
+Foxborough,1373,24.6176,4.4843,100481,Yes,Minority
+Framingham,1955,78.977,15.309,35700,Yes,Minority and income
+Natick,1360,32.6471,0,88015,Yes,Minority
+Brookline,1924,35.395,1.2129,140278,Yes,Minority
+Brookline,1057,34.3425,0,157188,Yes,Minority
+Brookline,1187,30.1601,0,203542,Yes,Minority
+Brookline,1684,31.5914,10.3986,109018,Yes,Minority
+Brookline,2414,28.6247,8.3248,102604,Yes,Minority
+Brookline,1673,26.4196,0,160509,Yes,Minority
+Quincy,1597,51.2837,22.8346,55278,Yes,Minority
+Canton,1302,35.7143,0,86985,Yes,Minority
+Natick,962,22.2453,1.8767,31472,Yes,Income
+Framingham,1934,81.696,46.1131,51354,Yes,"Minority, income and English isolation"
+Framingham,2744,87.172,19.4371,38300,Yes,Minority and income
+Dedham,1305,35.3257,0,71595,Yes,Minority
+Dedham,870,27.1264,1.1364,72361,Yes,Minority
+Norfolk,1484,61.9946,0,131250,Yes,Minority
+Canton,1370,24.8905,3.1457,101184,Yes,Minority
+Brookline,1476,29.336,5.4081,73625,Yes,Minority
+Brookline,1973,37.1009,3.4429,112011,Yes,Minority
+Quincy,2026,52.6654,1.9578,92900,Yes,Minority
+Quincy,1568,72.3852,31.7365,109063,Yes,Minority and English isolation
+Quincy,1059,65.5335,21.6401,61422,Yes,Minority
+Quincy,1634,51.6524,8.2759,86397,Yes,Minority
+Framingham,1254,52.4721,12.6238,126379,Yes,Minority
+Natick,1011,49.0603,11.9403,98708,Yes,Minority
+Framingham,2215,75.3047,44.3414,45521,Yes,"Minority, income and English isolation"
+Walpole,1206,28.4411,6.0773,68094,Yes,Minority
+Norwood,1194,35.4271,5.6667,73750,Yes,Minority
+Norwood,1650,35.1515,8.9783,84571,Yes,Minority
+Brookline,1188,33.0808,0,128750,Yes,Minority
+Brookline,1616,28.2178,0,146042,Yes,Minority
+Brookline,788,37.6904,0,190452,Yes,Minority
+Quincy,917,70.229,28.9362,54760,Yes,"Minority, income and English isolation"
+Quincy,860,38.2558,14.7799,111250,Yes,Minority
+Braintree,1289,47.7114,20.0803,93514,Yes,Minority
+Braintree,1064,26.6917,0,71000,Yes,Minority
+Framingham,1575,56.5714,20.1242,20417,Yes,Minority and income
+Framingham,1265,73.0435,19.4737,71887,Yes,Minority
+Framingham,2117,56.7312,4.1894,91038,Yes,Minority
+Norwood,1413,49.6108,15.7143,85610,Yes,Minority
+Norwood,1589,38.0113,31.083,61767,Yes,Minority and English isolation
+Canton,1523,30.4005,0,88833,Yes,Minority
+Milton,860,47.5581,0,163750,Yes,Minority
+Brookline,1463,28.6398,0,87181,Yes,Minority
+Brookline,1586,25.3468,6.8826,104712,Yes,Minority
+Brookline,2018,50.5946,12.21,116659,Yes,Minority
+Quincy,1002,69.0619,23.3871,59472,Yes,Minority
+Quincy,1579,43.8885,20.8997,41221,Yes,Minority and income
+Quincy,1054,52.5617,0,77981,Yes,Minority
+Quincy,808,65.3465,4.3561,104804,Yes,Minority
+Framingham,1430,30.2797,0,97060,Yes,Minority
+Framingham,1985,61.4106,17.4458,86065,Yes,Minority
+Framingham,1181,36.1558,7.4286,61687,Yes,Minority
+Milton,890,44.2697,1.5291,150268,Yes,Minority
+Milton,787,41.169,7.335,23301,Yes,Minority and income
+Quincy,776,61.8557,13.2143,187625,Yes,Minority
+Quincy,1046,29.1587,13.5211,128412,Yes,Minority
+Quincy,655,64.4275,24.6835,,Yes,Minority and English isolation
+Brookline,1443,35.0658,9.607,140192,Yes,Minority
+Brookline,1095,33.242,21.118,66250,Yes,Minority
+Brookline,631,47.8605,24.3506,14038,Yes,Minority and income
+Brookline,775,27.3548,0,198125,Yes,Minority
+Brookline,2045,30.4156,4.0323,141136,Yes,Minority
+Quincy,773,35.3169,2.1818,99054,Yes,Minority
+Quincy,1884,44.8514,3.1073,117143,Yes,Minority
+Quincy,1360,63.6029,31.7437,60108,Yes,Minority and English isolation
+Framingham,722,83.1025,10,75805,Yes,Minority
+Framingham,544,36.7647,2.9412,136429,Yes,Minority
+Quincy,1991,67.7047,24.5636,79375,Yes,Minority and English isolation
+Quincy,1069,58.0917,11.4865,110591,Yes,Minority
+Quincy,1424,49.6489,16.6667,114500,Yes,Minority
+Quincy,1502,51.7976,9.2857,66795,Yes,Minority
+Quincy,1106,60.6691,22.7017,49476,Yes,Minority and income
+Brookline,1702,44.0658,9.9432,81591,Yes,Minority
+Dedham,2075,26.988,0,90938,Yes,Minority
+Wellesley,1671,49.0126,0,230556,Yes,Minority
+Walpole,1861,34.7125,0,179010,Yes,Minority
+Quincy,2217,40.6405,10.4873,68750,Yes,Minority
+Quincy,1738,41.4845,11.9857,37113,Yes,Minority and income
+Framingham,1612,34.9876,2.0218,120391,Yes,Minority
+Framingham,1865,30.6702,0,110603,Yes,Minority
+Quincy,1232,57.5487,32.5373,49255,Yes,"Minority, income and English isolation"
+Quincy,954,50.5241,0,44453,Yes,Minority and income
+Quincy,1320,42.2727,33.2524,18676,Yes,"Minority, income and English isolation"
+Quincy,1758,51.5358,9.3182,91395,Yes,Minority
+Brookline,1595,35.1097,1.8908,250000,Yes,Minority
+Brookline,1319,28.5823,1.1682,244167,Yes,Minority
+Brookline,1707,29.9356,11.9355,107167,Yes,Minority
+Quincy,1209,47.9735,4.3243,142632,Yes,Minority
+Quincy,3660,27.2678,8.6932,104438,Yes,Minority
+Framingham,2662,40.2705,7.0473,95637,Yes,Minority
+Framingham,959,28.78,0,102174,Yes,Minority
+Quincy,748,51.2032,23.8579,22209,Yes,Minority and income
+Quincy,1147,53.095,2.9605,64130,Yes,Minority
+Quincy,1344,52.2321,19.8157,95083,Yes,Minority
+Quincy,1432,48.2542,10.0159,66411,Yes,Minority
+Brookline,1066,27.3921,2.3055,242083,Yes,Minority
+Foxborough,2280,29.7368,0,60163,Yes,Minority
+Norwood,1263,20.9026,0,49000,Yes,Income
+Quincy,1155,40.0866,24.6628,60304,Yes,Minority and English isolation
+Braintree,1600,39.5625,3.3613,153906,Yes,Minority
+Milton,1320,18.4091,0,51563,Yes,Income
+Quincy,2169,51.8211,16.4848,60721,Yes,Minority
+Framingham,1342,25.3353,0,161136,Yes,Minority
+Framingham,2782,54.5651,2.0694,69620,Yes,Minority
+Quincy,1010,46.9307,7.6316,85714,Yes,Minority
+Quincy,761,34.6912,5.3279,86250,Yes,Minority
+Quincy,1150,36.3478,2.5467,83224,Yes,Minority
+Quincy,3507,66.0679,15.3896,84211,Yes,Minority
+Dedham,791,38.3059,0,58056,Yes,Minority
+Dedham,1018,34.7741,0,63490,Yes,Minority
+Norwood,2716,28.3505,1.1102,118059,Yes,Minority
+Norwood,1435,28.223,10.6132,76250,Yes,Minority
+Norwood,2231,64.545,9.8712,95741,Yes,Minority
+Sharon,2245,49.7996,20.6235,151838,Yes,Minority
+Framingham,1459,33.7217,0,108693,Yes,Minority
+Ashland,2063,26.4178,0.9887,136154,Yes,Minority
+Ashland,1811,28.8791,2.7466,89760,Yes,Minority
+Ashland,1660,39.3976,3.6506,118646,Yes,Minority
+Quincy,1277,55.4424,6.1224,77847,Yes,Minority
+Quincy,1619,35.7628,0,120000,Yes,Minority
+Quincy,1423,33.0991,14.8464,31912,Yes,Minority and income
+Braintree,2244,27.2282,3.7253,96688,Yes,Minority
+Braintree,770,27.1429,11.9497,69000,Yes,Minority
+Norwood,1644,27.0073,4.7244,60875,Yes,Minority
+Canton,2613,45.9625,1.5524,106386,Yes,Minority
+Quincy,797,42.9109,46.2733,96667,Yes,Minority and English isolation
+Quincy,1054,36.907,10.7551,65417,Yes,Minority
+Ashland,3357,39.2315,0,144833,Yes,Minority
+Holliston,1177,41.8862,0,73611,Yes,Minority
+Boxborough,2917,31.3678,2.8971,132276,Yes,Minority
+Boxborough,1589,36.2492,0,143250,Yes,Minority
+Shirley,3264,41.1152,2.3139,69342,Yes,Minority
+Lowell,1273,81.6182,32.7607,12141,Yes,"Minority, income and English isolation"
+Lowell,2445,43.3129,12.2682,39375,Yes,Minority and income
+Quincy,1471,49.2862,9.0123,95132,Yes,Minority
+Braintree,1657,27.2782,2.3904,76786,Yes,Minority
+Canton,961,26.847,11.5942,57813,Yes,Minority
+Canton,1407,39.3746,0,122377,Yes,Minority
+Wellesley,1967,53.6858,0,147083,Yes,Minority
+Milton,824,53.1553,9,118500,Yes,Minority
+Milton,974,56.1602,3.038,141454,Yes,Minority
+Milton,1291,70.7978,6.8301,106890,Yes,Minority
+Boston,862,31.4385,0,186406,Yes,Minority
+Lowell,2687,45.4782,15.9091,0,Yes,Minority
+Nantucket,1886,42.895,2.4229,65833,Yes,Minority
+Boxborough,1000,32.1,2.5594,57981,Yes,Minority
+Nantucket,1797,27.9911,0,157574,Yes,Minority
+Nantucket,1876,45.5224,0,62315,Yes,Minority
+Nantucket,1120,37.9464,0,144228,Yes,Minority
+Braintree,1704,24.8826,3.0303,137648,Yes,Minority
+Braintree,1233,24.5742,8.7475,77328,Yes,Minority
+Braintree,2691,28.4653,0.5469,155820,Yes,Minority
+Braintree,1787,26.9166,0,97083,Yes,Minority
+Randolph,973,73.1757,5.1064,123052,Yes,Minority
+Quincy,2006,46.0618,2.7701,52000,Yes,Minority and income
+Quincy,1995,44.411,6.1644,97500,Yes,Minority
+Quincy,2160,53.1944,20.9555,46250,Yes,Minority and income
+Braintree,888,28.3784,1.7857,68750,Yes,Minority
+Sharon,911,40.944,6.1674,138359,Yes,Minority
+Norwood,1235,27.2874,5.7604,111250,Yes,Minority
+Waltham,847,52.6564,3.5398,70066,Yes,Minority
+Watertown,940,25,0,126167,Yes,Minority
+Watertown,1712,26.6939,2.5449,103777,Yes,Minority
+Watertown,840,25.3571,0,85156,Yes,Minority
+Boston,91,70.3297,0,44423,Yes,Minority and income
+Boston,79,31.6456,0,128000,Yes,Minority
+Gardner,1168,16.7808,3.6697,30972,Yes,Income
+Boston,2050,80.878,10.7062,93487,Yes,Minority
+Boston,1483,35.7384,4.4892,94474,Yes,Minority
+Boston,689,36.4296,2.8846,87647,Yes,Minority
+Boston,1429,95.4514,20.2381,46312,Yes,Minority and income
+Boston,731,62.7907,0,114250,Yes,Minority
+Boston,916,28.1659,0,124485,Yes,Minority
+Boston,1586,24.5902,0,121154,Yes,Minority
+Boston,908,25.5507,0,110776,Yes,Minority
+Chelsea,1009,90.5847,16.25,101875,Yes,Minority
+Chelsea,721,81.276,55.3879,11630,Yes,"Minority, income and English isolation"
+Chelsea,878,87.1298,0,49464,Yes,Minority and income
+Chelsea,1820,86.7033,30.7203,28333,Yes,"Minority, income and English isolation"
+Chelsea,1616,80.0124,14.4841,60479,Yes,Minority
+Chelsea,1263,77.1971,26.6393,51322,Yes,"Minority, income and English isolation"
+Gardner,1829,18.3707,1.1862,36219,Yes,Income
+Leominster,1183,34.5731,0,48654,Yes,Minority and income
+Boston,1320,71.9697,0,76287,Yes,Minority
+Boston,1008,17.6587,0,31293,Yes,Income
+Boston,716,61.8715,13.1356,63514,Yes,Minority
+Boston,983,41.5056,16.7224,94295,Yes,Minority
+Boston,1872,54.0064,15.9868,63068,Yes,Minority
+Boston,1212,61.2211,5.9621,138365,Yes,Minority
+Boston,906,24.8344,0,106619,Yes,Minority
+Boston,1923,29.4332,3.8544,111053,Yes,Minority
+Chelsea,905,78.453,24.2424,67818,Yes,Minority
+Chelsea,1784,79.8767,16.5261,75664,Yes,Minority
+Chelsea,1150,75.1304,19.1781,111932,Yes,Minority
+Leominster,2231,54.7736,9.0611,53008,Yes,Minority and income
+Leominster,1262,38.1141,0,58750,Yes,Minority
+Boston,924,39.5022,0,98304,Yes,Minority
+Boston,730,66.1644,0,77500,Yes,Minority
+Boston,1033,31.7522,7.4963,79554,Yes,Minority
+Boston,907,48.8423,3.4884,70862,Yes,Minority
+Boston,1551,31.2057,5.9441,87333,Yes,Minority
+Boston,923,66.7389,16.6227,81583,Yes,Minority
+Boston,758,53.6939,46.3617,212813,Yes,Minority and English isolation
+Boston,1139,35.0307,3.0547,104000,Yes,Minority
+Boston,1025,37.0732,0,88967,Yes,Minority
+Chelsea,968,68.4917,9.127,78182,Yes,Minority
+Boston,1478,83.5589,10.4242,60192,Yes,Minority
+Boston,1233,87.9968,20.3704,73857,Yes,Minority
+Leominster,1990,31.005,0,56554,Yes,Minority
+Leominster,748,36.8984,8.7774,61750,Yes,Minority
+Boston,1228,58.2248,34.0278,61731,Yes,Minority and English isolation
+Boston,578,72.8374,8.502,92797,Yes,Minority
+Boston,1011,80.7122,0,130150,Yes,Minority
+Boston,680,98.3824,9.7436,0,Yes,Minority
+Boston,970,96.4948,0,33275,Yes,Minority and income
+Boston,1050,27.3333,0,67826,Yes,Minority
+Boston,906,29.6909,0,127167,Yes,Minority
+Boston,977,25.7932,5.1471,132031,Yes,Minority
+Boston,2092,91.9694,24.7214,41696,Yes,"Minority, income and English isolation"
+Boston,1420,93.662,32.8912,67396,Yes,Minority and English isolation
+Chelsea,2025,42.5185,17.735,51429,Yes,Minority and income
+Chelsea,1209,87.5103,36.5439,47330,Yes,"Minority, income and English isolation"
+Fitchburg,1229,52.6444,0,40690,Yes,Minority and income
+Fitchburg,881,53.235,7.722,88125,Yes,Minority
+Fitchburg,981,63.2008,2.6946,0,Yes,Minority
+Hardwick,856,12.2664,0,39205,Yes,Income
+West Brookfield,1387,10.8147,0,36913,Yes,Income
+Boston,1829,78.4582,6.2411,89205,Yes,Minority
+Boston,764,98.2984,6.7308,0,Yes,Minority
+Boston,845,98.6982,17.7928,70189,Yes,Minority
+Boston,985,98.9848,11.2971,78838,Yes,Minority
+Boston,569,53.0756,34.3478,68125,Yes,Minority and English isolation
+Boston,1201,85.3455,7.9332,120491,Yes,Minority
+Boston,1050,53.4286,9.1176,109444,Yes,Minority
+Chelsea,931,90.2256,52.8986,35069,Yes,"Minority, income and English isolation"
+Chelsea,296,26.0135,0,53200,Yes,Minority and income
+Chelsea,1101,69.0282,20.6022,61417,Yes,Minority
+Revere,1266,49.1311,21.6146,27356,Yes,Minority and income
+Revere,1356,64.823,24.0506,46420,Yes,Minority and income
+Revere,447,48.5459,40.9722,71687,Yes,Minority and English isolation
+Revere,1122,29.1444,5.6433,122266,Yes,Minority
+Boston,1351,97.9275,9.4276,112200,Yes,Minority
+Boston,1033,97.5799,3.183,54141,Yes,Minority and income
+Boston,841,99.1677,24.9147,54844,Yes,"Minority, income and English isolation"
+Boston,1579,98.67,9.0196,56250,Yes,Minority
+Boston,777,98.9704,3.8288,53207,Yes,Minority and income
+Boston,2039,44.7769,5.3533,57500,Yes,Minority
+Boston,1034,32.0116,8.5213,104679,Yes,Minority
+Chelsea,1415,78.7279,20.6544,62708,Yes,Minority
+Chelsea,877,87.9133,44.7761,22455,Yes,"Minority, income and English isolation"
+Chelsea,1108,69.2238,8.7209,72938,Yes,Minority
+Revere,1909,56.3646,19.0776,65642,Yes,Minority
+Worcester,2747,34.1463,0,44099,Yes,Minority and income
+Worcester,1538,28.9337,15.5452,69306,Yes,Minority
+Boston,1569,98.5341,20.7661,28333,Yes,Minority and income
+Boston,820,61.8293,4.9505,47244,Yes,Minority and income
+Boston,1357,91.157,29.7297,57583,Yes,Minority and English isolation
+Boston,2120,41.8396,0,109412,Yes,Minority
+Boston,2978,60.4433,19.4613,61524,Yes,Minority
+Boston,1900,33.2105,9.0551,47275,Yes,Minority and income
+Boston,1188,59.6801,4.7337,76422,Yes,Minority
+Revere,1258,54.531,12.1951,103036,Yes,Minority
+Revere,856,57.5935,0,135898,Yes,Minority
+Revere,950,59.0526,25.2941,104186,Yes,Minority and English isolation
+Revere,1423,58.8194,0,84567,Yes,Minority
+Revere,940,58.7234,0,75548,Yes,Minority
+Revere,1702,69.7415,18.408,39107,Yes,Minority and income
+Worcester,2321,26.411,0,98073,Yes,Minority
+Worcester,2272,57.8785,10.1335,41745,Yes,Minority and income
+Worcester,900,36.2222,0,118750,Yes,Minority
+Worcester,1616,59.4678,5.5556,32567,Yes,Minority and income
+Worcester,1330,62.5564,14.9351,0,Yes,Minority
+Boston,662,61.4804,6.5844,85341,Yes,Minority
+Boston,694,34.438,0,83421,Yes,Minority
+Boston,2091,83.7877,12.9282,55240,Yes,Minority and income
+Boston,1137,77.7485,9.7917,68345,Yes,Minority
+Boston,1519,72.4819,3.4417,108155,Yes,Minority
+Boston,2353,56.0136,5.9929,77316,Yes,Minority
+Boston,1239,92.2518,0,97390,Yes,Minority
+Revere,1336,40.5689,6.2157,21378,Yes,Minority and income
+Revere,1593,52.7307,26.6019,53393,Yes,"Minority, income and English isolation"
+Revere,1572,41.6667,1.4252,45139,Yes,Minority and income
+Revere,1747,57.6989,23.7557,56875,Yes,Minority
+Revere,1609,59.9751,12.5683,79224,Yes,Minority
+Revere,1172,56.3993,18.9041,53098,Yes,Minority and income
+Revere,2015,79.7022,10.2564,49260,Yes,Minority and income
+Boston,1363,43.5803,7.619,103125,Yes,Minority
+Boston,1967,77.3259,31.211,64115,Yes,Minority and English isolation
+Boston,945,71.5344,22.5455,52917,Yes,Minority and income
+Boston,1014,38.6588,7.8481,132039,Yes,Minority
+Boston,1465,81.7065,11.3506,53750,Yes,Minority and income
+Boston,713,91.7251,21.5116,17500,Yes,Minority and income
+Boston,1976,72.2166,14.3387,78125,Yes,Minority
+Boston,802,75.3117,9.1525,78047,Yes,Minority
+Boston,1207,73.8194,28.7815,71806,Yes,Minority and English isolation
+Boston,1104,59.1486,0.6073,109500,Yes,Minority
+Revere,2795,41.3596,11.9944,106756,Yes,Minority
+Revere,1901,42.7144,6.0291,76080,Yes,Minority
+Revere,1503,47.7711,3.1826,73715,Yes,Minority
+Leominster,1037,61.4272,9.0909,52135,Yes,Minority and income
+Leominster,1235,30.4453,1.4113,72744,Yes,Minority
+Boston,936,46.047,6.2651,109676,Yes,Minority
+Boston,844,34.2417,6.3187,102927,Yes,Minority
+Boston,1542,33.5927,5.6886,94250,Yes,Minority
+Boston,1382,40.0145,13.4647,124313,Yes,Minority
+Boston,1861,47.8775,8.9011,90197,Yes,Minority
+Boston,971,75.4892,9.7633,84167,Yes,Minority
+Boston,1428,83.3333,13.0199,41964,Yes,Minority and income
+Boston,1120,55.3571,17.0799,102697,Yes,Minority
+Boston,1535,61.759,5.7325,99750,Yes,Minority
+Revere,846,35.8156,0,91563,Yes,Minority
+Revere,1184,50.5912,9.3333,120446,Yes,Minority
+Revere,1355,61.107,16.4062,85865,Yes,Minority
+Revere,1512,59.2593,17.5701,79120,Yes,Minority
+Worcester,1559,46.1193,11.588,34856,Yes,Minority and income
+Worcester,1195,68.7866,19.1176,33804,Yes,Minority and income
+Worcester,1001,74.5255,17.5258,43646,Yes,Minority and income
+Boston,757,49.9339,17.9104,0,Yes,Minority
+Boston,1600,25.125,0,125347,Yes,Minority
+Boston,1465,38.9761,7.0117,100331,Yes,Minority
+Boston,770,41.9481,0,131375,Yes,Minority
+Boston,1036,85.7143,16.7331,88090,Yes,Minority
+Boston,923,80.1733,12.6183,91681,Yes,Minority
+Boston,753,85.6574,0,150823,Yes,Minority
+Boston,684,95.3216,31.592,0,Yes,Minority and English isolation
+Revere,1294,56.0278,22.8448,105875,Yes,Minority
+Revere,1424,34.4101,8.8091,28018,Yes,Minority and income
+Revere,861,39.9535,0,35515,Yes,Minority and income
+Revere,1698,43.5807,4.8309,70197,Yes,Minority
+Spencer,1800,20.7778,0,37448,Yes,Income
+Worcester,1247,36.0866,0,107574,Yes,Minority
+Boston,1013,27.0484,0,162500,Yes,Minority
+Boston,1287,32.3232,8.0822,98598,Yes,Minority
+Boston,1201,48.2931,0,117250,Yes,Minority
+Boston,1028,97.8599,0,67688,Yes,Minority
+Boston,1008,94.8413,0,96756,Yes,Minority
+Boston,811,97.6572,0,33932,Yes,Minority and income
+Boston,1520,96.4474,0,76029,Yes,Minority
+Revere,2105,49.0736,21.0608,90540,Yes,Minority
+Revere,1052,58.0798,5.9211,76574,Yes,Minority
+Revere,1719,61.3729,2.5822,117436,Yes,Minority
+Leominster,1261,37.4306,0,51736,Yes,Minority and income
+Fitchburg,1360,49.3382,7.2093,64597,Yes,Minority
+Boston,1016,65.6496,9.9751,65758,Yes,Minority
+Boston,1527,48.6575,10.2009,104583,Yes,Minority
+Boston,1365,50.8425,1.3975,92679,Yes,Minority
+Boston,742,64.2857,14.7368,72344,Yes,Minority
+Boston,910,31.3187,0,145568,Yes,Minority
+Boston,1645,92.0365,18.5814,76226,Yes,Minority
+Boston,1163,84.2648,6.2977,90167,Yes,Minority
+Chelsea,798,79.5739,25.6532,59201,Yes,Minority and English isolation
+Chelsea,1613,95.5983,39.3082,63469,Yes,Minority and English isolation
+Chelsea,864,89.6991,7.4499,81313,Yes,Minority
+Revere,1521,55.4241,17.7062,63688,Yes,Minority
+Revere,1242,80.1127,30.9013,27083,Yes,"Minority, income and English isolation"
+Revere,1867,71.8265,20.5251,54911,Yes,Minority and income
+Revere,1282,74.571,32.5,65802,Yes,Minority and English isolation
+Worcester,1874,85.1654,50.9466,15718,Yes,"Minority, income and English isolation"
+Chelsea,1125,65.3333,21.0692,91990,Yes,Minority
+Revere,804,57.4627,22.6054,49320,Yes,Minority and income
+Revere,1398,53.2189,2.069,72500,Yes,Minority
+Boston,850,26.5882,0,110000,Yes,Minority
+Boston,806,25.1861,0,169125,Yes,Minority
+Boston,1000,46.9,5.4913,100000,Yes,Minority
+Boston,1528,36.1257,4.2529,105867,Yes,Minority
+Chelsea,548,88.6861,34.0741,25451,Yes,"Minority, income and English isolation"
+Chelsea,1599,91.995,40.4826,,Yes,Minority and English isolation
+Chelsea,1081,93.3395,67.8571,69713,Yes,Minority and English isolation
+Chelsea,994,75.7545,14.1104,65865,Yes,Minority
+Chelsea,972,75.2058,32.3009,198000,Yes,Minority and English isolation
+Chelsea,1393,92.6777,45.6825,61679,Yes,Minority and English isolation
+Chelsea,1063,93.8852,58.9744,40450,Yes,"Minority, income and English isolation"
+Chelsea,852,90.7277,48.7633,58688,Yes,Minority and English isolation
+Revere,1974,52.5329,19.6931,65455,Yes,Minority
+Winthrop,2320,28.6207,6.3091,75941,Yes,Minority
+Winthrop,1429,26.1721,0,87194,Yes,Minority
+Winthrop,749,18.2911,3.1746,53587,Yes,Income
+Worcester,2089,75.4428,19.0476,31365,Yes,Minority and income
+Worcester,1044,69.636,14.0496,61607,Yes,Minority
+Boston,1034,94.6809,3.8095,19460,Yes,Minority and income
+Boston,2580,95.8915,9.7628,43100,Yes,Minority and income
+Boston,2098,98.3794,10.2508,58219,Yes,Minority
+Chelsea,846,82.6241,21.6312,51827,Yes,Minority and income
+Chelsea,728,48.9011,20.5438,78427,Yes,Minority
+Chelsea,890,45.0562,6.3781,105880,Yes,Minority
+Chelsea,848,89.8585,22.365,25125,Yes,Minority and income
+Chelsea,2159,90.3659,13.9265,75156,Yes,Minority
+Chelsea,1338,86.3976,8.2317,47188,Yes,Minority and income
+Winthrop,695,20.8633,0,52118,Yes,Income
+Winthrop,1277,27.6429,0,64375,Yes,Minority
+Winthrop,1244,30.9486,9.3817,72292,Yes,Minority
+Boston,113,62.8319,0,0,Yes,Minority
+Newton,125,42.4,0,117824,Yes,Minority
+Fitchburg,1117,53.7153,4.2289,40577,Yes,Minority and income
+Fitchburg,1035,57.7778,5.7644,54750,Yes,Minority and income
+Fitchburg,943,50.4772,0,52200,Yes,Minority and income
+Boston,1456,97.4588,11.1374,50441,Yes,Minority and income
+Boston,1033,95.547,0,36033,Yes,Minority and income
+Boston,1658,49.5778,1.7442,124583,Yes,Minority
+Boston,811,44.0197,0,120938,Yes,Minority
+Boston,53,50.9434,0,54821,Yes,Minority and income
+Boston,2126,44.6849,34.3434,32572,Yes,"Minority, income and English isolation"
+Boston,1371,37.4179,9.375,0,Yes,Minority
+Boston,2503,39.9121,2.3454,95139,Yes,Minority
+Boston,1131,61.5385,13.4328,33657,Yes,Minority and income
+Boston,1344,46.4286,2.4775,82000,Yes,Minority
+Boston,968,44.7314,11.4796,34167,Yes,Minority and income
+Boston,1260,50.9524,15.2941,68750,Yes,Minority
+Boston,920,52.0652,0,81020,Yes,Minority
+Boston,1644,54.562,2.093,37719,Yes,Minority and income
+Boston,1441,41.2214,11.2275,108500,Yes,Minority
+Boston,1492,96.0456,18.24,25240,Yes,Minority and income
+Boston,691,88.1331,0,43241,Yes,Minority and income
+Boston,918,93.6819,9.6899,40900,Yes,Minority and income
+Boston,1013,37.1175,4.1502,154615,Yes,Minority
+Boston,1082,50.3697,33.1878,37719,Yes,"Minority, income and English isolation"
+Boston,879,39.818,6.6242,110994,Yes,Minority
+Boston,1275,59.9216,11.0497,13500,Yes,Minority and income
+Boston,1638,33.0281,17.8947,14271,Yes,Minority and income
+Boston,3548,29.9042,8.9286,73611,Yes,Minority
+Boston,1643,76.6281,23.676,82583,Yes,Minority
+Boston,1885,71.8833,22.6351,71053,Yes,Minority
+Boston,765,82.7451,8.3077,31151,Yes,Minority and income
+Boston,788,71.3198,53.6723,54911,Yes,"Minority, income and English isolation"
+Boston,1475,55.1864,9.9099,66250,Yes,Minority
+Boston,777,79.0219,24.3028,44464,Yes,Minority and income
+Boston,603,72.9685,3.271,65441,Yes,Minority
+Boston,623,99.0369,13.4111,21193,Yes,Minority and income
+Boston,995,95.6784,23.7449,24058,Yes,Minority and income
+Boston,950,93.8947,17.7453,38802,Yes,Minority and income
+Boston,1313,90.4798,23.7918,20500,Yes,Minority and income
+Boston,1006,92.2465,12.5874,58833,Yes,Minority
+Boston,158,92.4051,18.7166,14234,Yes,Minority and income
+Boston,1814,24.7519,0.7394,243719,Yes,Minority
+Boston,711,85.654,23.8095,22250,Yes,Minority and income
+Boston,2028,83.5799,34.1677,11870,Yes,"Minority, income and English isolation"
+Boston,682,73.1672,18.3333,31786,Yes,Minority and income
+Boston,1347,57.6837,19.2308,25000,Yes,Minority and income
+Boston,998,48.998,2.9851,34175,Yes,Minority and income
+Boston,834,41.0072,5.9621,115625,Yes,Minority
+Boston,1744,41.3417,12.7517,58393,Yes,Minority
+Boston,739,32.747,7.9137,39250,Yes,Minority and income
+Boston,4004,38.6114,0,0,Yes,Minority
+Boston,2174,57.1297,20.8047,86750,Yes,Minority
+Boston,1162,68.6747,38.5928,73750,Yes,Minority and English isolation
+Boston,912,63.0482,19.0751,106071,Yes,Minority
+Boston,1766,72.5368,33.8558,61339,Yes,Minority and English isolation
+Boston,1341,71.8867,58.5321,52491,Yes,"Minority, income and English isolation"
+Boston,961,73.7773,43.4066,37333,Yes,"Minority, income and English isolation"
+Boston,1248,95.7532,11.7871,22135,Yes,Minority and income
+Boston,644,97.0497,13.3333,16419,Yes,Minority and income
+Boston,816,92.8922,15.5932,0,Yes,Minority
+Boston,1121,98.6619,24.5283,31116,Yes,"Minority, income and English isolation"
+Boston,950,96.4211,21.1726,39926,Yes,Minority and income
+Boston,1323,98.1104,49.0982,21848,Yes,"Minority, income and English isolation"
+Boston,1066,34.8968,0,77500,Yes,Minority
+Boston,890,30.1124,5.4108,129792,Yes,Minority
+Boston,2357,49.2575,16.0748,26023,Yes,Minority and income
+Boston,492,71.748,56.5069,16471,Yes,"Minority, income and English isolation"
+Boston,1438,42.9068,4.9279,64714,Yes,Minority
+Boston,1816,41.9053,0,51588,Yes,Minority and income
+Boston,1208,57.2848,55.1499,46008,Yes,"Minority, income and English isolation"
+Boston,852,39.554,12.4789,64827,Yes,Minority
+Boston,2134,55.1546,15.9114,66845,Yes,Minority
+Boston,1413,71.2668,62.0553,81897,Yes,Minority and English isolation
+Boston,1421,82.6179,36.4286,76591,Yes,Minority and English isolation
+Boston,1860,68.172,18.2692,81250,Yes,Minority
+Boston,1543,97.3428,13.8313,0,Yes,Minority
+Boston,2358,95.8439,23.2891,24092,Yes,Minority and income
+Boston,1610,99.5031,22.7778,24052,Yes,Minority and income
+Boston,645,96.2791,21.4545,46042,Yes,Minority and income
+Boston,856,96.028,16.2264,59432,Yes,Minority
+Boston,610,31.4754,0,196250,Yes,Minority
+Boston,1362,40.3818,27.3973,,Yes,Minority and English isolation
+Boston,897,51.3935,52.4064,15847,Yes,"Minority, income and English isolation"
+Boston,996,47.5904,24.8101,64202,Yes,Minority and English isolation
+Boston,669,49.1779,21.9807,,Yes,Minority
+Boston,1330,30.6015,2.1216,132361,Yes,Minority
+Boston,1574,26.8742,11.1597,106250,Yes,Minority
+Boston,625,36.32,14.7114,87770,Yes,Minority
+Boston,1057,28.193,0,98681,Yes,Minority
+Boston,740,32.973,0,100735,Yes,Minority
+Boston,1259,27.1644,2.4032,74841,Yes,Minority
+Boston,1319,27.2934,0,98173,Yes,Minority
+Boston,1055,56.2085,15.5462,21438,Yes,Minority and income
+Boston,1128,56.8262,8.0378,84784,Yes,Minority
+Boston,1803,62.1187,26.3979,67930,Yes,Minority and English isolation
+Boston,1727,52.982,0,121875,Yes,Minority
+Boston,1285,97.2763,13.9881,23914,Yes,Minority and income
+Boston,775,95.871,7.2,52763,Yes,Minority and income
+Boston,712,94.1011,36,27330,Yes,"Minority, income and English isolation"
+Boston,716,95.6704,28.7958,30478,Yes,"Minority, income and English isolation"
+Boston,984,96.748,17.8571,30000,Yes,Minority and income
+Boston,1364,91.2757,14.2857,55662,Yes,Minority
+Boston,882,92.6304,0,28641,Yes,Minority and income
+Boston,1498,94.9933,7.2441,90673,Yes,Minority
+Boston,747,97.3226,11.9534,48693,Yes,Minority and income
+Boston,820,96.3415,10.8333,73889,Yes,Minority
+Boston,2166,40.5355,7.3896,95179,Yes,Minority
+Boston,1283,27.1239,2.0243,165833,Yes,Minority
+Boston,2255,32.9047,7.1932,91953,Yes,Minority
+Boston,1099,39.5814,4.4776,77870,Yes,Minority
+Boston,989,24.6714,0,176000,Yes,Minority
+Boston,997,88.1645,17.4757,22374,Yes,Minority and income
+Boston,692,83.9595,57.4018,14167,Yes,"Minority, income and English isolation"
+Boston,535,85.7944,17.7249,23784,Yes,Minority and income
+Boston,1033,95.8374,24.9201,32022,Yes,"Minority, income and English isolation"
+Boston,1681,98.6318,33.0754,50855,Yes,"Minority, income and English isolation"
+Boston,1081,98.5199,0,27050,Yes,Minority and income
+Boston,921,97.177,0,56250,Yes,Minority
+Boston,1462,95.2804,18.9362,0,Yes,Minority
+Boston,1267,82.5572,5.6886,0,Yes,Minority
+Boston,1220,82.8689,8.9783,0,Yes,Minority
+Boston,1270,72.5197,4.4199,107969,Yes,Minority
+Boston,833,88.9556,4.7009,100913,Yes,Minority
+Boston,1698,93.7574,9.8851,69659,Yes,Minority
+Boston,1844,29.5011,0,141841,Yes,Minority
+Boston,636,81.2893,12.253,16250,Yes,Minority and income
+Boston,958,25.0522,3.4707,179266,Yes,Minority
+Boston,774,71.8346,4.3228,0,Yes,Minority
+Halifax,1533,5.8056,0,54393,Yes,Income
+Boston,2686,26.545,0,193068,Yes,Minority
+Boston,2202,35.1499,9.6026,172917,Yes,Minority
+Boston,588,43.8776,0,136071,Yes,Minority
+Boston,751,68.5752,7.6555,58872,Yes,Minority
+Boston,932,94.206,70.4188,17132,Yes,"Minority, income and English isolation"
+Boston,898,95.2116,9.593,28529,Yes,Minority and income
+Boston,1351,92.8201,37.931,42917,Yes,"Minority, income and English isolation"
+Boston,1260,26.5873,22.314,77991,Yes,Minority
+Boston,2197,70.0501,18.4466,23403,Yes,Minority and income
+Boston,823,59.2953,9.1667,45809,Yes,Minority and income
+Boston,679,66.7158,4.7619,104600,Yes,Minority
+Boston,778,50,19.8529,98125,Yes,Minority
+Boston,1057,56.386,16.4649,92813,Yes,Minority
+Boston,1363,66.7645,10.9177,102035,Yes,Minority
+Boston,720,71.3889,0,117778,Yes,Minority
+Plymouth,833,15.3661,11.4286,54693,Yes,Income
+Wareham,1561,20.1794,2.266,41675,Yes,Income
+Boston,3058,28.8424,19.8594,171359,Yes,Minority
+Boston,4325,64.4393,37.2959,37917,Yes,"Minority, income and English isolation"
+Boston,1135,93.8326,53.4286,20900,Yes,"Minority, income and English isolation"
+Boston,1165,25.2361,0,189815,Yes,Minority
+Boston,806,27.0471,0,165426,Yes,Minority
+Boston,1512,91.5344,50.0741,17582,Yes,"Minority, income and English isolation"
+Boston,1170,93.9316,14.248,40054,Yes,Minority and income
+Boston,1926,77.622,21.6931,55357,Yes,Minority
+Boston,1740,93.2759,25.9781,59886,Yes,Minority and English isolation
+Boston,922,92.0824,18.0556,45000,Yes,Minority and income
+Boston,1456,84.478,18.5345,44635,Yes,Minority and income
+Boston,1138,92.0035,10.8051,44545,Yes,Minority and income
+Boston,1748,93.7071,20.6504,46042,Yes,Minority and income
+Boston,1022,95.7926,11.4458,48485,Yes,Minority and income
+Boston,1158,56.304,41.841,63083,Yes,Minority and English isolation
+Wareham,673,30.9064,0,61199,Yes,Minority
+Wareham,1617,23.9332,0,33614,Yes,Income
+Boston,1074,31.6574,13.9738,185288,Yes,Minority
+Boston,1067,29.2409,6.6667,176063,Yes,Minority
+Boston,1056,45.928,8.4746,100592,Yes,Minority
+Boston,1552,43.4923,15.7576,,Yes,Minority
+Boston,1133,27.1845,0,96250,Yes,Minority
+Boston,1165,75.0215,46.6574,36051,Yes,"Minority, income and English isolation"
+Boston,1089,40.0367,0,145357,Yes,Minority
+Boston,1284,78.0374,16.0622,77882,Yes,Minority
+Boston,1250,91.04,12.3016,0,Yes,Minority
+Boston,666,89.7898,45.3202,17850,Yes,"Minority, income and English isolation"
+Boston,1313,90.2513,8.6792,64211,Yes,Minority
+Boston,1123,96.26,22.2571,53044,Yes,Minority and income
+Boston,1007,58.3913,4.2697,105781,Yes,Minority
+Boston,1418,86.6714,29.8725,0,Yes,Minority and English isolation
+Boston,1502,96.5379,8.8942,63673,Yes,Minority
+Boston,1027,26.2902,8.5561,97024,Yes,Minority
+Boston,945,39.0476,0,97594,Yes,Minority
+Marion,1184,25.5068,0,85863,Yes,Minority
+Boston,1052,38.8783,11.5068,109028,Yes,Minority
+Boston,1136,57.3944,20.6452,44643,Yes,Minority and income
+Boston,1020,44.6078,15.5941,109762,Yes,Minority
+Boston,1757,77.177,28.4802,25039,Yes,"Minority, income and English isolation"
+Boston,1540,35.7792,0,108696,Yes,Minority
+Boston,659,51.4416,3.0211,88315,Yes,Minority
+Boston,1231,47.1162,17.1831,48233,Yes,Minority and income
+Boston,192,39.0625,0,155595,Yes,Minority
+Boston,1078,95.6401,35.1964,17661,Yes,"Minority, income and English isolation"
+Boston,767,95.0456,30.7692,51818,Yes,"Minority, income and English isolation"
+Boston,1570,93.758,8.4602,0,Yes,Minority
+Boston,1096,96.8066,23.0321,40966,Yes,Minority and income
+Boston,1052,94.1065,10.8504,60938,Yes,Minority
+Boston,959,96.3504,11.2033,26713,Yes,Minority and income
+Boston,2049,34.3582,3.3067,126050,Yes,Minority
+Boston,2326,66.0791,45.5068,16046,Yes,"Minority, income and English isolation"
+Boston,1236,55.3398,10.1549,37404,Yes,Minority and income
+Boston,1291,36.4833,1.0181,132500,Yes,Minority
+Boston,916,73.1441,13.0354,111528,Yes,Minority
+Boston,1211,54.583,16.2524,,Yes,Minority
+Boston,2694,62.8805,14.2702,76591,Yes,Minority
+Boston,821,30.2071,1.7413,101818,Yes,Minority
+Boston,1200,47.75,0,,Yes,Minority
+Boston,888,39.4144,9.7345,40758,Yes,Minority and income
+Boston,2125,74.4471,17.7034,40263,Yes,Minority and income
+Boston,775,96.2581,7.8498,50272,Yes,Minority and income
+Boston,686,97.9592,12.8931,42617,Yes,Minority and income
+Boston,1550,91.4839,4.0258,43935,Yes,Minority and income
+Boston,1718,98.1374,13.8258,51806,Yes,Minority and income
+Boston,683,97.3646,28.0488,64231,Yes,Minority and English isolation
+Boston,1354,90.325,25.3676,53750,Yes,"Minority, income and English isolation"
+Boston,1823,91.333,9.2814,64211,Yes,Minority
+Boston,981,92.7625,13.913,76905,Yes,Minority
+Boston,1021,75.808,42.3295,41324,Yes,"Minority, income and English isolation"
+Boston,2590,79.4208,14.3467,57285,Yes,Minority
+Boston,914,50.4376,0,103359,Yes,Minority
+Boston,779,95.6354,27.5261,0,Yes,Minority and English isolation
+Boston,1059,97.7337,16.5533,66195,Yes,Minority
+Boston,623,46.3884,6.7227,170417,Yes,Minority
+Boston,499,32.4649,10.7477,73333,Yes,Minority
+Boston,1519,49.7038,22.5042,50869,Yes,Minority and income
+Boston,978,13.7014,28.8889,72335,Yes,English isolation
+Boston,1072,42.8172,28.2528,57237,Yes,Minority and English isolation
+Boston,1511,48.18,21.6617,68333,Yes,Minority
+Boston,1910,86.0209,3.8028,31136,Yes,Minority and income
+Boston,1481,94.2606,36.2776,16339,Yes,"Minority, income and English isolation"
+Boston,4013,58.8836,15.1515,25721,Yes,Minority and income
+Boston,1330,67.6692,3.9555,58542,Yes,Minority
+Boston,1238,86.9952,36.7893,79375,Yes,Minority and English isolation
+Boston,972,80.8642,12.766,107237,Yes,Minority
+Boston,856,76.6355,2.7972,119531,Yes,Minority
+Boston,812,78.3251,11.4478,64293,Yes,Minority
+Boston,962,80.3534,3.8314,37933,Yes,Minority and income
+Boston,781,96.0307,8.1699,76786,Yes,Minority
+Boston,1099,92.9026,26.5464,45714,Yes,"Minority, income and English isolation"
+Boston,1171,41.93,5.6818,156034,Yes,Minority
+Boston,1178,42.275,16.2562,70795,Yes,Minority
+Boston,1064,46.1466,13.7546,157607,Yes,Minority
+Boston,1045,54.4498,3.992,34871,Yes,Minority and income
+Boston,1786,52.4636,2.911,106250,Yes,Minority
+Boston,1797,48.8592,18.3986,59792,Yes,Minority
+Boston,1683,53.0006,23.6443,27314,Yes,Minority and income
+Boston,1445,55.0173,6.6547,45395,Yes,Minority and income
+Boston,1896,79.4831,32.0644,16648,Yes,"Minority, income and English isolation"
+Boston,548,84.3066,15.9236,,Yes,Minority
+Boston,372,46.2366,17.2161,77702,Yes,Minority
+Boston,784,95.7908,12.0603,56250,Yes,Minority
+Boston,1071,96.4519,3.0151,55313,Yes,Minority
+Boston,665,97.4436,26.8293,64107,Yes,Minority and English isolation
+Boston,820,95.8537,23.8318,56172,Yes,Minority
+Boston,1223,95.5029,7.5556,21595,Yes,Minority and income
+Boston,1811,97.3495,10.9606,45843,Yes,Minority and income
+Boston,1198,83.9733,7.8351,56250,Yes,Minority
+Boston,2090,94.4498,26.0327,24094,Yes,"Minority, income and English isolation"
+Boston,561,84.492,27.0916,8531,Yes,"Minority, income and English isolation"
+Boston,2384,51.1745,17.8499,13325,Yes,Minority and income
+Boston,1901,51.657,1.7886,53713,Yes,Minority and income
+Boston,2282,46.319,0,,Yes,Minority
+Boston,1398,29.113,0,90917,Yes,Minority
+Boston,1112,45.5036,9.2958,83472,Yes,Minority
+Boston,1572,57.1883,21.0127,41591,Yes,Minority and income
+Boston,1593,63.9046,37.1765,74295,Yes,Minority and English isolation
+Boston,1393,63.6037,17.6806,70956,Yes,Minority
+Boston,1434,99.3026,8.1996,22168,Yes,Minority and income
+Boston,611,95.581,0,0,Yes,Minority
+Boston,735,98.7755,7.9245,35424,Yes,Minority and income
+Boston,984,96.9512,9.0244,44615,Yes,Minority and income
+Boston,1008,96.9246,18.1102,54949,Yes,Minority and income
+Boston,689,95.9361,0,26331,Yes,Minority and income
+Boston,727,98.3494,0,42232,Yes,Minority and income
+Boston,1133,99.1174,6.6815,61181,Yes,Minority
+Boston,1288,95.8075,5.7944,70351,Yes,Minority
+Boston,842,95.8432,6.5147,72232,Yes,Minority
+Boston,733,98.4993,9,29954,Yes,Minority and income
+Boston,1162,44.9225,22.3062,26463,Yes,Minority and income
+Boston,1861,41.698,22.6721,28250,Yes,Minority and income
+Boston,1403,51.1048,12.5475,19583,Yes,Minority and income
+Boston,1378,37.373,0,154357,Yes,Minority
+Boston,1957,29.3306,6.538,86734,Yes,Minority
+Boston,621,98.2287,16.092,13462,Yes,Minority and income
+Boston,767,87.6141,39.1892,17391,Yes,"Minority, income and English isolation"
+Boston,1627,85.1875,40.4358,13811,Yes,"Minority, income and English isolation"
+Boston,1121,96.4318,24.0602,22524,Yes,Minority and income
+Boston,1959,89.025,13.8436,,Yes,Minority
+Boston,868,98.5023,2.5586,25188,Yes,Minority and income
+Boston,827,98.4281,17.4721,0,Yes,Minority
+Boston,874,96.7963,3.9801,52171,Yes,Minority and income
+Boston,1831,68.2141,28.9302,48707,Yes,"Minority, income and English isolation"
+Boston,1403,75.1247,28.9256,26827,Yes,"Minority, income and English isolation"
+Boston,796,55.402,15.7205,0,Yes,Minority
+Boston,1195,38.8285,9.76,82900,Yes,Minority
+Boston,645,79.845,42.4242,0,Yes,Minority and English isolation
+Boston,1760,27.6705,0,127344,Yes,Minority
+Boston,1389,76.3859,37.5,22910,Yes,"Minority, income and English isolation"
+Boston,2140,72.8972,13.2047,67564,Yes,Minority
+Boston,1238,64.4588,24.0429,76635,Yes,Minority
+Boston,1031,78.5645,53.4202,63438,Yes,Minority and English isolation
+Boston,1006,57.5547,24.5856,12013,Yes,"Minority, income and English isolation"
+Boston,1769,47.5975,19.9522,80268,Yes,Minority
+Boston,1190,86.8067,24.237,12116,Yes,Minority and income
+Boston,820,74.7561,0,49205,Yes,Minority and income
+Boston,1009,60.1586,0,97250,Yes,Minority
+Boston,1401,74.1613,20.8113,43151,Yes,Minority and income
+Boston,544,63.0515,0,37656,Yes,Minority and income
+Boston,1898,96.1012,14.3519,33629,Yes,Minority and income
+Boston,833,37.455,25.6881,150313,Yes,Minority and English isolation
+Boston,1703,49.9706,8.5106,69103,Yes,Minority
+Boston,918,29.8475,7.2961,90917,Yes,Minority
+Boston,1090,96.789,8.1841,36071,Yes,Minority and income
+Boston,1780,40.3933,0,66552,Yes,Minority
+Boston,1266,44.4708,0,91250,Yes,Minority
+Boston,1062,32.8625,0,72609,Yes,Minority
+Boston,744,84.2742,52.0525,22730,Yes,"Minority, income and English isolation"
+Boston,1085,73.5484,0,45179,Yes,Minority and income
+Boston,1814,46.8026,6.1041,65078,Yes,Minority
+Boston,1299,49.2687,1.2821,97167,Yes,Minority
+Boston,1122,43.8503,5.2846,71464,Yes,Minority
+Boston,1077,61.467,22.4719,44941,Yes,Minority and income
+Boston,2027,59.9408,13.3127,50909,Yes,Minority and income
+Westborough,788,47.8426,8.5502,89191,Yes,Minority
+Westborough,2036,67.387,2.911,168125,Yes,Minority
+Milford,2009,36.6351,2.1771,76250,Yes,Minority
+Milford,1290,43.1783,15.2125,78147,Yes,Minority
+Milford,934,39.7216,21.8543,57266,Yes,Minority
+Milford,1151,57.8627,24.2358,56944,Yes,Minority
+Milford,1356,58.0383,33.7629,34219,Yes,"Minority, income and English isolation"
+Milford,1245,33.0924,2.3679,85568,Yes,Minority
+Milford,1732,27.1363,8.2683,69830,Yes,Minority
+Milford,1290,57.2093,23.1383,58864,Yes,Minority
+Blackstone,1166,9.6055,4.7872,54643,Yes,Income
+Oxford,1142,10.0701,0,31563,Yes,Income
+Webster,1272,34.0409,0,33438,Yes,Minority and income
+Webster,1019,31.6977,8.1218,60566,Yes,Minority
+Webster,1250,34.88,10.4331,36750,Yes,Minority and income
+Webster,830,41.9277,6.6132,24693,Yes,Minority and income
+Webster,956,36.9247,0,41050,Yes,Minority and income
+Webster,1007,33.9623,0,39531,Yes,Minority and income
+Dudley,1795,19.3315,3.9092,30576,Yes,Income
+Dudley,1846,48.7541,4.3182,83929,Yes,Minority
+Dudley,1088,13.0515,0,51688,Yes,Income
+Southbridge,677,65.8789,17.7034,17188,Yes,Minority and income
+Southbridge,1313,37.9284,10.1399,50972,Yes,Minority and income
+Southbridge,1659,41.8324,6.5916,37429,Yes,Minority and income
+Brookfield,865,7.3988,0,34779,Yes,Income
+Warren,1339,10.4556,0,50128,Yes,Income
+Warren,982,12.831,0,48711,Yes,Income
+Westborough,2352,46.6837,1.4876,133317,Yes,Minority
+Westborough,2340,52.3932,21.5686,53810,Yes,Minority and income
+Westborough,1897,27.728,2.4834,79222,Yes,Minority
+Harvard,1390,47.6978,0,133594,Yes,Minority
+Webster,1741,21.7691,0,55208,Yes,Income
+Webster,1012,34.6838,8.589,48098,Yes,Minority and income
+Southbridge,1294,45.1314,6.5126,72500,Yes,Minority
+Southbridge,1620,40,2.7027,42045,Yes,Minority and income
+Southbridge,977,34.9028,8.4,61100,Yes,Minority
+Southbridge,739,39.5129,5.8419,54023,Yes,Minority and income
+Southbridge,1017,65.88,22.4684,35089,Yes,Minority and income
+Southbridge,860,53.2558,10.137,31438,Yes,Minority and income
+Southbridge,1302,51.7665,7.6142,47065,Yes,Minority and income
+Southbridge,1903,63.3736,19.8138,29858,Yes,Minority and income
+Southbridge,838,32.1002,2.5926,78462,Yes,Minority
+Southbridge,662,28.2477,0,73558,Yes,Minority
+Southbridge,913,26.9441,1.6279,61700,Yes,Minority
+Monroe,1147,11.9442,0.641,52727,Yes,Income
+Charlemont,1147,11.9442,0.641,52727,Yes,Income
+Charlemont,933,9.6463,0,53229,Yes,Income
+Sandwich,797,32.4969,0,53108,Yes,Minority and income
+Mashpee,797,32.4969,0,53108,Yes,Minority and income
+Revere,1043,53.3078,22.7891,76974,Yes,Minority
+Winthrop,766,19.1906,13.2075,42485,Yes,Income
+Worcester,1390,34.6763,0,76351,Yes,Minority
+Worcester,1014,34.714,0,45135,Yes,Minority and income
+Winchendon,1337,12.4159,0,48676,Yes,Income
+Fitchburg,1679,39.7856,2.0221,80455,Yes,Minority
+Athol,1032,17.9264,1.9178,40750,Yes,Income
+Westborough,1733,84.4201,9.6115,85938,Yes,Minority
+Milford,2588,27.1252,0,92384,Yes,Minority
+Milford,1255,35.0598,7.2019,79233,Yes,Minority
+Athol,1275,18.3529,1.6227,48576,Yes,Income
+Athol,2153,15.4203,1.1976,32227,Yes,Income
+Fitchburg,736,55.9783,23.4756,16731,Yes,Minority and income
+Worcester,2656,71.3855,18.453,37429,Yes,Minority and income
+Fitchburg,1724,38.5151,1.5025,75164,Yes,Minority
+Worcester,1439,61.0146,9.0909,40993,Yes,Minority and income
+Fitchburg,1454,60.9354,15.8351,80230,Yes,Minority
+Fitchburg,1064,55.8271,13.1886,20216,Yes,Minority and income
+Worcester,995,33.7688,1.5385,50568,Yes,Minority and income
+Worcester,1640,66.3415,11.2219,40847,Yes,Minority and income
+Milford,1576,26.5863,0,110365,Yes,Minority
+Milford,1708,29.0984,0,84605,Yes,Minority
+Worcester,898,60.9131,23.2323,43583,Yes,Minority and income
+Worcester,1862,50.4296,29.2035,15176,Yes,"Minority, income and English isolation"
+Worcester,987,77.001,18.408,97885,Yes,Minority
+Worcester,733,69.1678,51.145,33203,Yes,"Minority, income and English isolation"
+Fitchburg,1507,44.791,13.5135,54342,Yes,Minority and income
+Fitchburg,2436,33.908,0,92339,Yes,Minority
+Fitchburg,1035,53.2367,3.7471,28764,Yes,Minority and income
+Worcester,925,26.3784,0,118594,Yes,Minority
+Worcester,1032,50.6783,9.6078,46964,Yes,Minority and income
+Worcester,1006,66.8986,0,41058,Yes,Minority and income
+Worcester,1375,27.5636,0,0,Yes,Minority
+Milford,815,42.9448,0,97625,Yes,Minority
+Milford,2217,35.4984,10.4839,90000,Yes,Minority
+Milford,842,59.0261,23.6923,47156,Yes,Minority and income
+Milford,1101,54.1326,0,51513,Yes,Minority and income
+Worcester,803,33.3748,0,67188,Yes,Minority
+Gardner,1853,27.7388,3.1414,44167,Yes,Minority and income
+Worcester,495,41.8182,19.883,44145,Yes,Minority and income
+Worcester,1500,91.9333,33.9261,11543,Yes,"Minority, income and English isolation"
+Worcester,761,25.3614,38.0054,44681,Yes,"Minority, income and English isolation"
+Gardner,2232,16.0394,0.8323,47460,Yes,Income
+Gardner,995,23.1156,0,49531,Yes,Income
+Fitchburg,1211,39.8018,0,45114,Yes,Minority and income
+Worcester,731,84.2681,19.4139,16319,Yes,Minority and income
+Clinton,1127,42.9459,11.4355,50078,Yes,Minority and income
+Lancaster,3316,36.0374,0,108676,Yes,Minority
+Worcester,1793,73.6754,16.7822,14852,Yes,Minority and income
+Worcester,1470,73.2653,10.559,44784,Yes,Minority and income
+Worcester,1061,73.8926,10.1045,31406,Yes,Minority and income
+Worcester,1675,67.403,29.4437,39276,Yes,"Minority, income and English isolation"
+Worcester,1376,80.814,12.1043,16719,Yes,Minority and income
+Worcester,2296,38.8937,9.1434,92344,Yes,Minority
+Worcester,1070,56.729,25.9259,75401,Yes,Minority and English isolation
+Gardner,1125,19.6444,6.5546,30947,Yes,Income
+Gardner,1059,24.457,0,38994,Yes,Income
+Gardner,1196,17.4749,0,50074,Yes,Income
+Gardner,2053,21.3346,4.0973,49097,Yes,Income
+Gardner,2123,35.0447,2.0992,67941,Yes,Minority
+Clinton,1330,36.7669,0,46023,Yes,Minority and income
+Clinton,1310,24.8855,1.982,81757,Yes,Minority
+Clinton,1222,42.4714,0,61361,Yes,Minority
+Clinton,1688,35.8412,7.9826,63750,Yes,Minority
+Worcester,898,84.8552,25.5034,14744,Yes,"Minority, income and English isolation"
+Worcester,906,79.1391,30.7377,22778,Yes,"Minority, income and English isolation"
+Worcester,1379,85.4242,0,46908,Yes,Minority and income
+Worcester,830,77.7108,0,27981,Yes,Minority and income
+Worcester,828,84.9034,9.8712,0,Yes,Minority
+Worcester,1141,51.3585,8.8292,32768,Yes,Minority and income
+Worcester,1171,54.4833,14.7399,71458,Yes,Minority
+Worcester,1262,24.6434,0,101750,Yes,Minority
+Worcester,1499,70.7138,19.8444,53375,Yes,Minority and income
+Worcester,975,39.3846,7.8431,55733,Yes,Minority
+Leominster,1126,53.6412,5.9675,53301,Yes,Minority and income
+Leominster,2604,41.7435,3.0534,54180,Yes,Minority and income
+Clinton,1265,30.1186,5.618,51027,Yes,Minority and income
+Clinton,950,28.1053,7.0946,94500,Yes,Minority
+Clinton,1890,27.1958,1.5758,87240,Yes,Minority
+Worcester,1409,88.5735,42.6168,37548,Yes,"Minority, income and English isolation"
+Worcester,1638,78.022,19.3237,38333,Yes,Minority and income
+Worcester,1418,79.9013,4.1543,39240,Yes,Minority and income
+Worcester,963,44.1329,0,47208,Yes,Minority and income
+Shrewsbury,1439,40.3058,4.1051,94946,Yes,Minority
+Leominster,779,31.1938,0,120833,Yes,Minority
+Leominster,1715,50.0875,15.6676,40121,Yes,Minority and income
+Leominster,1802,30.4107,0,87559,Yes,Minority
+North Brookfield,785,11.8471,0,51053,Yes,Income
+Worcester,1146,25.4799,4.4248,87625,Yes,Minority
+Worcester,1375,48.3636,9.9026,17012,Yes,Minority and income
+Worcester,1061,49.3874,20.8138,32813,Yes,Minority and income
+Worcester,1565,73.4824,14.0777,30000,Yes,Minority and income
+Worcester,1444,62.8809,14.8289,65965,Yes,Minority
+Worcester,1051,57.2788,8.284,43696,Yes,Minority and income
+Worcester,1657,41.9433,7.5975,74712,Yes,Minority
+Leicester,1271,25.9638,0,103021,Yes,Minority
+Leominster,910,35.3846,50.0935,46126,Yes,"Minority, income and English isolation"
+Leominster,1492,44.437,17.9963,53137,Yes,Minority and income
+Leominster,1189,43.8183,14.717,92567,Yes,Minority
+Leominster,1087,49.126,7.362,34291,Yes,Minority and income
+Spencer,1338,17.3393,0,28977,Yes,Income
+Worcester,1136,68.9261,18.1474,14179,Yes,Minority and income
+Worcester,869,40.7365,0,104228,Yes,Minority
+Worcester,2422,39.7605,4.5872,79926,Yes,Minority
+Worcester,2101,39.743,8.6869,60893,Yes,Minority
+Worcester,855,35.5556,11.2676,45224,Yes,Minority and income
+Millbury,925,13.7297,0,53375,Yes,Income
+Leominster,1216,50.7401,20.1373,18563,Yes,Minority and income
+Leominster,643,48.9891,15.8845,43576,Yes,Minority and income
+Leominster,2935,26.678,2.4641,98768,Yes,Minority
+Leominster,1334,63.2684,25.2404,41235,Yes,"Minority, income and English isolation"
+Worcester,1823,37.6851,0,60430,Yes,Minority
+Worcester,1539,44.4444,16.4502,55938,Yes,Minority
+Worcester,2409,47.5716,12.1762,76250,Yes,Minority
+Worcester,1387,41.889,23.4637,51163,Yes,Minority and income
+Shrewsbury,2229,38.1786,0.905,85625,Yes,Minority
+Shrewsbury,3199,30.6346,4.182,190865,Yes,Minority
+Worcester,750,39.0667,0,55682,Yes,Minority
+Leominster,1155,42.1645,11.4679,67553,Yes,Minority
+Leominster,1177,25.8284,0,110833,Yes,Minority
+Worcester,1376,26.3081,0,68917,Yes,Minority
+Worcester,1544,40.544,9.0296,79118,Yes,Minority
+Worcester,808,31.6832,0,87656,Yes,Minority
+Worcester,1008,68.75,14.5923,39732,Yes,Minority and income
+Worcester,1538,42.7178,4.5911,61607,Yes,Minority
+Worcester,2958,56.119,14.8077,39207,Yes,Minority and income
+Worcester,1758,46.0182,21.7466,77561,Yes,Minority
+Worcester,1134,51.7637,33.4211,68902,Yes,Minority and English isolation
+Worcester,3297,35.1228,4.6908,68795,Yes,Minority
+Worcester,945,75.6614,14.8148,52621,Yes,Minority and income
+Worcester,1323,60.393,8.6957,29886,Yes,Minority and income
+Leominster,1482,27.1255,0,67188,Yes,Minority
+Fitchburg,685,62.9197,0,41800,Yes,Minority and income
+Worcester,1035,40.4831,14.6512,67969,Yes,Minority
+Worcester,1384,79.7688,10.7429,20417,Yes,Minority and income
+Worcester,1484,32.2102,6.3492,87875,Yes,Minority
+Worcester,1433,64.5499,4.2596,60851,Yes,Minority
+Worcester,1740,64.6552,14.1479,66250,Yes,Minority
+Worcester,1234,76.2561,29.1525,37964,Yes,"Minority, income and English isolation"
+Worcester,967,82.5233,34.5528,31406,Yes,"Minority, income and English isolation"
+Worcester,1699,72.9841,8.6957,35217,Yes,Minority and income
+Grafton,1463,27.9563,0,67273,Yes,Minority
+Grafton,2386,35.7921,0,127619,Yes,Minority
+Fitchburg,752,57.7128,0,63427,Yes,Minority
+Fitchburg,1018,57.2692,6.6879,62868,Yes,Minority
+Fitchburg,973,60.6372,2.6258,26461,Yes,Minority and income
+Worcester,1022,52.9354,0,54875,Yes,Minority and income
+Worcester,1187,70.5139,20.9924,59375,Yes,Minority
+Worcester,928,42.0259,0,49046,Yes,Minority and income
+Worcester,2051,41.7845,6.1192,44125,Yes,Minority and income
+Worcester,901,71.9201,43.5294,37839,Yes,"Minority, income and English isolation"
+Worcester,1379,60.8412,14.8148,24044,Yes,Minority and income
+Worcester,2253,32.9339,1.7062,77821,Yes,Minority
+Worcester,3121,42.8068,5.3901,70766,Yes,Minority
+Worcester,2321,41.7923,10.3581,63676,Yes,Minority
+Worcester,1454,39.4773,5.4381,64798,Yes,Minority
+Worcester,3299,31.1003,0,0,Yes,Minority
+Fitchburg,723,33.3333,3.1325,58295,Yes,Minority
+Fitchburg,991,36.4279,39.0052,76591,Yes,Minority and English isolation
+Fitchburg,1858,34.8224,0,66648,Yes,Minority
+Fitchburg,1155,49.1775,1.3228,66146,Yes,Minority
+Fitchburg,1049,26.5014,0,48958,Yes,Minority and income
+Worcester,1019,21.6879,0,17179,Yes,Income
+Worcester,1333,24.9062,0,34952,Yes,Minority and income
+Worcester,832,32.3317,0,98269,Yes,Minority
+Worcester,959,64.5464,13.1148,0,Yes,Minority
+Worcester,2763,51.7553,7.601,63737,Yes,Minority
+Worcester,915,59.0164,17.6623,12080,Yes,Minority and income
+Worcester,1355,72.9151,33.4873,22578,Yes,"Minority, income and English isolation"
+Worcester,1167,75.3213,10.9453,32845,Yes,Minority and income
+Worcester,1365,71.4286,19.1419,51458,Yes,Minority and income
+Worcester,1056,60.7008,0,58958,Yes,Minority
+Worcester,771,64.0726,2.5926,60047,Yes,Minority
+Fitchburg,1417,60.6916,3.22,16875,Yes,Minority and income
+Worcester,1184,74.8311,17.2336,47419,Yes,Minority and income
+Fitchburg,1372,60.4956,16.2963,66032,Yes,Minority
+Worcester,2140,36.8224,5.4827,81708,Yes,Minority
+Worcester,1336,29.2665,7.8838,80300,Yes,Minority
+Worcester,1684,81.1758,14.5418,33799,Yes,Minority and income
+Worcester,1033,46.4666,6.5041,57500,Yes,Minority
+Worcester,1240,37.3387,0,66369,Yes,Minority
+Leicester,1450,26.4828,0,97821,Yes,Minority
+Auburn,948,10.1266,0,44773,Yes,Income
+Shrewsbury,902,38.1375,0,173566,Yes,Minority
+Shrewsbury,1417,54.4813,0,64309,Yes,Minority
+Shrewsbury,2476,57.2294,0,148523,Yes,Minority
+Westborough,1008,24.6032,0,213409,Yes,Minority
+Shrewsbury,2006,34.995,6.305,80756,Yes,Minority
+Fitchburg,1913,58.7559,0,44476,Yes,Minority and income
+Fitchburg,1014,58.4813,0,53686,Yes,Minority and income
+Worcester,833,35.8944,11.9205,72667,Yes,Minority
+Worcester,994,47.8873,5.5096,63115,Yes,Minority
+Worcester,1034,60.5416,7.5581,0,Yes,Minority
+Worcester,2468,48.8655,8.7215,82917,Yes,Minority
+Millbury,835,16.6467,0,53875,Yes,Income
+Shrewsbury,1248,32.0513,0,72425,Yes,Minority
+Shrewsbury,2752,44.4404,2.8205,131200,Yes,Minority
+Shrewsbury,2756,58.2366,11.7593,100313,Yes,Minority
+Shrewsbury,1502,52.7963,21.8009,74873,Yes,Minority
+Worcester,827,77.8718,0,41667,Yes,Minority and income
+Worcester,1762,64.6992,6.679,41369,Yes,Minority and income
+Fitchburg,880,56.9318,1.5129,25920,Yes,Minority and income
+Worcester,930,65.8065,7.1253,41481,Yes,Minority and income
+Worcester,1277,48.0814,23.2456,40984,Yes,Minority and income
+Worcester,735,35.102,0,25772,Yes,Minority and income
+Worcester,2253,34.3542,25.2033,25921,Yes,"Minority, income and English isolation"
+Worcester,2781,50.881,9.7473,48705,Yes,Minority and income
+Worcester,939,67.9446,18.8172,30238,Yes,Minority and income
+Worcester,953,62.1196,4.6025,53147,Yes,Minority and income
+Shrewsbury,1809,40.0221,16.1654,92500,Yes,Minority
+Shrewsbury,2794,35.7552,1.6847,128750,Yes,Minority
+Shrewsbury,1135,29.7797,0,114198,Yes,Minority
+Westborough,2539,31.0752,0,218859,Yes,Minority
+Worcester,1009,68.3845,2.9851,53750,Yes,Minority and income
+Worcester,1334,67.991,9.3897,47788,Yes,Minority and income
+Worcester,977,67.4514,0,28997,Yes,Minority and income
+Worcester,1340,57.3881,8.6758,73250,Yes,Minority
+Revere,1589,70.2329,20.7207,60271,Yes,Minority
+Revere,1572,55.1527,4.5884,53420,Yes,Minority and income
+Revere,1184,53.125,20.8955,44250,Yes,Minority and income
+Revere,1181,55.8848,7.3579,34420,Yes,Minority and income

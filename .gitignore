@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+.vite
+
+# Environment files — never commit secrets. The sanitized template
+# .env.example IS committed; real .env files are not.
+.env
+.env.*
+!.env.example
