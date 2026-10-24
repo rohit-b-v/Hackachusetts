@@ -69,7 +69,9 @@ describe("compareBrief 4-question structure", () => {
     // U_PROXIMITY must be unresolved (no spatial run) and NOT a known fact
     expect(brief.unresolved.map((u) => u.id)).toContain("U_PROXIMITY");
     expect(brief.know.map((k) => k.id)).not.toContain("F_PROXIMITY");
-    expect(brief.next.length).toBe(1);
+    // Exactly one PLAN action lands in NEXT. (Second Look screening items may
+    // also appear in NEXT now; assert the plan contribution specifically.)
+    expect(brief.next.filter((n) => n.kind === "plan").length).toBe(1);
   });
 
   it("marks scenario not-applicable for non-solar records", () => {

@@ -266,7 +266,7 @@ describe("handlePlanRequest", () => {
     );
     expect(first.body.source).toBe("live");
     expect(first.body.label).toBe("Gemma");
-    expect(first.body.model).toBe("gemma-3-27b-it");
+    expect(first.body.model).toBe("gemma-4-26b-a4b-it");
 
     // Second call with a fetch that would throw -> must be served from cache.
     const second = await handlePlanRequest(
@@ -280,6 +280,23 @@ describe("handlePlanRequest", () => {
     );
     expect(second.body.source).toBe("cache");
     expect(second.body.cached).toBe(true);
+  });
+
+  it("preserves the cached plan's label on a cache hit (template stays template)", async () => {
+    // No credentials -> template is produced AND cached under the same key.
+    const first = await handlePlanRequest(
+      { record: SPRINGFIELD, spatial: VERIFIED_SPATIAL },
+      { hasCredentials: noCreds }
+    );
+    expect(first.body.source).toBe("template");
+    // Second call hits the cache; source becomes "cache" but the label must
+    // still identify it as a TEMPLATE, never as Gemma.
+    const second = await handlePlanRequest(
+      { record: SPRINGFIELD, spatial: VERIFIED_SPATIAL },
+      { hasCredentials: noCreds }
+    );
+    expect(second.body.source).toBe("cache");
+    expect(second.body.label).toBe("Template-generated");
   });
 
   it("falls back to labeled template when Gemma output has a bad ID", async () => {

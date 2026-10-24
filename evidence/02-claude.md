@@ -1,5 +1,14 @@
 # Evidence 02 — Claude Next-Action Planner
 
+> **MIGRATION NOTE (2026-10-24): superseded — provider is now Gemma, not Claude.**
+> This document is kept for history. The planner was later migrated from the
+> Anthropic Claude API to **Gemma** via Google AI Studio (Gemini API
+> `generateContent`). Runtime env vars are `GEMMA_API_KEY` / `GEMMA_MODEL`
+> (not `ANTHROPIC_*`), the live source label is "Gemma" (not "Claude"), and all
+> `ANTHROPIC_*` / `api.anthropic.com` / `claude-*` references below describe the
+> OLD implementation only. For the current planner see `evidence/04-gemma.md`
+> and `server/planHandler.js`. Nothing in this file reflects the running code.
+
 Goal: turn the template brief into a municipal next-action planner backed by the
 direct Anthropic Claude API, with a smallest-footprint server endpoint, secrets
 kept server-side, strict ID-validated structured output, and a deterministic

@@ -6,8 +6,14 @@ a local checklist, export a four-question brief — plus inspector reliability
 fixes, an illustrative-scenario relabel, genuine Kiro specs/steering, a real
 README, and a demo.
 
-Date observed: 2026-10-24. Environment: no `ANTHROPIC_API_KEY` present (planner
-runs in labeled template mode; see evidence/02-claude.md).
+Date observed: 2026-10-24. Environment: no Gemma credential (`GEMMA_API_KEY`)
+present, so the planner runs in labeled template mode.
+
+> **CORRECTION (2026-10-24):** the planner provider is **Gemma** (Google AI
+> Studio / Gemini API), not Claude. Earlier drafts of this file referenced
+> `ANTHROPIC_API_KEY` and a "Claude" label; the runtime env var is
+> `GEMMA_API_KEY` and the live label is "Gemma" (a cached template now reads
+> "Cached (template)"). See `evidence/04-gemma.md` and `evidence/05-second-look.md`.
 
 ---
 
@@ -125,8 +131,8 @@ Captured screenshots in `evidence/shots/`:
    search; the sticky bar still shows 3/3 (selection survived the filter).
 3. **(0:45–1:10) Compare.** Open **Compare & Plan**. Walk the side-by-side
    evidence; call out an **"unknown"** spatial row (missing ≠ better). Show the
-   attached plan (labeled Template/Claude) and the four-question **decision
-   brief** per facility.
+   attached plan (labeled Gemma / Cached / Template) and the four-question
+   **decision brief** per facility.
 4. **(1:10–1:35) Plan + export.** On one card set a task's owner/status and type
    a note; it saves locally. Click **Copy combined brief** (or Print) — the
    export answers know / assume / unresolved / next and matches on-screen values.
@@ -138,7 +144,7 @@ Captured screenshots in `evidence/shots/`:
 ---
 
 ## Remaining limitations
-1. Live Claude still unverified in this environment (no key); planner is in
+1. Live Gemma still unverified in this environment (no key); planner is in
    labeled template mode. Everything else is exercised.
 2. Shortlist is in-memory (survives filtering, not a full reload) — by design;
    the **checklist** is what persists across reloads (per facility_id).

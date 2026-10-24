@@ -10,6 +10,104 @@
 
 import { formatCurrency } from "./format.js";
 import { isSolarRecord, sourceCapacity } from "./scenario.js";
+import { secondLookEvidence } from "./secondlook/sources.js";
+import { runScreening, baselineAssumptions } from "./secondlook/screening.js";
+
+const VERDICT_LABEL = {
+  potential_constraint: "potential constraint",
+  no_flag: "no flag from available evidence",
+  unknown: "unknown",
+};
+
+/**
+ * Deterministically compute the Second Look contribution to a facility brief
+ * from ONE source: the record, canonical packet, manifest, and the planner's
+ * assumptions. Both the on-screen brief and the copied/printed text consume
+ * this, so they cannot disagree (R12.1). Hypothetical values are always labeled
+ * (R12.2).
+ *
+ * @param {object} args
+ * @param {object} args.record
+ * @param {object} args.packet
+ * @param {object} [args.manifest]
+ * @param {object} [args.assumptions]  { proposedMw, gridCapacityMw } (hypothetical)
+ * @returns {{ know:any[], assume:any[], unresolved:any[], next:any[] }}
+ */
+export function buildSecondLookContribution({ record, packet, manifest = null, assumptions = null }) {
+  const know = [];
+  const assume = [];
+  const unresolved = [];
+  const next = [];
+
+  const evidence = secondLookEvidence({ record, packet, spatial: null, manifest });
+  const allObs = [...evidence.grid, ...evidence.land, ...evidence.unresolved];
+
+  // KNOW — only sourced observations, each with its source date.
+  for (const o of [...evidence.grid, ...evidence.land]) {
+    if (o.provenance !== "sourced" || o.value === null) continue;
+    know.push({
+      id: o.evidence_id || o.key,
+      label: `Second Look · ${o.label}`,
+      value: `${o.value}${o.units ? ` ${o.units}` : ""}${
+        o.source_timestamp ? ` (source ${o.source_timestamp})` : ""
+      }${o.association_confidence === "unverified" ? " [site-unverified]" : ""}`,
+    });
+  }
+
+  // ASSUME — proposed capacity + the labeled hypothetical grid capacity.
+  const src = sourceCapacity(record);
+  const base = baselineAssumptions(src ? src.mw : null);
+  const a = assumptions || base;
+  const proposed = a.proposedMw ?? null;
+  const grid = a.gridCapacityMw ?? null;
+  assume.push({
+    label: "Second Look · proposed solar capacity",
+    value: proposed === null ? "not set" : `${proposed} MW (hypothetical input)`,
+  });
+  assume.push({
+    label: "Second Look · grid-capacity assumption",
+    value:
+      grid === null
+        ? "not set (hypothetical)"
+        : `${grid} MW — HYPOTHETICAL demonstration value, not sourced and not an interconnection approval`,
+  });
+
+  // Screening results (deterministic) — unknowns to UNRESOLVED, flags to NEXT.
+  const { results, priorityOrder } = runScreening(allObs, {
+    proposedMw: proposed,
+    gridCapacityMw: grid,
+    gridCapacityBasis: "hypothetical",
+  });
+  const byId = Object.fromEntries(results.map((r) => [r.id, r]));
+
+  // UNRESOLVED — every screening result that is unknown (why it's open).
+  for (const r of results) {
+    if (r.verdict !== "unknown") continue;
+    unresolved.push({
+      id: r.id,
+      question: `${r.label}: ${VERDICT_LABEL.unknown} — ${r.reason}`,
+      note: "",
+    });
+  }
+
+  // NEXT — screening results in investigation-priority order (exclude no_flag).
+  priorityOrder
+    .map((id) => byId[id])
+    .filter((r) => r && r.verdict !== "no_flag")
+    .forEach((r, i) => {
+      next.push({
+        kind: "screening",
+        n: i + 1,
+        title: `Investigate: ${r.label} (${VERDICT_LABEL[r.verdict]})`,
+        why: r.reason,
+        owner: "—",
+        document: "—",
+        source: "second-look",
+      });
+    });
+
+  return { know, assume, unresolved, next };
+}
 
 function titleCase(s) {
   return String(s)
@@ -25,9 +123,18 @@ function factVal(packet, id) {
 
 /**
  * Build the structured brief for one facility.
- * @param {object} args { record, packet, plan, scenario, checklist }
+ * @param {object} args { record, packet, plan, scenario, checklist, manifest?, secondLook? }
+ *   secondLook: { proposedMw, gridCapacityMw } hypothetical assumptions (optional)
  */
-export function buildFacilityBrief({ record, packet, plan, scenario, checklist }) {
+export function buildFacilityBrief({
+  record,
+  packet,
+  plan,
+  scenario,
+  checklist,
+  manifest = null,
+  secondLook = null,
+}) {
   const know = [];
   const assume = [];
   const unresolved = [];
@@ -111,6 +218,18 @@ export function buildFacilityBrief({ record, packet, plan, scenario, checklist }
     });
   }
 
+  // Second Look contribution (deterministic, single source for copy + print).
+  const sl = buildSecondLookContribution({
+    record,
+    packet,
+    manifest,
+    assumptions: secondLook,
+  });
+  know.push(...sl.know);
+  assume.push(...sl.assume);
+  unresolved.push(...sl.unresolved);
+  next.push(...sl.next);
+
   return {
     facility_id: record.facility_id,
     title: `${titleCase(record.municipality)} — ${record.facility}`,
@@ -165,6 +284,8 @@ export function renderBriefText(briefs) {
         out.push(
           `- (plan ${n.n}) ${n.title} — owner: ${n.owner}; needs: ${n.document}`
         );
+      } else if (n.kind === "screening") {
+        out.push(`- (second-look) ${n.title} — ${n.why}`);
       } else {
         out.push(
           `- (checklist · ${n.status}) ${n.title} — owner: ${n.owner}; evidence: ${

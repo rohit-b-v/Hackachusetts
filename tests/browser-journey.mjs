@@ -59,6 +59,87 @@ const know = await page.locator("text=/1\\. What do we know/").count();
 const nextq = await page.locator("text=/4\\. What should we do next/").count();
 check("decision brief shows the four questions", know > 0 && nextq > 0);
 
+// 2a-plan) Plan panel renders with a source label (Gemma/Cached/Template).
+// The plan is fetched asynchronously; a live Gemma generation can take ~10s,
+// so WAIT for the label to appear rather than counting immediately.
+await page.waitForSelector("text=/Next-action plan/");
+const planLabelRe = /Live Gemma|Cached \(Gemma\)|Cached \(template\)|Template-generated/;
+let planLabelVisible = true;
+await page
+  .locator(`text=${planLabelRe}`)
+  .first()
+  .waitFor({ state: "visible", timeout: 90000 })
+  .catch(() => {
+    planLabelVisible = false;
+  });
+check("plan panel shows a labeled source (Gemma or template)", planLabelVisible);
+const observedPlanLabel = await page
+  .locator(`text=${planLabelRe}`)
+  .first()
+  .innerText()
+  .catch(() => "(none)");
+log("observed plan source label:", observedPlanLabel);
+// Honesty: the label must be one of the four truthful variants and must match
+// the actual source. We don't assume the environment has/doesn't have a key;
+// whichever path ran, the label must be a recognized, non-misleading value.
+check(
+  "plan source label is a truthful variant",
+  /^(Live Gemma|Cached \(Gemma\)|Cached \(template\)|Template-generated)$/.test(
+    observedPlanLabel.trim()
+  )
+);
+
+// 2b) Second Look: section present, evidence groups, provenance/unknowns.
+check("Second Look section renders", (await page.locator("text=/Second Look/").count()) > 0);
+check(
+  "grid-capacity evidence group present",
+  (await page.locator("text=/Grid-capacity evidence/").count()) > 0
+);
+check(
+  "serving feeder shown as site-unverified (never inferred)",
+  (await page.locator("text=/site-unverified/i").first().count()) > 0
+);
+check(
+  "hypothetical assumption controls are labeled hypothetical",
+  (await page.locator("text=/hypothetical — not sourced, not an approval/i").count()) > 0
+);
+
+// Change both assumptions on the FIRST card and observe a verdict change.
+const firstProposed = page.getByLabel(/Proposed solar capacity/i).first();
+const firstGrid = page.getByLabel(/Hypothetical grid-capacity assumption/i).first();
+// Over-size the proposal vs a small hypothetical grid capacity → potential constraint.
+await firstProposed.fill("9");
+await firstGrid.fill("5");
+await page.waitForTimeout(150);
+check(
+  "grid screen flags a potential constraint when proposed exceeds hypothetical",
+  (await page.locator("text=/potential constraint/i").count()) > 0
+);
+check(
+  "verdict reason names the hypothetical value and is not an approval",
+  (await page.locator("text=/not interconnection approval/i").count()) > 0
+);
+check("a changed marker appears after editing assumptions", (await page.locator("text=/changed/").count()) > 0);
+
+// 2c) Export: copied brief must carry the labeled hypothetical Second Look value
+// (copy and print derive from one source). Grant clipboard, click Copy, read it.
+await page.context().grantPermissions(["clipboard-read", "clipboard-write"]);
+await page.getByRole("button", { name: /Copy combined brief/i }).click();
+await page.waitForTimeout(200);
+const clip = await page.evaluate(() => navigator.clipboard.readText());
+check("copied brief includes the Second Look hypothetical label", /HYPOTHETICAL/.test(clip));
+check("copied brief includes a second-look next item", /second-look/.test(clip));
+check(
+  "copied brief flags the potential constraint from the over-sized proposal",
+  /potential constraint/i.test(clip)
+);
+
+// Reset restores baseline (grid assumption cleared → grid screen back to unknown).
+await page.getByRole("button", { name: /Reset assumptions/i }).first().click();
+await page.waitForTimeout(150);
+const gridAfterReset = await firstGrid.inputValue();
+check("reset clears the hypothetical grid-capacity input", gridAfterReset === "");
+
 // 3) Edit the FIRST card's checklist note; remember which facility it is.
 await page.waitForSelector('input[placeholder="Note"]');
 const firstCardName = await page

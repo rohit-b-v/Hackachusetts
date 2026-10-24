@@ -30,9 +30,13 @@ function SourceBadge({ source, label }) {
     );
   }
   if (source === "cache") {
+    // A cached result may be a cached LIVE Gemma plan or a cached TEMPLATE plan.
+    // Label honestly by the cached plan's own label so a template is never
+    // presented as if the model ran.
+    const cachedGemma = label === "Gemma";
     return (
       <span className="inline-flex items-center gap-1 rounded-full bg-sky-100 px-2 py-0.5 text-[11px] font-semibold text-sky-800 ring-1 ring-inset ring-sky-600/20">
-        <FileClock className="h-3 w-3" /> Cached (Gemma)
+        <FileClock className="h-3 w-3" /> {cachedGemma ? "Cached (Gemma)" : "Cached (template)"}
       </span>
     );
   }

@@ -25,10 +25,16 @@ import { buildTemplatePlan } from "../src/lib/templatePlan.js";
 // Google AI Studio (Gemini API) base. The model ID is interpolated per request.
 const GEMMA_API_BASE =
   "https://generativelanguage.googleapis.com/v1beta/models";
-// Default to a real, documented Gemma model on Google AI Studio. Override with
-// GEMMA_MODEL to use a different documented size (e.g. gemma-3-12b-it).
-const DEFAULT_MODEL = "gemma-3-27b-it";
-const MAX_RETRIES = 2; // total model attempts = 1 + MAX_RETRIES
+// Default to a real, documented Gemma model on Google AI Studio. Verified
+// 2026-10-24 via ListModels that this key's generateContent-capable Gemma models
+// are gemma-4-26b-a4b-it and gemma-4-31b-it (the older gemma-3-27b-it returns
+// HTTP 404 "not supported for generateContent"). Override with GEMMA_MODEL.
+const DEFAULT_MODEL = "gemma-4-26b-a4b-it";
+const MAX_RETRIES = 1; // total model attempts = 1 + MAX_RETRIES
+// Gemma-4 models take ~25s for a full planning generation, so the per-attempt
+// abort must be well above that (Gemma-3 answered in a few seconds). Worst case
+// here is (1 + MAX_RETRIES) * GEMMA_TIMEOUT_MS; keep retries low to bound it.
+const GEMMA_TIMEOUT_MS = 60000;
 const CACHE_MAX = 200;
 const MAX_BODY_BYTES = 256 * 1024; // 256 KB request cap
 
@@ -103,19 +109,60 @@ function buildPrompt(packet) {
   return { system, user, combined };
 }
 
+/**
+ * Scan for the first BALANCED top-level JSON object, ignoring braces inside
+ * strings. More robust than a greedy /\{[\s\S]*\}/ when the model wraps the
+ * JSON in prose (Gemma-4 may prepend a "thinking" preamble).
+ */
+function firstBalancedObject(s) {
+  const start = s.indexOf("{");
+  if (start === -1) return null;
+  let depth = 0;
+  let inStr = false;
+  let esc = false;
+  for (let i = start; i < s.length; i++) {
+    const c = s[i];
+    if (inStr) {
+      if (esc) esc = false;
+      else if (c === "\\") esc = true;
+      else if (c === '"') inStr = false;
+      continue;
+    }
+    if (c === '"') inStr = true;
+    else if (c === "{") depth++;
+    else if (c === "}") {
+      depth--;
+      if (depth === 0) return s.slice(start, i + 1);
+    }
+  }
+  return null;
+}
+
+/**
+ * If the model wrapped the plan object in a single-element array
+ * (Gemma-4 sometimes returns `[{...}]`), unwrap it to the object.
+ */
+function unwrapPlan(parsed) {
+  if (Array.isArray(parsed) && parsed.length >= 1 && parsed[0] && typeof parsed[0] === "object") {
+    return parsed[0];
+  }
+  return parsed;
+}
+
 function extractJson(text) {
   if (!text) return null;
   const trimmed = String(text).trim();
   // Strip accidental markdown fences.
   const fenced = trimmed.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
   try {
-    return JSON.parse(fenced);
+    return unwrapPlan(JSON.parse(fenced));
   } catch {
-    // Fall back to first {...} block.
-    const m = fenced.match(/\{[\s\S]*\}/);
-    if (m) {
+    // Fall back to the first balanced {...} block (tolerates a prose preamble
+    // and trailing commentary around the JSON).
+    const block = firstBalancedObject(fenced);
+    if (block) {
       try {
-        return JSON.parse(m[0]);
+        return JSON.parse(block);
       } catch {
         return null;
       }
@@ -128,7 +175,7 @@ function extractJson(text) {
  * Call Gemma via the Google AI Studio (Gemini) generateContent endpoint.
  * Request/response per https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api
  */
-async function callGemma(packet, { fetchImpl = fetch, signalTimeoutMs = 20000 } = {}) {
+async function callGemma(packet, { fetchImpl = fetch, signalTimeoutMs = GEMMA_TIMEOUT_MS } = {}) {
   const { combined } = buildPrompt(packet);
   const model = modelName();
   const url = `${GEMMA_API_BASE}/${encodeURIComponent(model)}:generateContent`;
@@ -151,6 +198,11 @@ async function callGemma(packet, { fetchImpl = fetch, signalTimeoutMs = 20000 } 
             temperature: 0.2,
             maxOutputTokens: 1200,
             responseMimeType: "application/json",
+            // Gemma-4 reasons with an internal "thinking" process that otherwise
+            // emits verbose markdown before (or instead of) JSON and blows past
+            // the timeout. Minimize it so the model returns the JSON directly.
+            // Harmless on models that don't support thinking (ignored).
+            thinkingConfig: { thinkingLevel: "minimal" },
           },
         }),
         signal: controller.signal,

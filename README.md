@@ -34,10 +34,17 @@ plan. To use live Gemma (Google AI Studio / Gemini API):
 cp .env.example .env     # add a real GEMMA_API_KEY (server-side only)
 ```
 `GEMMA_API_KEY` / `GEMMA_MODEL` are read only by the server (Vite dev middleware
-and `server/index.mjs`). The model defaults to `gemma-3-27b-it`; set `GEMMA_MODEL`
-to another documented Gemma ID to override. These vars are never prefixed `VITE_`
-and never reach the browser bundle. `.env` is git-ignored. Create/revoke keys at
-https://aistudio.google.com/apikey.
+and `server/index.mjs`). The model defaults to `gemma-4-26b-a4b-it`; set
+`GEMMA_MODEL` to another documented Gemma ID to override. These vars are never
+prefixed `VITE_` and never reach the browser bundle. `.env` is git-ignored.
+Create/revoke keys at https://aistudio.google.com/apikey.
+
+> Model-ID note (verified 2026-10-24 via a live ListModels call and the official
+> [Run Gemma with the Gemini API](https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api)
+> docs): the generateContent-capable Gemma models were `gemma-4-26b-a4b-it` and
+> `gemma-4-31b-it`. The older `gemma-3-27b-it` returns HTTP 404 ("not supported
+> for generateContent"), so the default was updated to `gemma-4-26b-a4b-it`.
+> Model availability can differ per key — confirm yours if a live call 404s.
 
 ## Build & serve (production)
 ```bash
@@ -79,6 +86,13 @@ by the client); `climate/*` the read-only source snapshots.
 - **Compare & Plan** — shortlist up to three facilities, compare reported
   evidence side by side, edit a per-facility checklist (saved locally), and
   export a "know / assume / unresolved / next" brief (copy or print).
+- **Second Look** — inside Compare, re-examine each shortlisted site: grid-capacity
+  evidence, land/site constraints, unresolved questions, and source dates; adjust
+  a proposed solar capacity and a clearly labeled **hypothetical** grid-capacity
+  assumption and see which deterministic screening results change and why. Every
+  value is tagged sourced / hypothetical / unknown; the feeder is never inferred
+  from the nearest line or the town utility; hosting capacity is never shown as
+  interconnection approval. Results feed the same copy/print brief.
 
 ## Demo (90–150s)
 See `evidence/03-workflow.md` → "Demo script". Flow: shortlist three sites →
@@ -89,5 +103,15 @@ Inspector to verify proximity on live geometry.
 ## Data honesty & provenance
 Each build records input SHA-256 hashes, snapshot dates, counts, and missing-value
 tallies in the dataset `manifest`. See `evidence/01-correctness.md` and
-`evidence/02-claude.md` for prior verification, and `evidence/03-workflow.md` for
-this workflow.
+`evidence/04-gemma.md` for planner verification (the planner now uses **Gemma**
+via Google AI Studio; `evidence/02-claude.md` is the superseded Claude-era
+write-up, kept for history), `evidence/03-workflow.md` for the Compare & Plan
+workflow, and `evidence/05-second-look.md` for the Second Look workflow.
+
+Second Look distinguishes three kinds of value and never blurs them: **reported
+source data** (dataset snapshots, shown with a source date), **hypothetical
+grid-capacity inputs** (planner-entered demonstration values, always labeled
+hypothetical and never an interconnection approval), and **unknown** site
+constraints (absent data, which never improves a site). The grid-capacity screen
+is a deterministic planning screen against a hypothetical value — it is **not** a
+live hosting-capacity or interconnection integration.

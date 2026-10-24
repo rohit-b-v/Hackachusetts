@@ -28,6 +28,7 @@ import {
 import { buildFacilityBrief, renderBriefText } from "../lib/compareBrief.js";
 import { formatCurrency } from "../lib/format.js";
 import { StatusBadge } from "./Badge.jsx";
+import SecondLookPanel from "./secondlook/SecondLookPanel.jsx";
 
 function titleCase(s) {
   return String(s)
@@ -89,6 +90,12 @@ export default function CompareView({ records, manifest, onClose, onRemove }) {
   const [plans, setPlans] = useState({}); // facility_id -> response
   const [loadingPlans, setLoadingPlans] = useState(false);
   const planReqId = useRef(0);
+
+  // Second Look assumptions, keyed by facility_id so they never leak between
+  // facilities (R1.4) and so the combined export reflects the same values the
+  // panel shows (R12.1). Seeded lazily from reported source capacity per card.
+  const [slByFacility, setSlByFacility] = useState({}); // facility_id -> { proposedMw, gridCapacityMw }
+  const setSlFor = (fid, next) => setSlByFacility((prev) => ({ ...prev, [fid]: next }));
 
   useEffect(() => {
     const myId = ++planReqId.current;
@@ -165,15 +172,24 @@ export default function CompareView({ records, manifest, onClose, onRemove }) {
                 key={r.facility_id}
                 record={r}
                 packet={packets[i]}
+                manifest={manifest}
                 planResp={plans[r.facility_id]}
                 planLoading={loadingPlans && !plans[r.facility_id]}
                 onRemove={onRemove}
+                slAssumptions={slByFacility[r.facility_id]}
+                onSlChange={(next) => setSlFor(r.facility_id, next)}
               />
             ))}
           </div>
 
           {/* Combined export of all shortlisted facilities */}
-          <ExportBar records={records} packets={packets} plans={plans} />
+          <ExportBar
+            records={records}
+            packets={packets}
+            plans={plans}
+            manifest={manifest}
+            slByFacility={slByFacility}
+          />
         </div>
       </div>
     </div>
@@ -223,7 +239,7 @@ function ComparisonTable({ records, packets }) {
   );
 }
 
-function FacilityCard({ record, packet, planResp, planLoading, onRemove }) {
+function FacilityCard({ record, packet, manifest, planResp, planLoading, onRemove, slAssumptions, onSlChange }) {
   const solar = isSolarRecord(record);
   const src = sourceCapacity(record);
 
@@ -234,6 +250,22 @@ function FacilityCard({ record, packet, planResp, planLoading, onRemove }) {
   );
   const [bess, setBess] = useState(false);
   const sc = computeScenario(assumedMw, bess, DEFAULT_ASSUMPTIONS);
+
+  // Second Look assumptions are owned by CompareView (keyed by facility_id) and
+  // passed in, so the panel AND the exported/printed brief derive from one
+  // source (R12.1). Seed the default from reported source capacity on first use.
+  const slDefault = { proposedMw: src ? src.mw : "", gridCapacityMw: "", gridCapacityBasis: "hypothetical" };
+  const slAssume = slAssumptions || slDefault;
+  const toNum = (v) => {
+    if (v === "" || v === null || v === undefined) return null;
+    const n = Number(v);
+    return Number.isFinite(n) ? n : null;
+  };
+  const slForBrief = {
+    proposedMw: toNum(slAssume.proposedMw),
+    gridCapacityMw: toNum(slAssume.gridCapacityMw),
+    gridCapacityBasis: "hypothetical",
+  };
 
   // Checklist state (persisted per facility_id).
   const [items, setItems] = useState(() => getChecklist(record.facility_id));
@@ -358,6 +390,15 @@ function FacilityCard({ record, packet, planResp, planLoading, onRemove }) {
         )}
       </div>
 
+      {/* Second Look: evidence + assumptions + deterministic screening */}
+      <SecondLookPanel
+        record={record}
+        packet={packet}
+        manifest={manifest}
+        assumptions={slAssume}
+        onAssumptionsChange={onSlChange}
+      />
+
       {/* Plan (Gemma / template), kept labeled + separate */}
       <div className="border-b border-slate-100 px-4 py-3">
         <h4 className="mb-1 text-sm font-semibold text-slate-900">Next-action plan</h4>
@@ -373,7 +414,9 @@ function FacilityCard({ record, packet, planResp, planLoading, onRemove }) {
                 {planResp.source === "live"
                   ? "Live Gemma"
                   : planResp.source === "cache"
-                  ? "Cached (Gemma)"
+                  ? planResp.label === "Gemma"
+                    ? "Cached (Gemma)"
+                    : "Cached (template)"
                   : planResp.label || "Template-generated"}
               </span>
             </div>
@@ -477,6 +520,7 @@ function FacilityCard({ record, packet, planResp, planLoading, onRemove }) {
       <FourQuestions
         record={record}
         packet={packet}
+        manifest={manifest}
         planResp={planResp}
         scenario={
           solar && scenarioOn
@@ -484,6 +528,7 @@ function FacilityCard({ record, packet, planResp, planLoading, onRemove }) {
             : { applied: false }
         }
         checklist={items}
+        secondLook={slForBrief}
       />
     </div>
   );
@@ -498,17 +543,19 @@ function ScenarioTile({ label, value }) {
   );
 }
 
-function FourQuestions({ record, packet, planResp, scenario, checklist }) {
+function FourQuestions({ record, packet, manifest, planResp, scenario, checklist, secondLook }) {
   const brief = useMemo(
     () =>
       buildFacilityBrief({
         record,
         packet,
+        manifest,
         plan: planResp ? { ...planResp.plan, __source: planResp.source } : null,
         scenario,
         checklist,
+        secondLook,
       }),
-    [record, packet, planResp, scenario, checklist]
+    [record, packet, manifest, planResp, scenario, checklist, secondLook]
   );
   return (
     <div className="border-t border-slate-100 bg-slate-50/60 px-4 py-3 print-block">
@@ -554,13 +601,17 @@ function FourQuestions({ record, packet, planResp, scenario, checklist }) {
                   <span className="mr-1 rounded bg-slate-200 px-1 text-[10px]">
                     {n.status}
                   </span>
+                ) : n.kind === "screening" ? (
+                  <span className="mr-1 rounded bg-amber-100 px-1 text-[10px] text-amber-700">
+                    second look
+                  </span>
                 ) : (
                   <span className="mr-1 rounded bg-violet-100 px-1 text-[10px] text-violet-700">
                     plan {n.n}
                   </span>
                 )}
                 <span className="font-medium">{n.title}</span>{" "}
-                <span className="text-slate-500">— {n.owner}</span>
+                {n.kind !== "screening" && <span className="text-slate-500">— {n.owner}</span>}
               </li>
             ))}
           </ul>
@@ -585,21 +636,33 @@ function QaBlock({ title, tone, children }) {
   );
 }
 
-function ExportBar({ records, packets, plans }) {
+function ExportBar({ records, packets, plans, manifest, slByFacility = {} }) {
   const [copied, setCopied] = useState(false);
+
+  const toNum = (v) => {
+    if (v === "" || v === null || v === undefined) return null;
+    const n = Number(v);
+    return Number.isFinite(n) ? n : null;
+  };
 
   const buildAll = () =>
     records.map((r, i) => {
       const resp = plans[r.facility_id];
       const checklist = getChecklist(r.facility_id);
+      const sl = slByFacility[r.facility_id] || null;
       return buildFacilityBrief({
         record: r,
         packet: packets[i],
+        manifest,
         plan: resp ? { ...resp.plan, __source: resp.source } : null,
         // Export reflects saved checklist; scenario is per-card interactive, so
         // the combined export marks it as not-run to avoid stale assumptions.
         scenario: { applied: false },
         checklist,
+        // Second Look export reflects the saved per-facility assumptions.
+        secondLook: sl
+          ? { proposedMw: toNum(sl.proposedMw), gridCapacityMw: toNum(sl.gridCapacityMw), gridCapacityBasis: "hypothetical" }
+          : null,
       });
     });
 

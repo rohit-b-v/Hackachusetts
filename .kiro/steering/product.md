@@ -30,3 +30,12 @@ These shape every feature and every label:
 - **Checklist completion is a planning aid**, not official project verification.
 - **Identity is never guessed.** Two live points sharing a facility name (the two
   Norfolk records) are reported as ambiguous and resolved by user choice.
+- **Second Look keeps three value classes distinct.** Reported source data
+  (shown with a source date), planner-entered **hypothetical** grid-capacity
+  inputs (always labeled hypothetical, never an interconnection approval), and
+  **unknown** site constraints (absent data never improves a site). The serving
+  feeder is never inferred from the nearest mapped line or the town utility; an
+  unverified site-to-feeder association stays unknown. Screening verdicts are a
+  three-state `potential constraint / no flag from available evidence / unknown`
+  — there is no "pass", and the grid screen is a deterministic screen against a
+  hypothetical value, not a live hosting-capacity/interconnection integration.

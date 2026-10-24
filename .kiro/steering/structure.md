@@ -22,13 +22,20 @@ src/
     templatePlan.js     Deterministic offline plan
     scenario.js         Illustrative scenario math + solar gating
     checklist.js        localStorage checklist, namespaced by facility_id
-    compareBrief.js     Builds the know/assume/unresolved/next export
+    compareBrief.js     Builds the know/assume/unresolved/next export (+ Second Look)
+    secondlook/
+      sources.js          Provenance-tagged Observations (sourced/assumption/unknown)
+      screening.js        Deterministic 3-state screening + explicit-rule priority
   components/
     OpportunityTable.jsx  Table + shortlist checkboxes (keyed by facility_id)
-    CompareView.jsx       Compare & plan modal (print-root)
+    CompareView.jsx       Compare & plan modal (print-root); hosts Second Look
     InspectorDrawer.jsx   Live spatial inspector (print-root)
     GrantBrief.jsx        Per-facility brief + illustrative scenario
-    NextActionPlanner.jsx AI/template plan panel
+    NextActionPlanner.jsx AI/template plan panel (labels: Gemma/Cached/Template)
+    secondlook/
+      SecondLookPanel.jsx   Evidence groups + assumption controls + results
+      ProvenanceBadge.jsx   sourced / hypothetical / unknown badges
+      ScreeningResultRow.jsx 3-state verdict chip + reason + changed marker
 tests/                Vitest unit tests + tests/live (opt-in) + browser-journey.mjs
 .kiro/                Steering + specs
 evidence/             Verification write-ups + screenshots
